@@ -1,0 +1,25 @@
+name: Fetch latest AWS outages data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "1,16,31,46 * * * *"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetches repo
+        uses: actions/checkout@v2
+      - name: Get and format api
+        run: |-
+          curl https://status.aws.amazon.com/data.json | jq . > aws_outages.json
+      - name: Add results to repo
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A *.json
+          timestamp=$(date -u -Is)
+          git commit -m "Update data on ${timestamp}" || exit 0
+          git push
