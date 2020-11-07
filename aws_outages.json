@@ -2924,17 +2924,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:29 AM PST</span>&nbsp;We are investigating intermittent increased DNS query timeouts in a single Availability Zone (use1-az6) of the US-EAST-1 Region. We are already seeing recovery but are working to confirm.</div><div><span class=\"yellowfg\">11:42 AM PST</span>&nbsp;Between 9:51 AM and 10:02 AM, and between 10:41 AM and 11:10 AM PST, customers experienced increased DNS query timeouts in a single Availability Zone (use1-az6) of the US-EAST-1 Region. The issue has been resolved and all DNS queries are being answered normally.</div>",
       "service": "route53resolver-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon CloudFront",
       "summary": "[RESOLVED] Change Propagation Delays",
       "date": "1604706910",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:55 PM PST</span>&nbsp;We are investigating longer than usual propagation times for changes to CloudFront configurations to few of our edge locations. End-user requests for content from our edge locations are not affected by this issue and are being served normally. </div><div><span class=\"yellowfg\"> 4:25 PM PST</span>&nbsp;We have identified the root cause of the longer than usual propagation times for changes to CloudFront configurations. We continue to work toward resolution. End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div><div><span class=\"yellowfg\"> 4:42 PM PST</span>&nbsp;Between 2:21 PM and 4:23 PM PST customers may have experienced longer than usual propagation times while making changes to CloudFront configurations. End-user requests for content from edge locations were not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudfront"
     }
-  ]
+  ],
+  "current": []
 }
