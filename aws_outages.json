@@ -2938,11 +2938,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Seoul)",
-      "summary": "[RESOLVED] Network Connectivity",
+      "summary": "[RESOLVED] 네트워크 연결 | Network Connectivity",
       "date": "1605071272",
       "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:07 PM PST</span>&nbsp;Between 4:59 AM and 11:25 AM KST, a small number of instances experienced connectivity issues in a single Availability Zone in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. For further information, please contact AWS Support https://aws.amazon.com/support</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:07 PM PST</span>&nbsp;오늘 오전 4:59에서 오전 11:25 (대한민국 시간 기준) 사이에 AP-NORTHEAST-2 Region 내 한 개의 Availability Zone에서 소수 instance의 연결 (connectivity) 이슈가 있었습니다. 해당 이슈는 해결 되었고 서비스는 정상적으로 제공되고 있습니다. 만약 질문이 있으시거나 서비스 관련 운영상의 이슈가 있을 경우, AWS Support Center상 다음 링크(https://console.aws.amazon.com/support) 를 통하여 AWS Support Department에 연락하여 주시길 바랍니다. | Between 11:59 AM and 6:25 PM PST, a small number of instances experienced connectivity issues in a single Availability Zone in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
       "service": "ec2-ap-northeast-2"
     }
   ]
