@@ -2935,5 +2935,15 @@
       "service": "cloudfront"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Seoul)",
+      "summary": "[RESOLVED] Network Connectivity",
+      "date": "1605071272",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:07 PM PST</span>&nbsp;Between 4:59 AM and 11:25 AM KST, a small number of instances experienced connectivity issues in a single Availability Zone in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. For further information, please contact AWS Support https://aws.amazon.com/support</div>",
+      "service": "ec2-ap-northeast-2"
+    }
+  ]
 }
