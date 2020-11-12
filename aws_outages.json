@@ -2933,26 +2933,25 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:55 PM PST</span>&nbsp;We are investigating longer than usual propagation times for changes to CloudFront configurations to few of our edge locations. End-user requests for content from our edge locations are not affected by this issue and are being served normally. </div><div><span class=\"yellowfg\"> 4:25 PM PST</span>&nbsp;We have identified the root cause of the longer than usual propagation times for changes to CloudFront configurations. We continue to work toward resolution. End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div><div><span class=\"yellowfg\"> 4:42 PM PST</span>&nbsp;Between 2:21 PM and 4:23 PM PST customers may have experienced longer than usual propagation times while making changes to CloudFront configurations. End-user requests for content from edge locations were not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudfront"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (Seoul)",
       "summary": "[RESOLVED] 네트워크 연결 | Network Connectivity",
       "date": "1605071272",
-      "status": "0",
+      "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:07 PM PST</span>&nbsp;2020년 11월 11 일 오전 4:59에서 오전 11:25 (대한민국 시간 기준) 사이에 AP-NORTHEAST-2 Region 내 한 개의 Availability Zone에서 소수 instance의 연결 (connectivity) 이슈가 있었습니다. 해당 이슈는 해결 되었고 서비스는 정상적으로 제공되고 있습니다. 만약 질문이 있으시거나 서비스 관련 운영상의 이슈가 있을 경우, AWS Support Center상 다음 링크(https://console.aws.amazon.com/support ) 를 통하여 AWS Support Department에 연락하여 주시길 바랍니다.\nBetween 11:59 AM and 6:25 PM PST on November 10, 2020, a small number of instances experienced connectivity issues in a single Availability Zone in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:07 PM PST</span>&nbsp;2020년 11월 11 일 오전 4:59에서 오전 11:25 (대한민국 시간 기준) 사이에 AP-NORTHEAST-2 Region 내 한 개의 Availability Zone에서 소수 instance의 연결 (connectivity) 이슈가 있었습니다. 해당 이슈는 해결 되었고 서비스는 정상적으로 제공되고 있습니다. 본 서비스의 이용을 복구하기 위하여 이용자가 추가적으로 조치할 사항은 없습니다. 만약 질문이 있으시거나 서비스 관련 운영상의 이슈가 있을경우, AWS Support Center상 다음 링크(https://console.aws.amazon.com/support ) 를 통하여 AWS Support Department에 연락하여 주시길 바랍니다. | Between 11:59 AM and 6:25 PM PST on November 10, 2020, a small number of instances experienced connectivity issues in a single Availability Zone in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally.  Customers do not need to take additional measures to restore the availability of this service. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support.</div>",
       "service": "ec2-ap-northeast-2"
     },
     {
       "service_name": "Amazon Athena (Mumbai)",
       "summary": "[RESOLVED] Increased Web Console Error Rate ",
       "date": "1605156361",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:46 PM PST</span>&nbsp;We are investigating increased error rates for requests to the Athena Management Console in the AP-SOUTH-1 Region. The APIs and Command Line Interface (CLI) are not impacted by this issue.</div><div><span class=\"yellowfg\"> 9:44 PM PST</span>&nbsp;We can confirm increased error rates for requests to the Athena Management Console in the AP-SOUTH-1 Region and continue working towards resolution. The APIs and Command Line Interface (CLI) are not impacted by this issue.</div><div><span class=\"yellowfg\">10:31 PM PST</span>&nbsp;We have identified the root cause of the issue causing increased error rates for requests to the Athena Management Console in the AP-SOUTH-1 Region and continue working towards resolution. The APIs and Command Line Interface (CLI) are not impacted by this issue.</div><div><span class=\"yellowfg\">11:38 PM PST</span>&nbsp;Between 2:45 PM and 11:20 PM PST, we experienced intermittent increased error rates for requests to the Amazon Athena Management Console in the AP-SOUTH-1 Region. The APIs and Command Line Interface (CLI) were not impacted by this issue. The issue has been resolved and the service is operating normally.</div>",
       "service": "athena-ap-south-1"
     }
-  ]
+  ],
+  "current": []
 }
