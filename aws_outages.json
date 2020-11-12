@@ -2951,7 +2951,7 @@
       "date": "1605156361",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:46 PM PST</span>&nbsp;We are investigating increased error rates for requests to Athena Management Console in the AP-SOUTH-1 Region. The APIs, Command Line were not impacted by this issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:46 PM PST</span>&nbsp;We are investigating increased error rates for requests to the Athena Management Console in the AP-SOUTH-1 Region. The APIs and Command Line Interface (CLI) are not impacted by this issue.</div><div><span class=\"yellowfg\"> 9:44 PM PST</span>&nbsp;We can confirm increased error rates for requests to the Athena Management Console in the AP-SOUTH-1 Region and continue working towards resolution. The APIs and Command Line Interface (CLI) are not impacted by this issue.</div>",
       "service": "athena-ap-south-1"
     }
   ]
