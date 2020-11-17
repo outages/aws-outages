@@ -2953,5 +2953,15 @@
       "service": "athena-ap-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS QuickSight (N. Virginia)",
+      "summary": "Increased Website Latencies and Error Rates ",
+      "date": "1605629180",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div>",
+      "service": "quicksight-us-east-1"
+    }
+  ]
 }
