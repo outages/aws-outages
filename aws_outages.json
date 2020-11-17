@@ -2960,7 +2960,7 @@
       "date": "1605629180",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We have identified the root cause of the issue and are working towards resolution. We have started to see improvements in error rates and latencies in US-EAST-1 Region.</div>",
       "service": "quicksight-us-east-1"
     }
   ]
