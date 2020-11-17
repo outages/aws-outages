@@ -2956,11 +2956,11 @@
   "current": [
     {
       "service_name": "AWS QuickSight (N. Virginia)",
-      "summary": "Increased Website Latencies and Error Rates ",
+      "summary": "[RESOLVED] Increased Website Latencies and Error Rates ",
       "date": "1605629180",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We have identified the root cause of the issue and are working towards resolution. We have started to see improvements in error rates and latencies in US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We have identified the root cause of the issue and are working towards resolution. We have started to see improvements in error rates and latencies in US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 AM PST</span>&nbsp;Between 7:01 AM and 9:14 AM PST, we experienced increased website latencies and error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "quicksight-us-east-1"
     }
   ]
