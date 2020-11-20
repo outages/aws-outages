@@ -2974,11 +2974,11 @@
     },
     {
       "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
-      "summary": "Increased API Errors",
+      "summary": "[RESOLVED] Increased API Errors",
       "date": "1605843388",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:12 PM PST</span>&nbsp;We are still investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:12 PM PST</span>&nbsp;We are still investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 PM PST</span>&nbsp;Between 6:36 PM and 9:05 PM PST, Kinesis Data Streams experienced increased API error rates in the US-EAST-1 region. The issue was resolved and the service is operating normally</div>",
       "service": "kinesis-us-east-1"
     },
     {
@@ -2992,11 +2992,11 @@
     },
     {
       "service_name": "Amazon AppStream 2.0 (N. Virginia)",
-      "summary": "Elevated API Error Rates",
+      "summary": "[RESOLVED] Elevated API Error Rates",
       "date": "1605844702",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:51 PM PST</span>&nbsp;We are continuing to investigate increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:51 PM PST</span>&nbsp;We are continuing to investigate increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 6:46 PM and 8:59 PM PST AppStream 2.0 experienced increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "appstream2-us-east-1"
     }
   ]
