@@ -2978,7 +2978,7 @@
       "date": "1605843388",
       "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:12 PM PST</span>&nbsp;We are still investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 PM PST</span>&nbsp;Between 6:36 PM and 9:05 PM PST, Kinesis Data Streams experienced increased API error rates in the US-EAST-1 region. The issue was resolved and the service is operating normally</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:12 PM PST</span>&nbsp;We are still investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 PM PST</span>&nbsp;Between 6:36 PM and 9:05 PM PST, Kinesis Data Streams experienced increased API error rates in the US-EAST-1 region. The issue has been resolved and the service is operating normally.</div>",
       "service": "kinesis-us-east-1"
     },
     {
