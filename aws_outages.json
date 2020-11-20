@@ -2983,11 +2983,11 @@
     },
     {
       "service_name": "Amazon CloudWatch (N. Virginia)",
-      "summary": "Elevated API Errors and Delayed metrics",
+      "summary": "[RESOLVED] Elevated API Errors and Delayed metrics",
       "date": "1605843713",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div><div><span class=\"yellowfg\"> 8:31 PM PST</span>&nbsp;We continue to investigate elevated API error rates and increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div><div><span class=\"yellowfg\"> 8:31 PM PST</span>&nbsp;We continue to investigate elevated API error rates and increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div><div><span class=\"yellowfg\"> 9:32 PM PST</span>&nbsp;Between 7:16 PM and 9:08 PM PST, some customers experienced elevated error rates when calling CloudWatch APIs in the US-EAST-1 Region. Some metrics were delayed, and CloudWatch alarms on delayed metrics transitioned into INSUFFICIENT_DATA state. We have resolved the issue. Delayed metrics are in the process of backfilling in CloudWatch console graphs and for API retrieval. The service is operating normally.</div>",
       "service": "cloudwatch-us-east-1"
     },
     {
