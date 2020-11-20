@@ -2960,14 +2960,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:06 AM PST</span>&nbsp;We are investigating increased website latencies and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We have identified the root cause of the issue and are working towards resolution. We have started to see improvements in error rates and latencies in US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 AM PST</span>&nbsp;Between 7:01 AM and 9:14 AM PST, we experienced increased website latencies and error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "quicksight-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Internet Connectivity (Sao Paulo)",
       "summary": "[RESOLVED] Network Connectivity ",
       "date": "1605835318",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:21 PM PST</span>&nbsp;We are investigating an issue which is affecting connectivity from the Internet and other AWS Regions for some customers using services in the SA-EAST-1 Region.</div><div><span class=\"yellowfg\"> 5:44 PM PST</span>&nbsp;Between 4:47 PM and 5:19 PM PST we experienced an issue which affected Internet connectivity for some customers using AWS services in the SA-EAST-1 Region. Connectivity between instances within the Region was not affected. The issue has been resolved and connectivity has been restored. </div>",
       "service": "internetconnectivity-sa-east-1"
@@ -2976,7 +2974,7 @@
       "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
       "summary": "[RESOLVED] Increased API Errors",
       "date": "1605843388",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:12 PM PST</span>&nbsp;We are still investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:23 PM PST</span>&nbsp;Between 6:36 PM and 9:05 PM PST, Kinesis Data Streams experienced increased API error rates in the US-EAST-1 region. The issue has been resolved and the service is operating normally.</div>",
       "service": "kinesis-us-east-1"
@@ -2985,7 +2983,7 @@
       "service_name": "Amazon CloudWatch (N. Virginia)",
       "summary": "[RESOLVED] Elevated API Errors and Delayed metrics",
       "date": "1605843713",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div><div><span class=\"yellowfg\"> 8:31 PM PST</span>&nbsp;We continue to investigate elevated API error rates and increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div><div><span class=\"yellowfg\"> 9:32 PM PST</span>&nbsp;Between 7:16 PM and 9:08 PM PST, some customers experienced elevated error rates when calling CloudWatch APIs in the US-EAST-1 Region. Some metrics were delayed, and CloudWatch alarms on delayed metrics transitioned into INSUFFICIENT_DATA state. We have resolved the issue. Delayed metrics are in the process of backfilling in CloudWatch console graphs and for API retrieval. The service is operating normally.</div>",
       "service": "cloudwatch-us-east-1"
@@ -2994,10 +2992,11 @@
       "service_name": "Amazon AppStream 2.0 (N. Virginia)",
       "summary": "[RESOLVED] Elevated API Error Rates",
       "date": "1605844702",
-      "status": "0",
+      "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:51 PM PST</span>&nbsp;We are continuing to investigate increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 6:46 PM and 8:59 PM PST AppStream 2.0 experienced increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
+      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:51 PM PST</span>&nbsp;We are continuing to investigate increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 6:46 PM and 8:59 PM PST, AppStream 2.0 experienced increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "appstream2-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
