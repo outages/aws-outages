@@ -2983,11 +2983,11 @@
     },
     {
       "service_name": "Amazon CloudWatch (N. Virginia)",
-      "summary": "Elevated API Error Rates",
+      "summary": "Elevated API Errors and Delayed metrics",
       "date": "1605843713",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div>",
+      "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div><div><span class=\"yellowfg\"> 8:31 PM PST</span>&nbsp;We continue to investigate elevated API error rates and increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div>",
       "service": "cloudwatch-us-east-1"
     },
     {
