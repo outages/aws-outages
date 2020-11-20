@@ -2971,6 +2971,24 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:21 PM PST</span>&nbsp;We are investigating an issue which is affecting connectivity from the Internet and other AWS Regions for some customers using services in the SA-EAST-1 Region.</div><div><span class=\"yellowfg\"> 5:44 PM PST</span>&nbsp;Between 4:47 PM and 5:19 PM PST we experienced an issue which affected Internet connectivity for some customers using AWS services in the SA-EAST-1 Region. Connectivity between instances within the Region was not affected. The issue has been resolved and connectivity has been restored. </div>",
       "service": "internetconnectivity-sa-east-1"
+    },
+    {
+      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
+      "summary": "Increased API Errors",
+      "date": "1605843388",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:36 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "service": "kinesis-us-east-1"
+    },
+    {
+      "service_name": "Amazon CloudWatch (N. Virginia)",
+      "summary": "Elevated API Error Rates",
+      "date": "1605843713",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div>",
+      "service": "cloudwatch-us-east-1"
     }
   ]
 }
