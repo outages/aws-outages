@@ -2962,5 +2962,15 @@
       "service": "quicksight-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Sao Paulo)",
+      "summary": "Network Connectivity ",
+      "date": "1605835318",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:21 PM PST</span>&nbsp;We are investigating an issue which is affecting connectivity from the Internet and other AWS Regions for some customers using services in the SA-EAST-1 Region.</div>",
+      "service": "internetconnectivity-sa-east-1"
+    }
+  ]
 }
