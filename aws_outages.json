@@ -2996,7 +2996,7 @@
       "date": "1605844702",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:51 PM PST</span>&nbsp;We are continuing to investigate increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div>",
       "service": "appstream2-us-east-1"
     }
   ]
