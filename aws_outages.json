@@ -2989,6 +2989,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:41 PM PST</span>&nbsp;We are investigating increased delays for CloudWatch metrics in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics. </div>",
       "service": "cloudwatch-us-east-1"
+    },
+    {
+      "service_name": "Amazon AppStream 2.0 (N. Virginia)",
+      "summary": "Elevated API Error Rates",
+      "date": "1605844702",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:58 PM PST</span>&nbsp;We are investigating increased errors starting fleets and provisioning streaming instances in the US-EAST-1 Region.</div>",
+      "service": "appstream2-us-east-1"
     }
   ]
 }
