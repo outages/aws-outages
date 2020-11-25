@@ -3086,7 +3086,7 @@
       "date": "1606331100",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:07 AM PST</span>&nbsp;We are continuing to experience elevated error rate on data ingestion and increased computation latency for IoT SiteWise auto-computed aggregates, transforms and metrics in the US-EAST-1 Region. This is also impacting IoT Events and IoT Analytics. We continue to work towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\">11:07 AM PST</span>&nbsp;We are continuing to experience elevated error rate on data ingestion and increased computation latency for IoT SiteWise auto-computed aggregates, transforms and metrics in the US-EAST-1 Region. This is also impacting IoT Events and IoT Analytics. We continue to work towards resolution.</div><div><span class=\"yellowfg\">12:24 PM PST</span>&nbsp;We are continuing to experience elevated error rates on data ingestion and increased computation latency for IoT SiteWise auto-computed aggregates, transforms and metrics in the US-EAST-1 Region. This is also impacting IoT Events and IoT Analytics. We continue to work towards resolution.</div>",
       "service": "iotsitewise-us-east-1"
     },
     {
