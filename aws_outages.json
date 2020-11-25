@@ -3028,11 +3028,11 @@
     },
     {
       "service_name": "Amazon Cognito (N. Virginia)",
-      "summary": "Increased API error rates ",
+      "summary": "Increased API error rates",
       "date": "1606316820",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region. Cognito customers are experiencing errors when authenticating end users or creating new accounts for their Cognito User pools and for obtaining temporary AWS credentials using Cognito Identity pools.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region. Cognito customers are experiencing errors when authenticating end users or creating new accounts for their Cognito User pools and for obtaining temporary AWS credentials using Cognito Identity pools.</div><div><span class=\"yellowfg\">11:54 AM PST</span>&nbsp;We have identified the root cause and continue to work towards recovery of the issue affecting the Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div>",
       "service": "cognito-us-east-1"
     },
     {
@@ -3077,7 +3077,7 @@
       "date": "1606328375",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:49 AM PST</span>&nbsp;We continue to experience increased latency and API failure rates for Connect, Subscribe, Messaging, and Shadow operations in the US-EAST-1 region. This is also impacting AWS IoT Device Management and AWS IoT Device Defender. We continue to work towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\">10:49 AM PST</span>&nbsp;We continue to experience increased latency and API failure rates for Connect, Subscribe, Messaging, and Shadow operations in the US-EAST-1 region. This is also impacting AWS IoT Device Management and AWS IoT Device Defender. We continue to work towards resolution.</div><div><span class=\"yellowfg\">11:44 AM PST</span>&nbsp;We are continuing to experience increased latency and failure rates for Connect and Subscribe operations in the US-EAST-1 region. Messaging on existing connections and Shadow operations are now operating normally. We continue to work towards resolution.</div>",
       "service": "awsiot-us-east-1"
     },
     {
