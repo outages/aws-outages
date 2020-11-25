@@ -3043,6 +3043,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:45 AM PST</span>&nbsp;We are investigating increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We are continuing to investigate increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;We can confirm significant API faults and latencies for EventBridge in the US-EAST-1 Region, which is related to an ongoing issue with Kinesis Data Streams. We are continuing to work towards resolution.</div>",
       "service": "events-us-east-1"
+    },
+    {
+      "service_name": "Amazon CloudFront",
+      "summary": "Change Propagation and Invalidations Reporting Delay",
+      "date": "1606320420",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:54 AM PST</span>&nbsp;We are investigating longer than usual reporting update delays for change propagation of invalidations and CloudFront configurations. Customer changes are propagating fine across our edge locations but the associated reporting is not getting updated. Also, end-user requests for content from our edge locations are not affected by this issue and are being served normally.</div>",
+      "service": "cloudfront"
     }
   ]
 }
