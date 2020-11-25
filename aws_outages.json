@@ -3007,5 +3007,15 @@
       "service": "awswaf"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
+      "summary": "Increased API error rates ",
+      "date": "1606336447",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:36 AM PST</span>&nbsp;We are investigating increased error rates for Kinesis Data Streams APIs in the US-EAST-1 Region.</div>",
+      "service": "kinesis-us-east-1"
+    }
+  ]
 }
