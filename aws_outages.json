@@ -3091,11 +3091,11 @@
     },
     {
       "service_name": "AWS Batch (N. Virginia)",
-      "summary": "Increased Error Rates",
+      "summary": "Increased Error Rates & Delays ",
       "date": "1606331520",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:15 AM PST</span>&nbsp;We are experiencing increased error rates for job state transitions and compute environment scaling in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:15 AM PST</span>&nbsp;We are experiencing increased error rates for job state transitions and compute environment scaling in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:41 AM PST</span>&nbsp;We continue to experience increased error rates and delays for job state transitions and compute environment scaling in the US-EAST-1 Region.</div>",
       "service": "batch-us-east-1"
     }
   ]
