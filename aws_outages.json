@@ -3028,11 +3028,11 @@
     },
     {
       "service_name": "Amazon Cognito (N. Virginia)",
-      "summary": "Increased API error rates",
+      "summary": "Increased API error rates ",
       "date": "1606316820",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region. Cognito customers are experiencing errors when authenticating end users or creating new accounts for their Cognito User pools and for obtaining temporary AWS credentials using Cognito Identity pools.</div>",
       "service": "cognito-us-east-1"
     },
     {
@@ -3057,18 +3057,18 @@
       "service_name": "Amazon Elastic Kubernetes Service (N. Virginia)",
       "summary": "Increased API Error Rates and Launches",
       "date": "1606324920",
-      "status": "1",
+      "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:22 AM PST</span>&nbsp;We are investigating increased API error rates for cluster and node group operations in the US-EAST-1 region. We are also investigating increased Fargate pod launch failures. Existing EKS clusters and managed node groups are operating normally.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:22 AM PST</span>&nbsp;We are investigating increased API error rates for cluster and node group operations in the US-EAST-1 region. We are also investigating increased Fargate pod launch failures. Existing EKS clusters and managed node groups are operating normally.</div><div><span class=\"yellowfg\">11:03 AM PST</span>&nbsp;Customer’s applications that are backed by pods already running are not impacted. We are continuing to experience API error rates in the US-EAST-1 region. EKS customers are experiencing errors when creating, upgrading and deleting EKS clusters and managed node groups. Existing managed node groups may experience errors scaling up or down. Customers will experience errors launching new Fargate pods.</div>",
       "service": "eks-us-east-1"
     },
     {
       "service_name": "Amazon Elastic Container Service (N. Virginia)",
       "summary": "Increased API Error Rates and Launches",
       "date": "1606328375",
-      "status": "1",
+      "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:22 AM PST</span>&nbsp;We are investigating increased API error rates and delays delivering task events and metrics in the US-EAST-1 region. We are also investigating increased task launch error rates for the Fargate launch type. Running tasks are not impacted.</div>",
+      "description": "<div><span class=\"yellowfg\">10:22 AM PST</span>&nbsp;We are investigating increased API error rates and delays delivering task events and metrics in the US-EAST-1 region. We are also investigating increased task launch error rates for the Fargate launch type. Running tasks are not impacted.</div><div><span class=\"yellowfg\">11:07 AM PST</span>&nbsp;Currently running ECS tasks are not impacted for either the EC2 or Fargate launch types. We are continuing to experience API error rates and delays delivering task events and metrics in the US-EAST-1 region. ECS clusters are also not able to scale up or down due to task launch errors. Customers are missing metrics and events from their running tasks as ECS Insights is not able to propagate information. Task Set and Capacity Providers are also impacted. Customers using ECS on Fargate are not able to launch new tasks, running Fargate tasks are not impacted.</div>",
       "service": "ecs-us-east-1"
     },
     {
@@ -3079,6 +3079,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:49 AM PST</span>&nbsp;We continue to experience increased latency and API failure rates for Connect, Subscribe, Messaging, and Shadow operations in the US-EAST-1 region. This is also impacting AWS IoT Device Management and AWS IoT Device Defender. We continue to work towards resolution.</div>",
       "service": "awsiot-us-east-1"
+    },
+    {
+      "service_name": "AWS IoT SiteWise (N. Virginia)",
+      "summary": "Increased error rates and latency",
+      "date": "1606331100",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:07 AM PST</span>&nbsp;We are continuing to experience elevated error rate on data ingestion and increased computation latency for IoT SiteWise auto-computed aggregates, transforms and metrics in the US-EAST-1 Region. This is also impacting IoT Events and IoT Analytics. We continue to work towards resolution.</div>",
+      "service": "iotsitewise-us-east-1"
     }
   ]
 }
