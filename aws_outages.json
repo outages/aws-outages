@@ -3009,6 +3009,15 @@
   ],
   "current": [
     {
+      "service_name": "Amazon CloudWatch (N. Virginia)",
+      "summary": "Elevated PutMetricData API error rates",
+      "date": "1606316400",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:38 AM PST</span>&nbsp;We are investigating increased error rates for CloudWatch PutMetricData API in US-EAST-1 Region.</div>",
+      "service": "cloudwatch-us-east-1"
+    },
+    {
       "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
       "summary": "Increased API error rates ",
       "date": "1606336447",
