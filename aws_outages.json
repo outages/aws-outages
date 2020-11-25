@@ -3097,6 +3097,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:15 AM PST</span>&nbsp;We are experiencing increased error rates for job state transitions and compute environment scaling in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:41 AM PST</span>&nbsp;We continue to experience increased error rates and delays for job state transitions and compute environment scaling in the US-EAST-1 Region.</div>",
       "service": "batch-us-east-1"
+    },
+    {
+      "service_name": "Amazon WorkSpaces (N. Virginia)",
+      "summary": "Increased provisioning error rates",
+      "date": "1606334820",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are experiencing increased error rates in provisioning of new Amazon WorkSpaces in the US-EAST-1 Region</div>",
+      "service": "workspaces-us-east-1"
     }
   ]
 }
