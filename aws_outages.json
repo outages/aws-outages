@@ -3018,12 +3018,21 @@
       "service": "cloudwatch-us-east-1"
     },
     {
+      "service_name": "Amazon EventBridge (N. Virginia)",
+      "summary": "Increased API Error Rates",
+      "date": "1606319040",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:45 AM PST</span>&nbsp;We are investigating increased API error rates for EventBridge in the US-EAST-1 Region.</div>",
+      "service": "events-us-east-1"
+    },
+    {
       "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
       "summary": "Increased API error rates ",
       "date": "1606336447",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:36 AM PST</span>&nbsp;We are investigating increased error rates for Kinesis Data Streams APIs in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 5:50 AM PST</span>&nbsp;We are continuing to investigate increased Kinesis Data Streams API errors, and are working on identifying root cause.</div><div><span class=\"yellowfg\"> 6:36 AM PST</span>&nbsp;We are investigating increased error rates for Kinesis Data Streams APIs in the US-EAST-1 Region.</div>",
       "service": "kinesis-us-east-1"
     }
   ]
