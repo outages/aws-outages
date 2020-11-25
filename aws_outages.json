@@ -3041,7 +3041,7 @@
       "date": "1606319040",
       "status": "3",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:45 AM PST</span>&nbsp;We are investigating increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We are continuing to investigate increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;We can confirm significant API faults and latencies for EventBridge in the US-EAST-1 Region, which is related to an ongoing issue with Kinesis Data Streams. We are continuing to work towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:45 AM PST</span>&nbsp;We are investigating increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We are continuing to investigate increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;We can confirm significant API faults and latencies for EventBridge in the US-EAST-1 Region, which is related to an ongoing issue with Kinesis Data Streams. We are continuing to work towards resolution.</div><div><span class=\"yellowfg\">10:44 AM PST</span>&nbsp;We can confirm significant API faults and latencies for EventBridge in the US-EAST-1 Region, which is related to an ongoing issue with Kinesis Data Streams. Currently, customer calls to the PutEvents API are failing with 5XX unavailable errors. In addition, rules subscribing to events from AWS services are delayed. We are continuing to work towards resolution.</div>",
       "service": "events-us-east-1"
     },
     {
@@ -3054,6 +3054,15 @@
       "service": "cloudfront"
     },
     {
+      "service_name": "Amazon Elastic Kubernetes Service (N. Virginia)",
+      "summary": "Increased API Error Rates and Launches",
+      "date": "1606324920",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:22 AM PST</span>&nbsp;We are investigating increased API error rates for cluster and node group operations in the US-EAST-1 region. We are also investigating increased Fargate pod launch failures. Existing EKS clusters and managed node groups are operating normally.</div>",
+      "service": "eks-us-east-1"
+    },
+    {
       "service_name": "Amazon Elastic Container Service (N. Virginia)",
       "summary": "Increased API Error Rates and Launches",
       "date": "1606328375",
@@ -3063,13 +3072,13 @@
       "service": "ecs-us-east-1"
     },
     {
-      "service_name": "Amazon Elastic Kubernetes Service (N. Virginia)",
-      "summary": "Increased API Error Rates and Launches",
-      "date": "1606346373",
-      "status": "1",
+      "service_name": "AWS IoT Core (N. Virginia)",
+      "summary": "Elevated Error Rates",
+      "date": "1606328375",
+      "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:22 AM PST</span>&nbsp;We are investigating increased API error rates for cluster and node group operations in the US-EAST-1 region. We are also investigating increased Fargate pod launch failures. Existing EKS clusters and managed node groups are operating normally.</div>",
-      "service": "eks-us-east-1"
+      "description": "<div><span class=\"yellowfg\">10:49 AM PST</span>&nbsp;We continue to experience increased latency and API failure rates for Connect, Subscribe, Messaging, and Shadow operations in the US-EAST-1 region. This is also impacting AWS IoT Device Management and AWS IoT Device Defender. We continue to work towards resolution.</div>",
+      "service": "awsiot-us-east-1"
     }
   ]
 }
