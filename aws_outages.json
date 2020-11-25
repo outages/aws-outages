@@ -3052,6 +3052,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:54 AM PST</span>&nbsp;We are investigating longer than usual reporting update delays for change propagation of invalidations and CloudFront configurations. Customer changes are propagating fine across our edge locations but the associated reporting is not getting updated. Also, end-user requests for content from our edge locations are not affected by this issue and are being served normally.</div>",
       "service": "cloudfront"
+    },
+    {
+      "service_name": "Amazon Elastic Container Service (N. Virginia)",
+      "summary": "Increased API Error Rates and Launches",
+      "date": "1606328375",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:22 AM PST</span>&nbsp;We are investigating increased API error rates and delays delivering task events and metrics in the US-EAST-1 region. We are also investigating increased task launch error rates for the Fargate launch type. Running tasks are not impacted.</div>",
+      "service": "ecs-us-east-1"
     }
   ]
 }
