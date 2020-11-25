@@ -3009,12 +3009,21 @@
   ],
   "current": [
     {
+      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
+      "summary": "Increased API error rates",
+      "date": "1606314960",
+      "status": "3",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:36 AM PST</span>&nbsp;We are investigating increased error rates for Kinesis Data Streams APIs in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:50 AM PST</span>&nbsp;We are continuing to investigate increased Kinesis Data Streams API errors, and are working on identifying root cause.</div><div><span class=\"yellowfg\"> 8:12 AM PST</span>&nbsp;Kinesis Data Streams customers are still experiencing increased API errors. This is also impacting other services, including ACM, Amplify Console, API Gateway, AppStream2, AppSync, Athena, Cloudformation, Cloudtrail, CloudWatch, Cognito, Connect, DynamoDB, EventBridge, IoT Services, Lambda, LEX, Managed Blockchain, Resource Groups, SageMaker, Support Console, and Workspaces. We are continuing to work on identifying root cause.</div><div><span class=\"yellowfg\"> 8:52 AM PST</span>&nbsp;The Kinesis Data Streams API is severely impaired. This is also impacting other services, including ACM, Amplify Console, API Gateway, AppStream2, AppSync, Athena, CloudFormation, CloudTrail, CloudWatch, Cognito, Connect, DynamoDB, EventBridge, IoT Services, Lambda, LEX, Managed Blockchain, Resource Groups, SageMaker, Support Console, and Workspaces. We are actively working towards resolution.</div>",
+      "service": "kinesis-us-east-1"
+    },
+    {
       "service_name": "Amazon CloudWatch (N. Virginia)",
       "summary": "Elevated PutMetricData API error rates",
       "date": "1606316400",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:38 AM PST</span>&nbsp;We are investigating increased error rates for CloudWatch PutMetricData API in US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:38 AM PST</span>&nbsp;We are investigating increased error rates for CloudWatch PutMetricData API in US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:40 AM PST</span>&nbsp;We can confirm elevated PutMetricData API error rates and some delayed metrics in US-EAST-1 Region. We are actively working to resolve the issue.</div>",
       "service": "cloudwatch-us-east-1"
     },
     {
@@ -3034,15 +3043,6 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:45 AM PST</span>&nbsp;We are investigating increased API error rates for EventBridge in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We are continuing to investigate increased API error rates for EventBridge in the US-EAST-1 Region.</div>",
       "service": "events-us-east-1"
-    },
-    {
-      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
-      "summary": "Increased API error rates",
-      "date": "1606336447",
-      "status": "2",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:36 AM PST</span>&nbsp;We are investigating increased error rates for Kinesis Data Streams APIs in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:50 AM PST</span>&nbsp;We are continuing to investigate increased Kinesis Data Streams API errors, and are working on identifying root cause.</div><div><span class=\"yellowfg\"> 8:12 AM PST</span>&nbsp;Kinesis Data Streams customers are still experiencing increased API errors. This is also impacting other services, including ACM, Amplify Console, API Gateway, AppStream2, AppSync, Athena, Cloudformation, Cloudtrail, CloudWatch, Cognito, Connect, DynamoDB, EventBridge, IoT Services, Lambda, LEX, Managed Blockchain, Resource Groups, SageMaker, Support Console, and Workspaces. We are continuing to work on identifying root cause.</div>",
-      "service": "kinesis-us-east-1"
     }
   ]
 }
