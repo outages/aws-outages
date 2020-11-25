@@ -3032,7 +3032,7 @@
       "date": "1606316820",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region. Cognito customers are experiencing errors when authenticating end users or creating new accounts for their Cognito User pools and for obtaining temporary AWS credentials using Cognito Identity pools.</div><div><span class=\"yellowfg\">11:54 AM PST</span>&nbsp;We have identified the root cause and continue to work towards recovery of the issue affecting the Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:11 AM PST</span>&nbsp;We are investigating an increased API failure rate for Cognito User Pools and Identity Pools operations in the us-east-1 Region.</div><div><span class=\"yellowfg\"> 8:31 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are continuing to experience increased API failure rates for Cognito User Pools and Identity Pools operations in the US-EAST-1 Region. Cognito customers are experiencing errors when authenticating end users or creating new accounts for their Cognito User pools and for obtaining temporary AWS credentials using Cognito Identity pools.</div><div><span class=\"yellowfg\">11:54 AM PST</span>&nbsp;We have identified the root cause and continue to work towards recovery of the issue affecting the Cognito User Pools and Identity Pools operations in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:48 PM PST</span>&nbsp;We continue to work towards recovery of the issue affecting the Cognito User Pools and Identity Pools operations in the US-EAST-1 Region and we see improvement in the error rates experienced by customers.</div>",
       "service": "cognito-us-east-1"
     },
     {
@@ -3091,11 +3091,11 @@
     },
     {
       "service_name": "AWS Batch (N. Virginia)",
-      "summary": "Increased Error Rates & Delays ",
+      "summary": "Increased Error Rates & Delays",
       "date": "1606331520",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:15 AM PST</span>&nbsp;We are experiencing increased error rates for job state transitions and compute environment scaling in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:41 AM PST</span>&nbsp;We continue to experience increased error rates and delays for job state transitions and compute environment scaling in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:15 AM PST</span>&nbsp;We are experiencing increased error rates for job state transitions and compute environment scaling in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:41 AM PST</span>&nbsp;We continue to experience increased error rates and delays for job state transitions and compute environment scaling in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:58 PM PST</span>&nbsp;We have identified the root cause of increased error rates and delays for job state transitions and compute environment scaling in the US-EAST-1 Region and continue to work toward resolution.</div>",
       "service": "batch-us-east-1"
     },
     {
