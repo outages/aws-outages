@@ -3109,7 +3109,7 @@
     },
     {
       "service_name": "Amazon CloudWatch (N. Virginia)",
-      "summary": "Increased CloudWatch API error rates",
+      "summary": "[RESOLVED] Increased CloudWatch API error rates",
       "date": "1606412297",
       "status": "0",
       "details": "",
