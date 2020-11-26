@@ -3111,9 +3111,9 @@
       "service_name": "Amazon CloudWatch (N. Virginia)",
       "summary": "Increased CloudWatch API error rates",
       "date": "1606412297",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:38 AM PST</span>&nbsp;We are investigating increased error rates with the CloudWatch GetMetricStatistics and GetMetricData APIs when requesting metrics older than 3 hours in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if the period of the alarm is longer than 3 hours. Querying metrics less than 3 hours as well as publishing metrics remains unimpacted.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:38 AM PST</span>&nbsp;We are investigating increased error rates with the CloudWatch GetMetricStatistics and GetMetricData APIs when requesting metrics older than 3 hours in the US-EAST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if the period of the alarm is longer than 3 hours. Querying metrics less than 3 hours as well as publishing metrics remains unimpacted.</div><div><span class=\"yellowfg\">10:42 AM PST</span>&nbsp;Between 7:59 AM and 10:05 AM PST, we experienced increased error rates with the CloudWatch GetMetricStatistics and GetMetricData APIs when requesting metrics older than 3 hours in the US-EAST-1 Region. CloudWatch alarms may have transitioned into \"INSUFFICIENT_DATA\" state if the period of the alarm was longer than 3 hours. Querying metrics less than 3 hours as well as publishing metrics were unimpacted. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudwatch-us-east-1"
     }
   ]
