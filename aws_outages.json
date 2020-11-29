@@ -3008,6 +3008,15 @@
     },
     {
       "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
+      "summary": "[RESOLVED] Additional Information",
+      "date": "1606310100",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">Nov 28, 12:05 AM PST</span>&nbsp;We’d like to share more information about the Kinesis event on Wednesday November 25th. Additional details are available <a href='https://aws.amazon.com/message/11201/'>here</a>. Should you have any questions, please contact <a href='https://aws.amazon.com/support'>AWS Support</a>.</div>",
+      "service": "kinesis-us-east-1"
+    },
+    {
+      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1606314960",
       "status": "3",
@@ -3115,15 +3124,5 @@
       "service": "cloudwatch-us-east-1"
     }
   ],
-  "current": [
-    {
-      "service_name": "Amazon Kinesis Data Streams (N. Virginia)",
-      "summary": "[RESOLVED] Additional Information",
-      "date": "1606310100",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">Nov 28, 12:05 AM PST</span>&nbsp;We’d like to share more information about the Kinesis event on Wednesday November 25th. Additional details are available <a href='https://aws.amazon.com/message/11201/'>here</a>. Should you have any questions, please contact <a href='https://aws.amazon.com/support'>AWS Support</a>.</div>",
-      "service": "kinesis-us-east-1"
-    }
-  ]
+  "current": []
 }
