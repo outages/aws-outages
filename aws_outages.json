@@ -3131,7 +3131,7 @@
       "date": "1607344379",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:32 AM PST</span>&nbsp;We can confirm connectivity and power issues affecting some instances in a single Availability Zone (sae1-az3) in the SA-EAST-1 Region. We have identified the cause of the issue and are working towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:32 AM PST</span>&nbsp;We can confirm connectivity and power issues affecting some instances in a single Availability Zone (sae1-az3) in the SA-EAST-1 Region. We have identified the cause of the issue and are working towards resolution.</div><div><span class=\"yellowfg\"> 5:03 AM PST</span>&nbsp;At 11:10 PM PST on December 6 a small number of underlying hosts experienced power loss, affecting some customers in sae1-az3 in the SA-EAST-1 Region. Impacted customers were automatically notified via the Personal Health Dashboard. We quickly identified root cause and began working toward recovery. At 2:25 AM PST on December 7 additional hosts were impacted. Shortly after that we began to successfully mitigate impact and as of 4:00 AM PST we have begun to see recovery. We continue to work toward full resolution. </div>",
       "service": "ec2-sa-east-1"
     }
   ]
