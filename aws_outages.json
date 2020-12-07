@@ -3124,5 +3124,15 @@
       "service": "cloudwatch-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Sao Paulo)",
+      "summary": "Instances unavailable in a single availability zone ",
+      "date": "1607344379",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:32 AM PST</span>&nbsp;We can confirm connectivity and power issues affecting some instances in a single Availability Zone (sae1-az3) in the SA-EAST-1 Region. We have identified the cause of the issue and are working towards resolution.</div>",
+      "service": "ec2-sa-east-1"
+    }
+  ]
 }
