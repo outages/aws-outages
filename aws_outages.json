@@ -3142,5 +3142,15 @@
       "service": "ec2-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Load Balancing (Seoul)",
+      "summary": "Network connectivity for NLB ",
+      "date": "1608306650",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:50 AM PST</span>&nbsp;We are investigating network connectivity issues for Network Load Balancers using TLS within a single Availability Zone (APNE2-AZ1) in the AP-NORTHEAST-2 Region. Network Load Balancers configured for multiple Availability Zones will automatically fail away from the affected Availability Zone, mitigating any impact. For Network Load Balancers configured for only the affected Availability Zone, customers can create a replacement Network Load Balancer in another Availability Zone to mitigate the issue until it is fully resolved. If you have any questions or are experiencing any operational issue, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
+      "service": "elb-ap-northeast-2"
+    }
+  ]
 }
