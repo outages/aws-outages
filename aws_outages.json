@@ -3187,5 +3187,33 @@
       "service": "elb-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Kinesis Data Streams (Oregon)",
+      "summary": "Increase Error Rate",
+      "date": "1610053270",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased error rates for the Kinesis in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:17 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting Kinesis in the US-WEST-2 Region and continue to work towards full resolution.</div><div><span class=\"yellowfg\"> 1:18 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting Kinesis in the US-WEST-2 Region and continue to work towards full resolution.</div>",
+      "service": "kinesis-us-west-2"
+    },
+    {
+      "service_name": "Amazon EventBridge (Oregon)",
+      "summary": "Increased API Errors and Event Delivery Latencies",
+      "date": "1610053516",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:05 PM PST</span>&nbsp;We are experiencing elevated API errors and event delivery latencies in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting EventBridge in the US-WEST-2 Region and continue to work towards full resolution.</div>",
+      "service": "events-us-west-2"
+    },
+    {
+      "service_name": "Amazon CloudWatch (Oregon)",
+      "summary": "Increased Error Rates and Latencies",
+      "date": "1610054463",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:21 PM PST</span>&nbsp;We are investigating increased error rates and latencies for CloudWatch Logs APIs in the US-WEST-2 Region. Log events and metrics may be delayed. Alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div>",
+      "service": "cloudwatch-us-west-2"
+    }
+  ]
 }
