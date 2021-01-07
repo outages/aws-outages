@@ -3190,29 +3190,29 @@
   "current": [
     {
       "service_name": "Amazon Kinesis Data Streams (Oregon)",
-      "summary": "Increase Error Rate",
+      "summary": "[RESOLVED] Increase Error Rate",
       "date": "1610053270",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased error rates for the Kinesis in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:17 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting Kinesis in the US-WEST-2 Region and continue to work towards full resolution.</div><div><span class=\"yellowfg\"> 1:18 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting Kinesis in the US-WEST-2 Region and continue to work towards full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased error rates for the Kinesis in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:17 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting Kinesis in the US-WEST-2 Region and continue to work towards full resolution.</div><div><span class=\"yellowfg\"> 1:42 PM PST</span>&nbsp;Between 12:40 PM and 1:07 PM PST, we experienced increased error rates for Kinesis in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "kinesis-us-west-2"
     },
     {
       "service_name": "Amazon EventBridge (Oregon)",
-      "summary": "Increased API Errors and Event Delivery Latencies",
+      "summary": "[RESOLVED] Increased API Errors and Event Delivery Latencies",
       "date": "1610053516",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:05 PM PST</span>&nbsp;We are experiencing elevated API errors and event delivery latencies in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting EventBridge in the US-WEST-2 Region and continue to work towards full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:05 PM PST</span>&nbsp;We are experiencing elevated API errors and event delivery latencies in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery for the increased error rates affecting EventBridge in the US-WEST-2 Region and continue to work towards full resolution.</div><div><span class=\"yellowfg\"> 1:46 PM PST</span>&nbsp;Between 12:40 PM and 1:07 PM PST, we experienced elevated API errors and event delivery latencies in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "events-us-west-2"
     },
     {
       "service_name": "Amazon CloudWatch (Oregon)",
-      "summary": "Increased Error Rates and Latencies",
+      "summary": "[RESOLVED] Increased Error Rates and Latencies",
       "date": "1610054463",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:21 PM PST</span>&nbsp;We are investigating increased error rates and latencies for CloudWatch Logs APIs in the US-WEST-2 Region. Log events and metrics may be delayed. Alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:21 PM PST</span>&nbsp;We are investigating increased error rates and latencies for CloudWatch Logs APIs in the US-WEST-2 Region. Log events and metrics may be delayed. Alarms may transition into \"INSUFFICIENT_DATA\" state if set on delayed metrics.</div><div><span class=\"yellowfg\"> 1:42 PM PST</span>&nbsp;Between 12:41 PM and 1:07 PM PST, we experienced elevated error rates when calling CloudWatch Logs APIs in the US-WEST-2 Region. Some log events and metrics were delayed, and CloudWatch alarms on delayed metrics transitioned into INSUFFICIENT_DATA state. We have resolved the issue. Delayed metrics and log events are in the process of backfilling in CloudWatch console graphs and for API retrieval. The issue is resolved and the service is operating normally.</div>",
       "service": "cloudwatch-us-west-2"
     }
   ]
