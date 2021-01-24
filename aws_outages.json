@@ -3214,5 +3214,15 @@
       "service": "cloudwatch-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Personalize (N. Virginia)",
+      "summary": "[RESOLVED] Increased API Faults",
+      "date": "1611523748",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:29 PM PST</span>&nbsp;We are currently experiencing increased error rates in the GetRecommendations API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:46 PM PST</span>&nbsp;Between 12:36 PM and 1:42 PM PST, we experienced increased error rates in the GetRecommendations API in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "personalize-us-east-1"
+    }
+  ]
 }
