@@ -3226,11 +3226,11 @@
   "current": [
     {
       "service_name": "AWS Internet Connectivity (N. Virginia)",
-      "summary": "External Network Connectivity Issues",
+      "summary": "[RESOLVED] External Network Connectivity Issues",
       "date": "1611681635",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;We are investigating connectivity issues with an internet provider, mainly affecting the East Coast of the United States, outside of the AWS Network. We are investigating the issue with the external provider.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;We are investigating connectivity issues with an internet provider, mainly affecting the East Coast of the United States, outside of the AWS Network. We are investigating the issue with the external provider.</div><div><span class=\"yellowfg\">10:05 AM PST</span>&nbsp;\n\nWe are starting to see recovery for the connectivity issues from end customers in the East Coast of the United States to AWS services. Connectivity to instances and services within the Region are not impacted by the event. Internet traffic to/from other external providers is also not impacted. All AWS services are operating normally at this time.\n</div><div><span class=\"yellowfg\">10:14 AM PST</span>&nbsp;Between 8:26 AM and 9:46 AM PST, some customers experienced connectivity issues from the East Coast of the United States to AWS services. Connectivity to instances and services within the Region were not impacted by the event. Internet traffic to/from other external providers was also not impacted. All AWS services continue to operate normally. </div>",
       "service": "internetconnectivity-us-east-1"
     }
   ]
