@@ -3223,5 +3223,15 @@
       "service": "personalize-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (N. Virginia)",
+      "summary": "External Network Connectivity Issues",
+      "date": "1611681635",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;We are investigating connectivity issues with an internet provider, mainly affecting the East Coast of the United States, outside of the AWS Network. We are investigating the issue with the external provider.</div>",
+      "service": "internetconnectivity-us-east-1"
+    }
+  ]
 }
