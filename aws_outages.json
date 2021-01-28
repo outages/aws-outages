@@ -3241,5 +3241,15 @@
       "service": "ec2-ap-northeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudFormation (Tokyo)",
+      "summary": "Increased Error Rates and Latencies",
+      "date": "1611869244",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:27 PM PST</span>&nbsp;We are investigating increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region.</div>",
+      "service": "cloudformation-ap-northeast-1"
+    }
+  ]
 }
