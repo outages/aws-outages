@@ -3248,7 +3248,7 @@
       "date": "1611869244",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:27 PM PST</span>&nbsp;We are investigating increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:27 PM PST</span>&nbsp;AP-NORTHEAST-1 リージョンにおける AWS CloudFormation スタックを作成、更新、削除する際のエラーレートおよびレイテンシーの増加について調査中です。| We are investigating increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region.</div><div><span class=\"yellowfg\"> 1:48 PM PST</span>&nbsp;We can confirm increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region and are actively working toward resolution.</div>",
       "service": "cloudformation-ap-northeast-1"
     }
   ]
