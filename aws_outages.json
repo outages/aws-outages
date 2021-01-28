@@ -3232,5 +3232,15 @@
       "service": "internetconnectivity-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Seoul)",
+      "summary": "[RESOLVED] 인스턴스 기동실패 | Elevated Launch Failures",
+      "date": "1611812973",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:49 PM PST</span>&nbsp;AP-NORTHEAST-2 리전의 단일 가용 영역 (APNE2-AZ3)에서 발생하고 있는 EC2 인스턴스의 기동 실패와 VPC 업데이트의 네트워크 전파 시간 지연에 대해 조사하고 있습니다. | We are investigating elevated launch failures for EC2 instances and delayed network propagation times for VPC update in a single Availability Zone (APNE2-AZ3) in the AP-NORTHEAST-2 Region.</div><div><span class=\"yellowfg\"> 9:55 PM PST</span>&nbsp;AP-NORTHEAST-2 리전의 단일 가용 영역 (APNE2-AZ3)에서 새로운 EC2 인스턴스 시작 및 VPC에서의 네트워크 전파 시간에 영향을 미치는 문제에 대한 복구 징후가 보입니다. AWS는 문제 해결을 위해 계속 노력하고 있습니다. | We are seeing signs of recovery for the issue affecting new EC2 instance launches and network propagation times for VPC in a single Availability Zone (APNE2-AZ3) in the AP-NORTHEAST-2 Region. We continue to work on resolving the issues.</div><div><span class=\"yellowfg\">10:37 PM PST</span>&nbsp;태평양 표준시 (PST) 기준으로 오후 8시 13 분에서 오후 8시 33 분 사이에 AP-NORTHEAST-2 리전의 단일 가용 영역 (APNE2-AZ3)에서 EC2 인스턴스에 대한 기동 실패가 발생했습니다. 인스턴스 기동 실패는 PST기준 오후 8시 33 분에 복구되었지만, 영향을 받은 가용 영역 내에서 새로 시작된 EC2 인스턴스에 대한 VPC 네트워크 구성 전파 시간이 계속 지연되었습니다. PST 기준 오후 9시 46 분에 VPC 네트워크 구성 전파가 정상 수준으로 돌아 왔습니다. 발생했던 문제는 해결되었으며 현재 서비스가 정상적으로 작동하고 있습니다. 이 서비스의 가용성을 복원하기 위해 고객이 추가 조치를 취하실 필요는 없습니다. 혹시라도 질문이 있거나 AWS 서비스 운영에 문제가 있는 경우 AWS 지원 센터 (https://console.aws.amazon.com/support)를 통해 AWS 서포트팀에 문의하시기 바랍니다. | Between 8:13 PM and 8:33 PM PST, we experience elevated launch failures for EC2 instances in a single Availability Zone (APNE2-AZ3) in the AP-NORTHEAST-2 Region. Although the launch failures recovered at 8:33 PM PST, we continued to experience delayed propagation times of VPC network configuration for newly launched EC2 instances within the affected Availability Zone. By 9:46 PM PST, VPC network configuration propagation had returned to normal levels. The issue has been resolved and the service is operating normally. Customers do not need to take additional measures to restore the availability of this service. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
+      "service": "ec2-ap-northeast-2"
+    }
+  ]
 }
