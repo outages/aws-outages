@@ -3244,11 +3244,11 @@
   "current": [
     {
       "service_name": "AWS CloudFormation (Tokyo)",
-      "summary": "Increased Error Rates and Latencies",
+      "summary": "[RESOLVED] Increased Error Rates and Latencies",
       "date": "1611869244",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:27 PM PST</span>&nbsp;AP-NORTHEAST-1 リージョンにおける AWS CloudFormation スタックを作成、更新、削除する際のエラーレートおよびレイテンシーの増加について調査中です。| We are investigating increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region.</div><div><span class=\"yellowfg\"> 1:48 PM PST</span>&nbsp;AP-NORTHEAST-1 リージョンで AWS CloudFormation スタックを作成、更新、削除するときのエラーレートおよびレイテンシーの増加について確認いたしました。現在解決に向けて対応しております。We can confirm increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region and are actively working toward resolution.</div><div><span class=\"yellowfg\"> 2:02 PM PST</span>&nbsp;We are beginning to see recovery and continue to work toward full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:27 PM PST</span>&nbsp;AP-NORTHEAST-1 リージョンにおける AWS CloudFormation スタックを作成、更新、削除する際のエラーレートおよびレイテンシーの増加について調査中です。| We are investigating increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region.</div><div><span class=\"yellowfg\"> 1:48 PM PST</span>&nbsp;AP-NORTHEAST-1 リージョンで AWS CloudFormation スタックを作成、更新、削除するときのエラーレートおよびレイテンシーの増加について確認いたしました。現在解決に向けて対応しております。We can confirm increased error rates and latencies when creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region and are actively working toward resolution.</div><div><span class=\"yellowfg\"> 2:02 PM PST</span>&nbsp;現在本問題の回復を確認しており、現在解決に向けて引き続き対応しております。| We are beginning to see recovery and continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 2:10 PM PST</span>&nbsp;Between 11:25 AM and 1:55 PM PST we experienced increased error rates and latencies creating, updating, and deleting AWS CloudFormation stacks in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudformation-ap-northeast-1"
     }
   ]
