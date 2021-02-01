@@ -3250,5 +3250,15 @@
       "service": "cloudformation-ap-northeast-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (London)",
+      "summary": "Instance Connectivity",
+      "date": "1612182273",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:24 AM PST</span>&nbsp;We are experiencing instance connectivity issues in a single Availability Zone (euw2-az3) in the EU-WEST-2 Region.</div>",
+      "service": "ec2-eu-west-2"
+    }
+  ]
 }
