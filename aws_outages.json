@@ -3257,7 +3257,7 @@
       "date": "1612182273",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:24 AM PST</span>&nbsp;We are experiencing instance connectivity issues in a single Availability Zone (euw2-az3) in the EU-WEST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:24 AM PST</span>&nbsp;We are experiencing instance connectivity issues in a single Availability Zone (euw2-az3) in the EU-WEST-2 Region.</div><div><span class=\"yellowfg\"> 5:34 AM PST</span>&nbsp;We're continuing to address connectivity issues to impacted instances in a single Availability Zone (euw2-az3) in the EU-WEST-2 Region. Services that use EC2 and EBS including Elastic Load Balancing, EFS, Elasticache, ECS Fargate, Sagemaker and ELB, are also impacted. </div>",
       "service": "ec2-eu-west-2"
     }
   ]
