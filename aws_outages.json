@@ -3262,11 +3262,11 @@
   "current": [
     {
       "service_name": "AWS IoT Core (N. Virginia)",
-      "summary": "Increased API Error Rates and Latency",
+      "summary": "[RESOLVED] Increased API Error Rates and Latency",
       "date": "1612294997",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:43 AM PST</span>&nbsp;We are investigating increased error rates and latency for the Identity, Registry, and Rules Engine APIs in the US-EAST-1 Region. Device connectivity, messaging and rules evaluations are unaffected.</div>",
+      "description": "<div><span class=\"yellowfg\">11:43 AM PST</span>&nbsp;We are investigating increased error rates and latency for the Identity, Registry, and Rules Engine APIs in the US-EAST-1 Region. Device connectivity, messaging and rules evaluations are unaffected.</div><div><span class=\"yellowfg\">11:59 AM PST</span>&nbsp;Between 10:34 AM and 11:46 AM PST we experienced increased error rates and latency for the Identity, Registry and Rules Engine APIs in the US-EAST-1 Region. Device connectivity, messaging and rules evaluations remained unaffected during the event. The issue has been resolved and the service is operating normally.</div>",
       "service": "awsiot-us-east-1"
     }
   ]
