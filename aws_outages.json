@@ -3259,5 +3259,15 @@
       "service": "ec2-eu-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS IoT Core (N. Virginia)",
+      "summary": "Increased API Error Rates and Latency",
+      "date": "1612294997",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:43 AM PST</span>&nbsp;We are investigating increased error rates and latency for the Identity, Registry, and Rules Engine APIs in the US-EAST-1 Region. Device connectivity, messaging and rules evaluations are unaffected.</div>",
+      "service": "awsiot-us-east-1"
+    }
+  ]
 }
