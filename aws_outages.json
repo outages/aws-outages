@@ -3268,5 +3268,15 @@
       "service": "awsiot-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudFormation (N. Virginia)",
+      "summary": "Increased Stack Create, Delete and Update Times",
+      "date": "1612437136",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:12 AM PST</span>&nbsp;We are investigating increased latencies when creating, updating, and deleting AWS CloudFormation stacks in the US-EAST-1 Region and are actively working to resolve the issue.</div>",
+      "service": "cloudformation-us-east-1"
+    }
+  ]
 }
