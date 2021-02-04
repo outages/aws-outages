@@ -3275,7 +3275,7 @@
       "date": "1612437136",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:12 AM PST</span>&nbsp;We are investigating increased latencies when creating, updating, and deleting AWS CloudFormation stacks in the US-EAST-1 Region and are actively working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:12 AM PST</span>&nbsp;We are investigating increased latencies when creating, updating, and deleting AWS CloudFormation stacks in the US-EAST-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 3:56 AM PST</span>&nbsp;We can confirm increased latencies for creating and deleting stacks in the US-EAST-1 Region and continue to work towards resolution.</div>",
       "service": "cloudformation-us-east-1"
     }
   ]
