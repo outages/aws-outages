@@ -3277,5 +3277,15 @@
       "service": "cloudformation-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
+      "summary": "Connectivity Issues for Network Load Balancers",
+      "date": "1612988354",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:19 PM PST</span>&nbsp;We are investigating increased connectivity issues for Network Load Balancers within the US-EAST-1 Region. </div>",
+      "service": "elb-us-east-1"
+    }
+  ]
 }
