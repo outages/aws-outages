@@ -3289,11 +3289,11 @@
   "current": [
     {
       "service_name": "Amazon Virtual Private Cloud (N. Virginia)",
-      "summary": "Increased Console Error Rates",
+      "summary": "[RESOLVED] Increased Console Error Rates",
       "date": "1613516078",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We are investigating increased error rates displaying Virtual Private Cloud (VPC) in the VPC Management Console in the US-EAST-1 Region. This issue only affects the new VPC Management Console experience, so switching back to the previous VPC Management Console experience (top left toggle switch) will resolve the issue. The VPC Command Line Tools and APIs are not affected by this issue. We are working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We are investigating increased error rates displaying Virtual Private Cloud (VPC) in the VPC Management Console in the US-EAST-1 Region. This issue only affects the new VPC Management Console experience, so switching back to the previous VPC Management Console experience (top left toggle switch) will resolve the issue. The VPC Command Line Tools and APIs are not affected by this issue. We are working to resolve the issue.</div><div><span class=\"yellowfg\"> 3:10 PM PST</span>&nbsp;We have resolved the issue causing increased error rates displaying Virtual Private Cloud (VPC) in the VPC Management Console in the US-EAST-1 Region. This issue only affected the new experience of the VPC Management Console. The issue has been resolved and the service is operating normally.</div>",
       "service": "vpc-us-east-1"
     }
   ]
