@@ -3298,11 +3298,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Tokyo)",
-      "summary": " 単一アベイラビリティゾーンでのインスタンスの問題 | Instances unavailable in a single availability zone",
+      "summary": "インスタンスの障害について | Instance impairments",
       "date": "1613747375",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:09 AM PST</span>&nbsp;現在、東京リージョン AP-NORTHEAST-1 のひとつのアベイラビリティゾーン apne1-az1 において、インスタンスに影響を及ぼす接続性の問題が発生しており、対応を行っております。 |  We are investigating connectivity issues affecting instances in a single Availability Zone (apne1-az1) in the AP-NORTHEAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:09 AM PST</span>&nbsp;現在、東京リージョン AP-NORTHEAST-1 のひとつのアベイラビリティゾーン apne1-az1 において、インスタンスに影響を及ぼす接続性の問題が発生しており、対応を行っております。 |  We are investigating connectivity issues affecting instances in a single Availability Zone (apne1-az1) in the AP-NORTHEAST-1 Region.</div><div><span class=\"yellowfg\"> 7:58 AM PST</span>&nbsp;現在、東京リージョン AP-NORTHEAST-1 における一つのアベイラビリティゾーン（apne1-az1）の一部で、周囲の温度が上昇している状況を確認いたしました。影響を受けているアベイラビリティーゾーンの一部 EC2 インスタンスでは、接続性の問題または温度上昇の影響に伴い、電源が切れている問題が発生しております。当該問題の影響により、一部 EBS ボリュームにてパフォーマンスが低下しております。本問題の根本原因を特定し、現在解決に向けて対応しております。東京リージョン AP-NORTHEAST-1 におけるその他アベイラビリティゾーンは、この問題の影響を受けておりません。 |  We can confirm that a small area of a single Availability Zone (apne1-az1) is experiencing an increase in ambient temperature in the AP-NORTHEAST-1 Region. Some EC2 instances within the affected section of the Availability Zone have experienced connectivity issues or have powered down as a result of the increasing temperatures. Some EBS volumes are also experiencing degraded performance as a result of the event. We have identified the root cause of the issue and are working towards resolution. Other Availability Zones within the AP-NORTHEAST-1 Region are not affected by this event.</div>",
       "service": "ec2-ap-northeast-1"
     }
   ]
