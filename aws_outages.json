@@ -3295,5 +3295,15 @@
       "service": "vpc-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Tokyo)",
+      "summary": " 単一アベイラビリティゾーンでのインスタンスの問題 | Instances unavailable in a single availability zone",
+      "date": "1613747375",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:09 AM PST</span>&nbsp;現在、東京リージョン AP-NORTHEAST-1 のひとつのアベイラビリティゾーン apne1-az1 において、インスタンスに影響を及ぼす接続性の問題が発生しており、対応を行っております。 |  We are investigating connectivity issues affecting instances in a single Availability Zone (apne1-az1) in the AP-NORTHEAST-1 Region.</div>",
+      "service": "ec2-ap-northeast-1"
+    }
+  ]
 }
