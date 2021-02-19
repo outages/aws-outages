@@ -3311,7 +3311,7 @@
       "date": "1613755243",
       "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;現在、ap-northeast-1 リージョンでの、ELB API エラー率の上昇について調査を進めております。既存のロードバランサーへの接続には影響はありません。 |  We are investigating increased error rates for ELB APIs in the ap-northeast-1 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\"> 9:27 AM PST</span>&nbsp;日本時間 2/20 AM 2:00 から AM 2:18 にかけて AP-NORTHEAST-1 リージョンにおいて API エラーレートの増加を確認しました。すでに問題は復旧し、通常通り動作しております。 |  Between 9:00 AM and 9:18 AM PST we experienced increased API error rates in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;現在、AP-NORTHEAST-1 (2:20AM JST) リージョンでの、ELB API エラー率の上昇について調査を進めております。既存のロードバランサーへの接続には影響はありません。 |  We are investigating increased error rates for ELB APIs in the AP-NORTHEAST-1 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\"> 9:27 AM PST</span>&nbsp;日本時間 2/20 AM 2:00 から AM 2:18 にかけて AP-NORTHEAST-1 リージョンにおいて API エラーレートの増加を確認しました。すでに問題は復旧し、通常通り動作しております。 |  Between 9:00 AM and 9:18 AM PST we experienced increased API error rates in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-ap-northeast-1"
     }
   ]
