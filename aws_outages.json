@@ -3320,7 +3320,7 @@
       "date": "1614293418",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;Beginning at 4:06 AM PST we began experiencing increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event as the impact is ongoing. We have identified the component responsible for these errors are actively working toward identifying the root cause and mitigating the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;Beginning at 4:06 AM PST we began experiencing increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event as the impact is ongoing. We have identified the component responsible for these errors are actively working toward identifying the root cause and mitigating the issue.</div><div><span class=\"yellowfg\"> 3:08 PM PST</span>&nbsp;We have identified the root cause of the increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. We have begun mitigating the issue and are working towards recovery.</div>",
       "service": "elasticsearch-us-east-1"
     }
   ]
