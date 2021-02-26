@@ -3311,17 +3311,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:20 AM PST</span>&nbsp;(2:20AM JST)現在、AP-NORTHEAST-1 リージョンでの、ELB API エラー率の上昇について調査を進めております。既存のロードバランサーへの接続には影響はありません。 |  We are investigating increased error rates for ELB APIs in the AP-NORTHEAST-1 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\"> 9:27 AM PST</span>&nbsp;(2:27AM JST)日本時間 2/20 AM 2:00 から AM 2:18 にかけて AP-NORTHEAST-1 リージョンにおいて API エラーレートの増加を確認しました。すでに問題は復旧し、通常通り動作しております。 |  Between 9:00 AM and 9:18 AM PST we experienced increased API error rates in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-ap-northeast-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elasticsearch Service (N. Virginia)",
       "summary": "[RESOLVED]  Increased Domain Operation Error Rates",
       "date": "1614293418",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;Beginning at 4:06 AM PST we began experiencing increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event as the impact is ongoing. We have identified the component responsible for these errors are actively working toward identifying the root cause and mitigating the issue.</div><div><span class=\"yellowfg\"> 3:08 PM PST</span>&nbsp;We have identified the root cause of the increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. We have begun mitigating the issue and are working towards recovery.</div><div><span class=\"yellowfg\"> 3:52 PM PST</span>&nbsp;We are continuing to make progress in mitigating the issue. The rate of elevated latencies and errors for affected customers will begin declining, however we expect it may take several hours for the issue to be resolved completely. </div><div><span class=\"yellowfg\"> 4:22 PM PST</span>&nbsp;We continue to make progress in mitigating the issue and are more than halfway complete. The rate of elevated latencies and errors for affected customers is declining. However, we expect it may take 2-3 hours for the issue to be resolved completely. </div><div><span class=\"yellowfg\"> 5:37 PM PST</span>&nbsp;From 4:06 AM to 5:15 PM PST, Create and Modify operations were experiencing increased error rates and latencies. The issue has been resolved and the service is now operating normally. We've contacted customers directly on their Personal Health Dashboard who have domains created during the impact period and are still experiencing issues.</div>",
       "service": "elasticsearch-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
