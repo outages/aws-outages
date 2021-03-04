@@ -3338,7 +3338,7 @@
       "date": "1614879598",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:39 AM PST</span>&nbsp;We are investigating increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:51 AM PST</span>&nbsp;We can confirm increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs are unaffected by this issue and can still be accessed via the CLI or SDK.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:39 AM PST</span>&nbsp;We are investigating increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:51 AM PST</span>&nbsp;We can confirm increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs are unaffected by this issue and can still be accessed via the CLI or SDK.</div><div><span class=\"yellowfg\">10:18 AM PST</span>&nbsp;We are beginning to observe recovery for the increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs continue to be unaffected by this issue.</div>",
       "service": "cloudformation-us-east-1"
     }
   ]
