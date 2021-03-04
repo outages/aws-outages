@@ -3322,5 +3322,24 @@
       "service": "elasticsearch-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Transfer for SFTP (N. Virginia)",
+      "summary": "[RESOLVED] Increased Login Failures",
+      "date": "1614879450",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:37 AM PST</span>&nbsp;Between 3:34 AM and 6:39 AM PST we experienced increased login failures for Transfer Family in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event. We have identified the component responsible for these errors, and have mitigated the issue. No customer actions are required. The issue has been resolved and the service is operating normally.</div>",
+      "service": "transfer-us-east-1"
+    },
+    {
+      "service_name": "AWS CloudFormation (N. Virginia)",
+      "summary": "Increased Console Error Rates",
+      "date": "1614879598",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:39 AM PST</span>&nbsp;We are investigating increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:51 AM PST</span>&nbsp;We can confirm increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs are unaffected by this issue and can still be accessed via the CLI or SDK.</div>",
+      "service": "cloudformation-us-east-1"
+    }
+  ]
 }
