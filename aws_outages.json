@@ -3320,14 +3320,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;Beginning at 4:06 AM PST we began experiencing increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event as the impact is ongoing. We have identified the component responsible for these errors are actively working toward identifying the root cause and mitigating the issue.</div><div><span class=\"yellowfg\"> 3:08 PM PST</span>&nbsp;We have identified the root cause of the increased error rates impacting Create and Modify operations for Elasticsearch Domains in the US-EAST-1 Region. We have begun mitigating the issue and are working towards recovery.</div><div><span class=\"yellowfg\"> 3:52 PM PST</span>&nbsp;We are continuing to make progress in mitigating the issue. The rate of elevated latencies and errors for affected customers will begin declining, however we expect it may take several hours for the issue to be resolved completely. </div><div><span class=\"yellowfg\"> 4:22 PM PST</span>&nbsp;We continue to make progress in mitigating the issue and are more than halfway complete. The rate of elevated latencies and errors for affected customers is declining. However, we expect it may take 2-3 hours for the issue to be resolved completely. </div><div><span class=\"yellowfg\"> 5:37 PM PST</span>&nbsp;From 4:06 AM to 5:15 PM PST, Create and Modify operations were experiencing increased error rates and latencies. The issue has been resolved and the service is now operating normally. We've contacted customers directly on their Personal Health Dashboard who have domains created during the impact period and are still experiencing issues.</div>",
       "service": "elasticsearch-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Transfer for SFTP (N. Virginia)",
       "summary": "[RESOLVED] Increased Login Failures",
       "date": "1614879450",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:37 AM PST</span>&nbsp;Between 3:34 AM and 6:39 AM PST we experienced increased login failures for Transfer Family in the US-EAST-1 Region. While many customers have been notified in their Personal Health Dashboard, we wanted to share more information about this event. We have identified the component responsible for these errors, and have mitigated the issue. No customer actions are required. The issue has been resolved and the service is operating normally.</div>",
       "service": "transfer-us-east-1"
@@ -3336,10 +3334,11 @@
       "service_name": "AWS CloudFormation (N. Virginia)",
       "summary": "[RESOLVED] Increased Console Error Rates",
       "date": "1614879598",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:39 AM PST</span>&nbsp;We are investigating increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:51 AM PST</span>&nbsp;We can confirm increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs are unaffected by this issue and can still be accessed via the CLI or SDK.</div><div><span class=\"yellowfg\">10:18 AM PST</span>&nbsp;We are beginning to observe recovery for the increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs continue to be unaffected by this issue.</div><div><span class=\"yellowfg\">10:40 AM PST</span>&nbsp;Between 9:14 AM and 9:52 AM PST we experienced increased error rates accessing the CloudFormation Management Console in the US-EAST-1 Region. CloudFormation APIs were unaffected by this issue and were still able to be accessed via the CLI or SDK during this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudformation-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
