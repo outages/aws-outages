@@ -3340,5 +3340,15 @@
       "service": "cloudformation-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Sydney)",
+      "summary": "Network Connectivity",
+      "date": "1615136782",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;We are investigating an issue with an external provider outside of our network, which may be impacting Internet connectivity between some customer networks and the AP-SOUTHEAST-2 Region. Connectivity to instances and services within the Region is not impacted by the event.</div>",
+      "service": "internetconnectivity-ap-southeast-2"
+    }
+  ]
 }
