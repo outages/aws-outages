@@ -3349,5 +3349,15 @@
       "service": "internetconnectivity-ap-southeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Cognito (Ohio)",
+      "summary": "Increased Errors",
+      "date": "1615329039",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 2:30 PM PST</span>&nbsp;We are investigating increased Cognito User Pool API errors in the US-EAST-2 Region.</div>",
+      "service": "cognito-us-east-2"
+    }
+  ]
 }
