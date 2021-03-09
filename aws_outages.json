@@ -3352,11 +3352,11 @@
   "current": [
     {
       "service_name": "Amazon Cognito (Ohio)",
-      "summary": "Increased Errors",
+      "summary": "[RESOLVED] Increased Errors",
       "date": "1615329039",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:30 PM PST</span>&nbsp;We are investigating increased Cognito User Pool API errors in the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 2:30 PM PST</span>&nbsp;We are investigating increased Cognito User Pool API errors in the US-EAST-2 Region.</div><div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We can confirm increased Cognito User Pool API errors in the US-EAST-2 Region. We have confirmed the root cause to be a subsystem deployment which we are now in the process of rolling back. We are observing steady signs of recovery as the rollback has progressed.</div><div><span class=\"yellowfg\"> 3:04 PM PST</span>&nbsp;Between 1:56 and 2:50 PM PST, we experienced increased Cognito User Pool API errors in the US-EAST-2 Region. We have confirmed the root cause to be a subsystem deployment and the rollback of that deployment has completed, resulting in recovery. The issue has been resolved and the service is operating normally.</div>",
       "service": "cognito-us-east-2"
     }
   ]
