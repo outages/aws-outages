@@ -3347,17 +3347,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;We are investigating an issue with an external provider outside of our network, which may be impacting Internet connectivity between some customer networks and the AP-SOUTHEAST-2 Region. Connectivity to instances and services within the Region is not impacted by the event.</div><div><span class=\"yellowfg\"> 9:39 AM PST</span>&nbsp;We are continuing to experience connectivity issues with an internet provider external to our network. This affects international connectivity from AP-SOUTHEAST-2 Region to internet destinations outside Australia. Connectivity within the AP-SOUTHEAST-2 or to internet destinations within Australia are not impacted at this time. We are continuing to work towards shifting traffic from the external provider to recover from the event.</div><div><span class=\"yellowfg\">10:24 AM PST</span>&nbsp;We are continuing to experience connectivity issues with an internet provider external to our network. This affects internet traffic both to and from the AP-SOUTHEAST-2 Region to international internet destinations outside Australia. Connectivity within the AP-SOUTHEAST-2 Region or to internet destinations within Australia are not impacted at this time. We are continuing to work towards shifting traffic from the external provider to recover from the event.</div><div><span class=\"yellowfg\">11:51 AM PST</span>&nbsp;Between 8:19 AM and 10:59 AM PST we experienced internet connectivity issue with an external provider outside of our network. This impacted internet traffic both to and from the AP-SOUTHEAST-2 Region to internet destinations outside Australia. Connectivity from locations within Australia to the AP-SOUTHEAST-2 Region or to instances and services within the Region was not impacted. The issue has been resolved and connectivity has been restored.\n</div>",
       "service": "internetconnectivity-ap-southeast-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Cognito (Ohio)",
       "summary": "[RESOLVED] Increased Errors",
       "date": "1615329039",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:30 PM PST</span>&nbsp;We are investigating increased Cognito User Pool API errors in the US-EAST-2 Region.</div><div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We can confirm increased Cognito User Pool API errors in the US-EAST-2 Region. We have confirmed the root cause to be a subsystem deployment which we are now in the process of rolling back. We are observing steady signs of recovery as the rollback has progressed.</div><div><span class=\"yellowfg\"> 3:04 PM PST</span>&nbsp;Between 1:56 and 2:50 PM PST, we experienced increased Cognito User Pool API errors in the US-EAST-2 Region. We have confirmed the root cause to be a subsystem deployment and the rollback of that deployment has completed, resulting in recovery. The issue has been resolved and the service is operating normally.</div>",
       "service": "cognito-us-east-2"
     }
-  ]
+  ],
+  "current": []
 }
