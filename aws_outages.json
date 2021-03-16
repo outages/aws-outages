@@ -3358,5 +3358,15 @@
       "service": "cognito-us-east-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Lambda (N. Virginia)",
+      "summary": "[RESOLVED] Increased Invoke Errors",
+      "date": "1615925287",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:08 PM PDT</span>&nbsp;We are investigating increased invoke times and errors in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:21 PM PDT</span>&nbsp;Between 12:10 PM and 12:58 PM PDT, we experienced increased invoke error rates and invoke times in the US-EAST-1 Region. This issue has been resolved and the service is operating normally.</div>",
+      "service": "lambda-us-east-1"
+    }
+  ]
 }
