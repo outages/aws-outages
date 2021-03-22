@@ -3371,10 +3371,10 @@
     {
       "service_name": "Amazon Route 53",
       "summary": "Increased DNS Edit Propagation Time ",
-      "date": "1616455885",
+      "date": "1616455921",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:31 PM PDT</span>&nbsp;We are investigating increased propagation times of DNS edits to Route 53 DNS servers. Queries to existing DNS records are not affected by this issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:32 PM PDT</span>&nbsp;We are investigating increased propagation times of DNS edits to Route 53 DNS servers. Queries to existing DNS records are not affected by this issue.</div><div><span class=\"yellowfg\"> 4:50 PM PDT</span>&nbsp;We have identified the issue that has caused increased propagation times of DNS edits, and are working towards recovery. Queries to existing DNS records are not affected by this issue and are being answered normally.</div>",
       "service": "route53"
     }
   ]
