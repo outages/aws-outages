@@ -3379,11 +3379,11 @@
   "current": [
     {
       "service_name": "AWS WAF",
-      "summary": "AWS WAF - Increase in blocked requests and delayed rule change propagation in AP-NORTHEAST-1",
+      "summary": "[RESOLVED] AWS WAF - Increase in blocked requests and delayed rule change propagation in AP-NORTHEAST-1",
       "date": "1617335548",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:52 PM PDT</span>&nbsp;Some customers who use AWS WAF with Application Load Balancer (ALB) or API Gateway in the AP-NORTHEAST-1 Region are experiencing slow propagation of AWS WAF rule changes and an increase in blocked web requests. We have identified the root cause and are working to fix the issue. Until the issue is resolved, customers using AWS WAF with Application Load Balancer can optionally configure ALB to forward requests to targets by enabling the WAF fail open attribute (https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html#load-balancer-waf), and customers using AWS WAF with API Gateway can temporarily disable affected Web ACLs.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:52 PM PDT</span>&nbsp;Some customers who use AWS WAF with Application Load Balancer (ALB) or API Gateway in the AP-NORTHEAST-1 Region are experiencing slow propagation of AWS WAF rule changes and an increase in blocked web requests. We have identified the root cause and are working to fix the issue. Until the issue is resolved, customers using AWS WAF with Application Load Balancer can optionally configure ALB to forward requests to targets by enabling the WAF fail open attribute (https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html#load-balancer-waf), and customers using AWS WAF with API Gateway can temporarily disable affected Web ACLs.</div><div><span class=\"yellowfg\"> 9:13 PM PDT</span>&nbsp;Between 7:10 PM and 8:25 PM PDT, some customers who use AWS WAF with Application Load Balancer (ALB) or API Gateway in the AP-NORTHEAST-1 Region experienced slow propagation of AWS WAF rule changes and an increase in blocked web requests. The issue has been resolved and the service is now operating normally.</div>",
       "service": "awswaf"
     }
   ]
