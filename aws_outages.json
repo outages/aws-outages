@@ -3394,5 +3394,24 @@
       "service": "route53resolver-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Connect (N. Virginia)",
+      "summary": "Degraded Amazon Connect login performance",
+      "date": "1617678631",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We are investigating reports of increased error rates in the US-EAST-1 region for users to log onto Amazon Connect.</div>",
+      "service": "connect-us-east-1"
+    },
+    {
+      "service_name": "Amazon WorkMail (N. Virginia)",
+      "summary": "Degraded WorkMail WebMail performance",
+      "date": "1617678855",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:14 PM PDT</span>&nbsp;We are investigating a degraded customer experience with the WorkMail Web client in the US-EAST-1 Region impacting logins.</div>",
+      "service": "workmail-us-east-1"
+    }
+  ]
 }
