@@ -3392,14 +3392,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:35 PM PDT</span>&nbsp;We are investigating elevated failures when querying Route 53 Resolver in a single Availability Zone (use1-az4) of the US-EAST-1 Region.</div><div><span class=\"yellowfg\">11:58 PM PDT</span>&nbsp;We are seeing recovery, but are still working to confirm root cause at this time.</div><div><span class=\"yellowfg\">Apr 2, 12:13 AM PDT</span>&nbsp;Between 9:39 PM and 11:36 PM PDT, customers experienced elevated DNS failures when querying Route 53 Resolver for certain hostnames in a single Availability Zone (use1-az4) in the US-EAST-1 Region. The issue has been resolved and all queries are now being answered normally.</div>",
       "service": "route53resolver-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Connect (N. Virginia)",
       "summary": "[RESOLVED] Degraded Amazon Connect login performance",
       "date": "1617678631",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We are investigating reports of increased error rates in the US-EAST-1 region for users to log onto Amazon Connect.</div><div><span class=\"yellowfg\"> 9:21 PM PDT</span>&nbsp;We are continuing to investigate reports of increased error rates in the us-east-1 region for users to log onto Amazon Connect</div><div><span class=\"yellowfg\"> 9:33 PM PDT</span>&nbsp;Between 6:57 PM and 9:24 PM PDT Amazon Connect users experienced increased login error rates in the us-east-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "connect-us-east-1"
@@ -3408,7 +3406,7 @@
       "service_name": "Amazon WorkMail (N. Virginia)",
       "summary": "[RESOLVED] Degraded WorkMail WebMail performance",
       "date": "1617678855",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:14 PM PDT</span>&nbsp;We are investigating a degraded customer experience with the WorkMail Web client in the US-EAST-1 Region impacting logins.</div><div><span class=\"yellowfg\"> 9:12 PM PDT</span>&nbsp;We are continuing to investigate a degraded customer experience with the WorkMail Web client in the US-EAST-1 Region. </div><div><span class=\"yellowfg\"> 9:33 PM PDT</span>&nbsp;Between 6:57 PM and 9:25 PM PDT we experienced a degraded customer experience logging in to the WorkMail Web client in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "workmail-us-east-1"
@@ -3417,10 +3415,11 @@
       "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
       "summary": "[RESOLVED] Degraded instance registration",
       "date": "1617683231",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:27 PM PDT</span>&nbsp;Between 7:05 PM and 8:50 PM PDT, we experienced increased load balancer provisioning and back-end target registration times in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
