@@ -3455,7 +3455,7 @@
       "date": "1618343445",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:50 PM PDT</span>&nbsp;We can confirm increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:38 PM PDT</span>&nbsp;We have determined the root cause of increased scaling latencies for Elastic Load Balancers in the US-EAST-1 Region and are working towards mitigation.</div>",
+      "description": "<div><span class=\"yellowfg\">12:50 PM PDT</span>&nbsp;We can confirm increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:38 PM PDT</span>&nbsp;We have determined the root cause of increased scaling latencies for Elastic Load Balancers in the US-EAST-1 Region and are working towards mitigation.</div><div><span class=\"yellowfg\"> 2:39 PM PDT</span>&nbsp;The team is closely monitoring the issue with EC2 APIs, and continues to see reductions in scaling and provisioning latencies. Other load balancing operations, including target registrations and traffic processing are unaffected. Once the issue with the EC2 APIs is resolved, we will process the backlog of any pending operations before we observe full resolution.</div>",
       "service": "elb-us-east-1"
     }
   ]
