@@ -3433,7 +3433,7 @@
   "current": [
     {
       "service_name": "AWS Billing Console",
-      "summary": "Increased AWS Billing Console errors",
+      "summary": "[RESOLVED] Increased AWS Billing Console errors",
       "date": "1618316888",
       "status": "0",
       "details": "",
