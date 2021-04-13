@@ -3430,5 +3430,15 @@
       "service": "lambda-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "Increased AWS Billing Console errors",
+      "date": "1618316888",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:28 AM PDT</span>&nbsp;We are investigating increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div>",
+      "service": "billingconsole"
+    }
+  ]
 }
