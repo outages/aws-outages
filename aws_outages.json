@@ -3435,9 +3435,9 @@
       "service_name": "AWS Billing Console",
       "summary": "Increased AWS Billing Console errors",
       "date": "1618316888",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:28 AM PDT</span>&nbsp;We are investigating increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div><div><span class=\"yellowfg\"> 6:08 AM PDT</span>&nbsp;We continue to investigate increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div>",
+      "description": "<div><span class=\"yellowfg\"> 5:28 AM PDT</span>&nbsp;We are investigating increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div><div><span class=\"yellowfg\"> 6:08 AM PDT</span>&nbsp;We continue to investigate increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div><div><span class=\"yellowfg\"> 8:17 AM PDT</span>&nbsp;Between April 12 10:25 AM PDT and April 13 6:55 AM PDT, we experienced increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console. The issue has been resolved and the service is operating normally.</div>",
       "service": "billingconsole"
     }
   ]
