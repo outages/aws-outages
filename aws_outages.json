@@ -3460,11 +3460,11 @@
     },
     {
       "service_name": "AWS Batch (Oregon)",
-      "summary": "Compute Environments going INVALID",
+      "summary": "[RESOLVED] Compute Environments going INVALID",
       "date": "1618364745",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 7:12 PM PDT</span>&nbsp;We can confirm increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 7:12 PM PDT</span>&nbsp;We can confirm increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:00 PM PDT</span>&nbsp;Between 5:25 PM and 7:52 PM PDT, some AWS Batch Compute Environments transitioned to INVALID in the US-WEST-2 Region. The issue has been resolved and the service is working normally.</div>",
       "service": "batch-us-west-2"
     }
   ]
