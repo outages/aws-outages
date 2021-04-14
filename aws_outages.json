@@ -3457,6 +3457,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:50 PM PDT</span>&nbsp;We can confirm increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:38 PM PDT</span>&nbsp;We have determined the root cause of increased scaling latencies for Elastic Load Balancers in the US-EAST-1 Region and are working towards mitigation.</div><div><span class=\"yellowfg\"> 2:39 PM PDT</span>&nbsp;The team is closely monitoring the issue with EC2 APIs, and continues to see reductions in scaling and provisioning latencies. Other load balancing operations, including target registrations and traffic processing are unaffected. Once the issue with the EC2 APIs is resolved, we will process the backlog of any pending operations before we observe full resolution.</div><div><span class=\"yellowfg\"> 3:44 PM PDT</span>&nbsp;Beginning at 11:13 AM PDT we experienced increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region. Recovery for scaling latency occurred at 1:15 PM PDT, and recovery for provisioning latency occurred at 3:35 PM PDT. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-us-east-1"
+    },
+    {
+      "service_name": "AWS Batch (Oregon)",
+      "summary": "Compute Environments going INVALID",
+      "date": "1618364745",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div>",
+      "service": "batch-us-west-2"
     }
   ]
 }
