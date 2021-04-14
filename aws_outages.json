@@ -3464,7 +3464,7 @@
       "date": "1618364745",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 7:12 PM PDT</span>&nbsp;We can confirm increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div>",
       "service": "batch-us-west-2"
     }
   ]
