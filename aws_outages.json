@@ -3466,5 +3466,15 @@
       "service": "batch-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS AppSync (N. Virginia)",
+      "summary": "Increased API Latencies",
+      "date": "1619193400",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:56 AM PDT</span>&nbsp;We are investigating increased API latencies in the US-EAST-1 Region.</div>",
+      "service": "appsync-us-east-1"
+    }
+  ]
 }
