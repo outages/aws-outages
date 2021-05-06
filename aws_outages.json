@@ -3484,5 +3484,15 @@
       "service": "lambda-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon CloudFront",
+      "summary": "Change Propagation Delays",
+      "date": "1620324983",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:16 AM PDT</span>&nbsp;We are investigating delays in propagation times for changes to CloudFront configurations. End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div>",
+      "service": "cloudfront"
+    }
+  ]
 }
