@@ -3502,5 +3502,15 @@
       "service": "ec2-sa-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
+      "summary": "API Errors, Increased Provisioning Times / Registration Latencies",
+      "date": "1621000068",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:47 AM PDT</span>&nbsp;We are investigating increased API error rates and increased provisioning/registration latencies for ELBs in the US-EAST-1 Region. Connectivity to existing load balancers is not affected.</div>",
+      "service": "elb-us-east-1"
+    }
+  ]
 }
