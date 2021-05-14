@@ -3518,7 +3518,7 @@
       "date": "1621023810",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:23 PM PDT</span>&nbsp;We are investigating connectivity issues and WorkSpaces automatically rebooting in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 2:05 PM PDT</span>&nbsp;We can confirm an issue causing a loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. We have identified the root cause and are rolling out a mitigation.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:23 PM PDT</span>&nbsp;We are investigating connectivity issues and WorkSpaces automatically rebooting in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 2:05 PM PDT</span>&nbsp;We can confirm an issue causing a loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. We have identified the root cause and are rolling out a mitigation.</div><div><span class=\"yellowfg\"> 3:26 PM PDT</span>&nbsp;We are currently deploying a mitigation for the issue that is causing loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. Workspaces will recover as this mitigation is deployed.</div>",
       "service": "workspaces-us-east-1"
     }
   ]
