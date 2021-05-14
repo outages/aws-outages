@@ -3511,6 +3511,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:47 AM PDT</span>&nbsp;We are investigating increased API error rates and increased provisioning/registration latencies for ELBs in the US-EAST-1 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\">10:38 AM PDT</span>&nbsp;Starting at 5:05 AM PDT, we experienced periods of increased error rates and provisioning/registration latencies for ELB APIs in the US-EAST-1 Region. The periods of elevated API error rates were resolved at 7:55 AM PDT. The periods of increased provisioning/latencies were resolved for the vast majority of customers by 8:31 AM PDT, with full recovery at 9:11 AM PDT. Connectivity to existing load balancers was not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-us-east-1"
+    },
+    {
+      "service_name": "Amazon WorkSpaces (N. Virginia)",
+      "summary": "Increased Errors Connecting to WorkSpaces",
+      "date": "1621023810",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:23 PM PDT</span>&nbsp;We are investigating connectivity issues and WorkSpaces automatically rebooting in the US-EAST-1 Region.</div>",
+      "service": "workspaces-us-east-1"
     }
   ]
 }
