@@ -3536,8 +3536,17 @@
       "date": "1623264111",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We are investigating periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. </div>",
+      "description": "<div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We are investigating periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. </div><div><span class=\"yellowfg\">12:31 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div>",
       "service": "signin-us-east-1"
+    },
+    {
+      "service_name": "AWS Management Console",
+      "summary": "Increased Error Rates and Latencies for SAML Based Federation",
+      "date": "1623266658",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:24 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div>",
+      "service": "management-console"
     }
   ]
 }
