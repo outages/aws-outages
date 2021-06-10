@@ -3554,7 +3554,7 @@
       "date": "1623356647",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:24 PM PDT</span>&nbsp;We are investigating connectivity issues for some EC2 instances in a single Availability Zone in the EU-CENTRAL-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:24 PM PDT</span>&nbsp;We are investigating connectivity issues for some EC2 instances in a single Availability Zone (euc1-az1) in the EU-CENTRAL-1 Region.</div>",
       "service": "ec2-eu-central-1"
     }
   ]
