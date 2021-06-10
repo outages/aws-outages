@@ -3527,14 +3527,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:26 PM PDT</span>&nbsp;We are experiencing increased API error rates for the EC2 APIs in the US-WEST-2 Region. We have identified root cause and are actively working to mitigate impact. Some APIs may experience errors or “request limit exceeded” when calling an affected API or using the EC2 Management Console. In many cases, a retry of the request may succeed as some requests are still succeeding. Other AWS services that utilize these affected APIs for their own workflows may also be experiencing impact. These services have posted impact via the Personal Health and/or Service Health Dashboards. We'll continue to update this post as we have more information to share.</div><div><span class=\"yellowfg\">12:45 PM PDT</span>&nbsp;Between 11:02 AM and 12:40 PM PDT, we experienced increased API error rates in the US-WEST-2 Region. During this time, customers may have experienced 500 Errors or \"Request Limit Exceeded\" when calling an affected API, or using the EC2 Management Console. In many cases, retries of failed API requests were successful. Other AWS services that utilize the affected APIs for their own workflows also experienced impact. Those AWS Services have communicated with affected customers via the Personal Health Dashboard. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-west-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Sign-In (N. Virginia)",
       "summary": "[RESOLVED] Increased Latencies for SAML Sign-In",
       "date": "1623264111",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We are investigating periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. </div><div><span class=\"yellowfg\">12:31 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div><div><span class=\"yellowfg\">12:58 PM PDT</span>&nbsp;We are seeing signs of recovery for the timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:22 PM PDT</span>&nbsp;Between 7:46 AM and 11:37 AM PDT, we experienced periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to investigate likely root causes and continue to drive to full resolution. The service is operating normally.</div>",
       "service": "signin-us-east-1"
@@ -3543,10 +3541,11 @@
       "service_name": "AWS Management Console",
       "summary": "[RESOLVED] Increased Error Rates and Latencies for SAML Based Federation",
       "date": "1623266658",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:24 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div><div><span class=\"yellowfg\">12:58 PM PDT</span>&nbsp;We are seeing signs of recovery for the timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:21 PM PDT</span>&nbsp;Between 7:46 AM and 11:37 AM PDT, we experienced periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to investigate likely root causes and continue to drive to full resolution. The service is operating normally.</div>",
       "service": "management-console"
     }
-  ]
+  ],
+  "current": []
 }
