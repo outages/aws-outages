@@ -3563,7 +3563,7 @@
       "date": "1623359538",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:12 PM PDT</span>&nbsp;We are investigating increased API error rates and latencies in the eu-central-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 2:12 PM PDT</span>&nbsp;We are investigating increased API error rates and latencies in the eu-central-1 Region.</div><div><span class=\"yellowfg\"> 3:05 PM PDT</span>&nbsp;We have identified the root cause of the issue causing increased elevated error rates and latencies in the EU-CENTRAL-1 Region and are actively working to resolve the issue.</div>",
       "service": "kinesis-eu-central-1"
     },
     {
