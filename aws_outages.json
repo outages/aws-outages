@@ -3556,6 +3556,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:24 PM PDT</span>&nbsp;We are investigating connectivity issues for some EC2 instances in a single Availability Zone (euc1-az1) in the EU-CENTRAL-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PDT</span>&nbsp;We can confirm increased API error rates and latencies for the EC2 APIs and connectivity issues for instances within a single Availability Zone (euc1-az1) within the EU-CENTRAL-1 Region, caused by an increase in ambient temperature within a subsection of the affected Availability Zone. Other Availability Zones within the EU-CENTRAL-1 Region are not affected by the issue and we continue to work towards resolving the issue.</div>",
       "service": "ec2-eu-central-1"
+    },
+    {
+      "service_name": "Amazon Kinesis Data Streams (Frankfurt)",
+      "summary": "Increased API Error Rates &amp; Latencies",
+      "date": "1623359538",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 2:12 PM PDT</span>&nbsp;We are investigating increased API error rates and latencies in the eu-central-1 Region.</div>",
+      "service": "kinesis-eu-central-1"
     }
   ]
 }
