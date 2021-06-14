@@ -3592,5 +3592,15 @@
       "service": "cloudformation-eu-central-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CodeBuild (N. Virginia)",
+      "summary": "Increased Latency for Build Operations",
+      "date": "1623692973",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:49 AM PDT</span>&nbsp;Beginning at 5:20 AM PDT, we experienced increased queue latency for Build operations in the US-EAST-1 Region. We have identified the subsystem responsible for the increase in latency, and have begun mitigation efforts. At this time, we are beginning to see signs of recovery, and continue to work toward full resolution.</div>",
+      "service": "codebuild-us-east-1"
+    }
+  ]
 }
