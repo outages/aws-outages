@@ -3608,7 +3608,7 @@
       "date": "1623763587",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:26 AM PDT</span>&nbsp;We are investigating an issue where customers may run into errors preventing them from creating new builds in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:26 AM PDT</span>&nbsp;We are investigating an issue where customers may run into errors preventing them from creating new builds in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:02 AM PDT</span>&nbsp;We have mitigated the issue and are monitoring for recovery. </div>",
       "service": "codebuild-us-east-1"
     }
   ]
