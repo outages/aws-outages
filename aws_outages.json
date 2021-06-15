@@ -3590,17 +3590,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:18 PM PDT</span>&nbsp;We are investigating elevated error rates for the AWS CloudFormation APIs in the EU-CENTRAL-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 5:38 PM PDT</span>&nbsp;We are starting to see some recovery in API errors and latencies in the EU-CENTRAL-1 Regions and continue to work towards full recovery. </div><div><span class=\"yellowfg\"> 5:46 PM PDT</span>&nbsp;Between 4:45 PM and 5:29 PM PDT, AWS CloudFormation experienced elevated error rates in the EU-CENTRAL-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudformation-eu-central-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS CodeBuild (N. Virginia)",
       "summary": "[RESOLVED] Increased Latency for Build Operations",
       "date": "1623692973",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:49 AM PDT</span>&nbsp;Beginning at 5:20 AM PDT, we experienced increased queue latency for Build operations in the US-EAST-1 Region. We have identified the subsystem responsible for the increase in latency, and have begun mitigation efforts. At this time, we are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\">11:24 AM PDT</span>&nbsp;Beginning at 5:15 AM we began experiencing increased latencies for Build operations. At 7:15 AM, we began notifying impacted customers via the Personal Health Dashboard. By 9:48 AM, we had processed the backlog of latent build operations, and at 10:20 AM, we verified that all new build operations were progressing normally. The issue has been resolved and the service is operating normally.</div>",
       "service": "codebuild-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
