@@ -3601,5 +3601,15 @@
       "service": "codebuild-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CodeBuild (N. Virginia)",
+      "summary": "Increased Error Rate when creating a build",
+      "date": "1623763587",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:26 AM PDT</span>&nbsp;We are investigating an issue where customers may run into errors preventing them from creating new builds in the US-EAST-1 Region.</div>",
+      "service": "codebuild-us-east-1"
+    }
+  ]
 }
