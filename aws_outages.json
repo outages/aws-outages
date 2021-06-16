@@ -3610,5 +3610,15 @@
       "service": "codebuild-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Load Balancing (Ohio)",
+      "summary": "Increased API Error Rates",
+      "date": "1623887035",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:43 PM PDT</span>&nbsp;We are investigating increased error rates for ELB APIs in the US-EAST-2 Region. Connectivity to existing load balancers is not affected.</div>",
+      "service": "elb-us-east-2"
+    }
+  ]
 }
