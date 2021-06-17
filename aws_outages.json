@@ -3619,6 +3619,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:43 PM PDT</span>&nbsp;We are investigating increased error rates for ELB APIs in the US-EAST-2 Region. Connectivity to existing load balancers is not affected.</div>",
       "service": "elb-us-east-2"
+    },
+    {
+      "service_name": "Amazon Relational Database Service (Ohio)",
+      "summary": "Instance Unavailablility",
+      "date": "1623887565",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:52 PM PDT</span>&nbsp;We are investigating connectivity issues to some RDS instances in the US-EAST-2 region.</div>",
+      "service": "rds-us-east-2"
     }
   ]
 }
