@@ -3662,8 +3662,17 @@
       "date": "1623995010",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:43 PM PDT</span>&nbsp;We are investigating increased API error rates for the EC2 APIs in the AP-EAST-1 Region.</div><div><span class=\"yellowfg\">10:51 PM PDT</span>&nbsp;We can confirm increased error rates for the EC2 APIs and degraded performance for some EBS volumes within a single Availability Zone within the AP-EAST-1 Region</div><div><span class=\"yellowfg\">11:08 PM PDT</span>&nbsp;We continue to investigate increased error rates for the EC2 APIs, degraded performance for some EBS volumes and EC2 instance connectivity issues within a single Availability Zone (ape1-az2) in the AP-EAST-1 Region. Other Availability Zones within the AP-EAST-1 Region are not affected by this event. </div>",
+      "description": "<div><span class=\"yellowfg\">10:43 PM PDT</span>&nbsp;We are investigating increased API error rates for the EC2 APIs in the AP-EAST-1 Region.</div><div><span class=\"yellowfg\">10:51 PM PDT</span>&nbsp;We can confirm increased error rates for the EC2 APIs and degraded performance for some EBS volumes within a single Availability Zone within the AP-EAST-1 Region</div><div><span class=\"yellowfg\">11:08 PM PDT</span>&nbsp;We continue to investigate increased error rates for the EC2 APIs, degraded performance for some EBS volumes and EC2 instance connectivity issues within a single Availability Zone (ape1-az2) in the AP-EAST-1 Region. Other Availability Zones within the AP-EAST-1 Region are not affected by this event. </div><div><span class=\"yellowfg\">11:27 PM PDT</span>&nbsp;We continue to investigate increased error rates for the EC2 APIs, degraded performance for some EBS volumes and EC2 instance connectivity issues within a single Availability Zone (ape1-az2) in the AP-EAST-1 Region. We are making progress towards determining root cause for this event, but have not been able to determine it at this stage. Since other Availability Zones within the AP-EAST-1 Region are not affected by this event, we recommend that you fail away from the affected Availability Zone.</div>",
       "service": "ec2-ap-east-1"
+    },
+    {
+      "service_name": "Amazon Relational Database Service (Hong Kong)",
+      "summary": "Instance Unavailability ",
+      "date": "1623996605",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:10 PM PDT</span>&nbsp;We are investigating connectivity issues affecting some instances in the AP-EAST-1 Region.</div>",
+      "service": "rds-ap-east-1"
     }
   ]
 }
