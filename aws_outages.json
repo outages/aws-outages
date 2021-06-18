@@ -3628,5 +3628,15 @@
       "service": "rds-us-east-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Identity and Access Management",
+      "summary": "Elevated IAM Error Rate",
+      "date": "1623975776",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:22 PM PDT</span>&nbsp;We are investigating an elevated failure rate for AWS IAM authentication API requests in the EU-NORTH-1 Region.  This issue will also cause API requests for other AWS services in the EU-NORTH-1 Region to experience elevated failures. </div>",
+      "service": "iam"
+    }
+  ]
 }
