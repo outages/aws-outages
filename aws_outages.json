@@ -3626,14 +3626,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:52 PM PDT</span>&nbsp;We are investigating connectivity issues to some RDS instances in the US-EAST-2 region.</div><div><span class=\"yellowfg\"> 5:35 PM PDT</span>&nbsp;We can confirm connectivity issues to some RDS instances in the US-EAST-2 Region, and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 6:04 PM PDT</span>&nbsp;We are actively working to mitigate connectivity issues for some RDS instances in the US-EAST-2 Region and continue to work towards resolution. The issue with Aurora PostgreSQL is also impacting Elasticache, ELB, API Gateway and Elastic Beanstalk APIs. Existing Elasticache, ELB and API Gateway instances continue to operate normally.</div><div><span class=\"yellowfg\"> 6:33 PM PDT</span>&nbsp;We have narrowed the cause of the connectivity issues impacting some RDS instances in the US-EAST-2 Region and we are continuing to work towards mitigation. The issue with Aurora PostgreSQL is also impacting Elasticache, ELB, API Gateway and Elastic Beanstalk APIs. Existing Elasticache, ELB and API Gateway instances continue to operate normally.</div><div><span class=\"yellowfg\"> 7:09 PM PDT</span>&nbsp;We have begun to see some recovery for the connectivity issues impacting some RDS instances in the US-EAST-2 Region, and we are continuing to work towards mitigation.</div><div><span class=\"yellowfg\"> 8:23 PM PDT</span>&nbsp;We are making progress towards restoring connectivity for the set of impacted Aurora PostgreSQL instances. Some database instances may see intermittent periods of recovery, but may not be fully recovered and we continue to work towards full recovery of these instances.</div><div><span class=\"yellowfg\"> 9:45 PM PDT</span>&nbsp;Between 3:30 PM and 9:30 PM PDT, some Amazon Relational Database Service (RDS) Aurora PostgreSQL instances in the US-EAST-2 Region experienced increased latency and fault rates. This issue also caused issues with Elasticache, ELB, and API Gateway APIs. Existing Elasticache, ELB, and API Gateway instances were not impacted by this event and were operating normally during this entire impact period. We have recovered the vast majority of affected instances and will contact any customers who are still impacted through the Personal Health Dashboard (PHD).</div>",
       "service": "rds-us-east-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Simple Storage Service (Stockholm)",
       "summary": "[RESOLVED] Elevated IAM Error Rate",
       "date": "1623976331",
-      "status": "0",
+      "status": "3",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:32 PM PDT</span>&nbsp;We are investigating an elevated failure rate for AWS IAM authentication API requests in the EU-NORTH-1 Region.  This issue will also cause API requests for other AWS services in the EU-NORTH-1 Region to experience elevated failures. </div><div><span class=\"yellowfg\"> 5:45 PM PDT</span>&nbsp;We are seeing signs of recovery of the IAM authentication API error rates, and this is also showing improvement for other services.  We are actively working towards full mitigation.</div><div><span class=\"yellowfg\"> 5:52 PM PDT</span>&nbsp;The IAM authentication API error rates continue to improve, and many services have fully recovered.  We are actively working towards full mitigation.</div><div><span class=\"yellowfg\"> 5:58 PM PDT</span>&nbsp;Between 4:59 PM and 5:32 PM PDT we experienced elevated failure rate for AWS IAM authentication API requests in the EU-NORTH-1 Region. While some other services continue to move toward recovery, requests made to S3 are no longer experiencing elevated error rates. The issue has been resolved and the service is operating normally.</div>",
       "service": "s3-eu-north-1"
@@ -3642,7 +3640,7 @@
       "service_name": "Amazon Elastic Compute Cloud (Stockholm)",
       "summary": "[RESOLVED] Elevated IAM Error Rate",
       "date": "1623977653",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:54 PM PDT</span>&nbsp;The IAM authentication API error rates continue to improve, and many services have fully recovered.  We are actively working towards full mitigation.</div><div><span class=\"yellowfg\"> 6:14 PM PDT</span>&nbsp;Starting at 4:59 PM PDT, the AWS IAM authentication API experienced elevated error rates in the EU-NORTH-1 Region. This issue caused AWS services to experience increased error rates, as they rely on the IAM service to authenticate their API requests. Services began to see recovery at 5:24 PM, with full recovery at 6:02 PM. All services are operating normally in the EU-NORTH-1 Region at this time.</div>",
       "service": "ec2-eu-north-1"
@@ -3651,11 +3649,13 @@
       "service_name": "Amazon Elastic Load Balancing (Stockholm)",
       "summary": "[RESOLVED] ELB API and Connectivity Issues",
       "date": "1623980954",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:49 PM PDT</span>&nbsp;Starting at 4:59 PM PDT, the AWS IAM authentication API experienced elevated error rates in the EU-NORTH-1 Region. This issue caused ELB to experience increased API error rates and latencies, as the APIs rely on the IAM service to authenticate requests. Recovery for the APIs began recovery at 5:24 PM, with full recovery at 6:11 PM. Between 6:03 PM and 6:28 PM PDT, we experienced an increase in connectivity issues and WAF errors for some load balancers. The issue has been resolved and the service is operating normally.</div><div><span class=\"yellowfg\"> 6:51 PM PDT</span>&nbsp;Starting at 4:59 PM PDT, the AWS IAM authentication API experienced elevated error rates in the EU-NORTH-1 Region. This issue caused ELB to experience increased API error rates and latencies, as the APIs rely on the IAM service to authenticate requests. Recovery for the APIs began recovery at 5:24 PM, with full recovery at 6:11 PM. Between 6:03 PM and 6:28 PM PDT, we experienced an increase in connectivity issues and WAF errors for some load balancers. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-eu-north-1"
-    },
+    }
+  ],
+  "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Hong Kong)",
       "summary": "Increased API Error Rates",
@@ -3671,7 +3671,7 @@
       "date": "1623996605",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:10 PM PDT</span>&nbsp;We are investigating connectivity issues affecting some instances in the AP-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:10 PM PDT</span>&nbsp;We are investigating connectivity issues affecting some instances in the AP-EAST-1 Region.</div><div><span class=\"yellowfg\">11:55 PM PDT</span>&nbsp;We continue to investigate connectivity issues affecting instances in a single Availability Zone (ape1-az2) in the AP-EAST-1 Region. The issues are related to the increased EC2 API error rates.</div>",
       "service": "rds-ap-east-1"
     }
   ]
