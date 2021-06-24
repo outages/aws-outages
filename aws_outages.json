@@ -3673,5 +3673,15 @@
       "service": "rds-ap-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Ohio)",
+      "summary": "[RESOLVED] Internet Connectivity",
+      "date": "1624564393",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:53 PM PDT</span>&nbsp;Between 12:15 PM and 12:21 PM PDT we observed connectivity issues between some customer networks and the US-EAST-2 Region. Connectivity within the Region was not impacted. The issue has been resolved and the service is operating normally.</div>",
+      "service": "internetconnectivity-us-east-2"
+    }
+  ]
 }
