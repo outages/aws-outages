@@ -3698,7 +3698,7 @@
       "date": "1624993969",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:12 PM PDT</span>&nbsp;We are investigating increased API latency and error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">12:12 PM PDT</span>&nbsp;We are investigating increased API latency and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:36 PM PDT</span>&nbsp;We can confirm increased API latency and increased API error rates for the ACM APIs in the US-EAST-1 Region. During this time, you may be unable to Request new certificates, and may also observe errors when attempting to List and/or nodify existing certificates. This issue impacts both the AWS Management Console, and the ACM APIs. Additionally, you may also receive API errors when attempting to associate new resources. Existing associated resources are unaffected, and continue to operate as normal. We have identified the root cause of the issue and are working toward mitigation and resolution. We will provide further updates as we have more information to share.</div>",
       "service": "certificatemanager-us-east-1"
     }
   ]
