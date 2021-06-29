@@ -3691,6 +3691,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:40 AM PDT</span>&nbsp;Between 11:07 AM and 11:15 AM PDT we experienced a network connectivity issue that impacted Amazon VPC Inter-Region Peering in the US-EAST-2 Region. Connectivity to instances and services within the Region was not impacted by the event. The issue has been resolved and connectivity has been restored. </div>",
       "service": "ec2-us-east-2"
+    },
+    {
+      "service_name": "AWS Certificate Manager (N. Virginia)",
+      "summary": "Increased API Error Rates and Latency",
+      "date": "1624993969",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:12 PM PDT</span>&nbsp;We are investigating increased API latency and error rates in the US-EAST-1 Region.</div>",
+      "service": "certificatemanager-us-east-1"
     }
   ]
 }
