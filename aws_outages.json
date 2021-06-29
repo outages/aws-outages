@@ -3700,6 +3700,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:12 PM PDT</span>&nbsp;We are investigating increased API latency and error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:36 PM PDT</span>&nbsp;We can confirm increased API latency and increased API error rates for the ACM APIs in the US-EAST-1 Region. During this time, you may be unable to Request new certificates, and may also observe errors when attempting to List and/or nodify existing certificates. This issue impacts both the AWS Management Console, and the ACM APIs. Additionally, you may also receive API errors when attempting to associate new resources. Existing associated resources are unaffected, and continue to operate as normal. We have identified the root cause of the issue and are working toward mitigation and resolution. We will provide further updates as we have more information to share.</div><div><span class=\"yellowfg\"> 1:14 PM PDT</span>&nbsp;We continue to work toward mitigating the affected subsystem responsible for the increase in API Errors and Latencies for the ACM APIs. Other AWS Services (such as ClientVPN) who attempt to create or associate new certificates may also be impacted by this issue. Existing resources remain unaffected by this issue and continue to operate normally. </div>",
       "service": "certificatemanager-us-east-1"
+    },
+    {
+      "service_name": "Amazon CloudFront",
+      "summary": "Propagation Delays",
+      "date": "1625000294",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:58 PM PDT</span>&nbsp;We are investigating delays in propagating changes to CloudFront distributions to our edge locations. This is related to the ACM issue in the US-EAST-1 Region that we have posted to the Service Health Dashboard. Existing distributions continue to operate normally and there is no impact to serving content from our edge locations.</div>",
+      "service": "cloudfront"
     }
   ]
 }
