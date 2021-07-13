@@ -3709,5 +3709,15 @@
       "service": "cloudfront"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Frankfurt)",
+      "summary": "Instance connectivity",
+      "date": "1626179354",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:29 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the EC2 APIs and connectivity issues for some instances in a single Availability Zone in the EU-CENTRAL-1 Region</div>",
+      "service": "ec2-eu-central-1"
+    }
+  ]
 }
