@@ -3725,7 +3725,7 @@
       "date": "1626280770",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:39 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. We are actively working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:39 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:04 AM PDT</span>&nbsp;We can confirm elevated API error rates and some delayed log events in the AP-NORTHEAST-1 Region. We are actively working to resolve the issue.</div>",
       "service": "cloudwatch-ap-northeast-1"
     }
   ]
