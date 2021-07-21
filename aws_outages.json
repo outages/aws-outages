@@ -3727,5 +3727,15 @@
       "service": "cloudwatch-ap-northeast-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Milan)",
+      "summary": "Increased Error rates",
+      "date": "1626910891",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:41 PM PDT</span>&nbsp;We are investigating increased API error rates for the RunInstances API in the EU-SOUTH-1 Region. </div>",
+      "service": "ec2-eu-south-1"
+    }
+  ]
 }
