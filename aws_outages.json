@@ -3736,5 +3736,24 @@
       "service": "ec2-eu-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Lambda (Milan)",
+      "summary": "Increased Invoke Error Rate",
+      "date": "1628028846",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:14 PM PDT</span>&nbsp;We are investigating increased invoke error rates in the EU-SOUTH-1 Region.</div>",
+      "service": "lambda-eu-south-1"
+    },
+    {
+      "service_name": "AWS Management Console",
+      "summary": "Increased Management Console Error Rates",
+      "date": "1628029136",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:18 PM PDT</span>&nbsp;We are investigating increased errors for AWS Management Console in the eu-south-1 Region.</div>",
+      "service": "management-console"
+    }
+  ]
 }
