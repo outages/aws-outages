@@ -3752,7 +3752,7 @@
       "date": "1628029136",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:18 PM PDT</span>&nbsp;We are investigating increased errors for AWS Management Console in the eu-south-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:18 PM PDT</span>&nbsp;We are investigating increased errors for AWS Management Console in the EU-SOUTH-1 Region.</div>",
       "service": "management-console"
     }
   ]
