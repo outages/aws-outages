@@ -3734,14 +3734,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:41 PM PDT</span>&nbsp;We are investigating increased API error rates for the RunInstances API in the EU-SOUTH-1 Region. </div><div><span class=\"yellowfg\"> 5:04 PM PDT</span>&nbsp;We can confirm increased API error rates for the RunInstances API in the EU-SOUTH-1 Region. This is also affecting services that depend on EC2 such as Auto Scaling, and launches of service instances that are built on EC2, such as RDS and ElastiCache. Instances that are already launched are operating normally. We have identified the root cause and are actively testing a mitigation plan. We expect to have an update on the success of this mitigation effort in the next 30 minutes.</div><div><span class=\"yellowfg\"> 5:19 PM PDT</span>&nbsp;Between 3:59 PM and 5:07 PM PDT customers experienced increased error rates for the EC2 RunInstances API in the EU-SOUTH-1 Region. This is also affected services that depend on EC2 such as Auto Scaling, and launches of service instances that are built on EC2, such as RDS and ElastiCache. The issue has been resolved and the RunInstances API is now operating normally.  This issue only affected new instance launches, instances that were already running were not affected. </div>",
       "service": "ec2-eu-south-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Lambda (Milan)",
       "summary": "[RESOLVED] Increased Invoke Error Rate",
       "date": "1628028846",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:14 PM PDT</span>&nbsp;We are investigating increased invoke error rates in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 3:45 PM PDT</span>&nbsp;Between 2:39 PM and 3:16 PM PDT, we experienced increased invoke error rates in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "lambda-eu-south-1"
@@ -3750,10 +3748,11 @@
       "service_name": "AWS Management Console",
       "summary": "[RESOLVED] Increased Management Console Error Rates",
       "date": "1628029136",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:18 PM PDT</span>&nbsp;We are investigating increased errors for AWS Management Console in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 3:46 PM PDT</span>&nbsp;Between 2:38 PM and 3:16 PM PDT, we experienced increased errors for AWS Management Console in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally. </div>",
       "service": "management-console"
     }
-  ]
+  ],
+  "current": []
 }
