@@ -3779,7 +3779,7 @@
       "date": "1628306280",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:18 PM PDT</span>&nbsp;We are investigating increased error rates for Cluster create and update operations in the US-EAST-1 Region. Some existing clusters are also impacted.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:18 PM PDT</span>&nbsp;We are investigating increased error rates for Cluster create and update operations in the US-EAST-1 Region. Some existing clusters are also impacted.</div><div><span class=\"yellowfg\"> 9:30 PM PDT</span>&nbsp;We are continuing to investigate increased error rates for Cluster create and update operations in the US-EAST-1 Region. We are seeing recovery for some clusters, and continue to work on recovery for all clusters.</div>",
       "service": "eks-us-east-1"
     },
     {
