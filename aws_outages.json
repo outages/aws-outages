@@ -3770,7 +3770,7 @@
       "date": "1628298493",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:08 PM PDT</span>&nbsp;We are investigating increased error rate and latencies for DynamoDB in US-EAST-1 region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:08 PM PDT</span>&nbsp;We are investigating increased error rate and latencies for DynamoDB in US-EAST-1 region.</div><div><span class=\"yellowfg\"> 6:32 PM PDT</span>&nbsp;We can confirm increased error rates for DynamoDB in the US-EAST-1 Region. We have identified the root cause of the issue and are working towards resolution.</div><div><span class=\"yellowfg\"> 7:03 PM PDT</span>&nbsp;We have seen some improvement to the error rates for DynamoDB in the US-EAST-1 Region and continue to work towards full resolution. For customers that are experiencing 503 errors, retries may resolve the issue in some cases. In other cases, recreating the connection to DynamoDB may address the error rates. We continue to take steps towards full resolution for all affected tables.</div>",
       "service": "dynamodb-us-east-1"
     }
   ]
