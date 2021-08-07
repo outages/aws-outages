@@ -3763,5 +3763,15 @@
       "service": "elasticache-eu-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon DynamoDB (N. Virginia)",
+      "summary": "Increased error rate",
+      "date": "1628298493",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:08 PM PDT</span>&nbsp;We are investigating increased error rate and latencies for DynamoDB in US-EAST-1 region.</div>",
+      "service": "dynamodb-us-east-1"
+    }
+  ]
 }
