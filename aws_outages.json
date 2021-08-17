@@ -3806,7 +3806,7 @@
       "date": "1629201355",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:55 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:55 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 5:24 AM PDT</span>&nbsp;We can confirm increased API error rates for ECS in the US-EAST-1 Region. We have identified the issue and are working towards mitigation. In most cases, a retry of the API operation will succeed.</div>",
       "service": "ecs-us-east-1"
     }
   ]
