@@ -3808,6 +3808,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:55 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 5:24 AM PDT</span>&nbsp;We can confirm increased API error rates for ECS in the US-EAST-1 Region. We have identified the issue and are working towards mitigation. In most cases, a retry of the API operation will succeed.</div><div><span class=\"yellowfg\"> 6:15 AM PDT</span>&nbsp;We can confirm increased API error rates for ECS in the US-EAST-1 Region. We have identified the root cause and continue to work towards recovery. In most cases, a retry of the API operation will succeed.\n</div><div><span class=\"yellowfg\"> 7:12 AM PDT</span>&nbsp;Between 3:40 AM and 6:45 AM PDT we experienced increased API error rates for ECS in the US-EAST-1 Region. In most cases, API calls succeeded when retried.  We continue to work to recover residual impact and have opened notifications for the remaining impacted customers via the Personal Health Dashboard.</div>",
       "service": "ecs-us-east-1"
+    },
+    {
+      "service_name": "Amazon EventBridge (N. Virginia)",
+      "summary": "Elevated Event Delivery Latency",
+      "date": "1629229180",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the US-EAST-1 Region. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency. </div>",
+      "service": "events-us-east-1"
     }
   ]
 }
