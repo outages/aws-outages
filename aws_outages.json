@@ -3815,7 +3815,7 @@
       "date": "1629229180",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the US-EAST-1 Region. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency. </div>",
+      "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the US-EAST-1 Region. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency. </div><div><span class=\"yellowfg\"> 1:53 PM PDT</span>&nbsp;We have identified the root cause of the issue resulting in elevated event delivery latency for EventBridge events in the US-EAST-1 Region. We have taken initial mitigation actions, which have reduced the delivery latency for some requests, and continue to work toward full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.</div>",
       "service": "events-us-east-1"
     }
   ]
