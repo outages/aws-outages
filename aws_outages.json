@@ -3799,5 +3799,15 @@
       "service": "ec2-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Container Service (N. Virginia)",
+      "summary": "Elevated API Error Rates",
+      "date": "1629201355",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:55 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "service": "ecs-us-east-1"
+    }
+  ]
 }
