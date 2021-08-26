@@ -3817,5 +3817,15 @@
       "service": "events-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Identity and Access Management",
+      "summary": "IAM errors and propagation latency",
+      "date": "1629996723",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:52 AM PDT</span>&nbsp;We are investigating elevated latencies and errors on the IAM APIs. In addition, we are investigating propagation delays for recently created or recently updated IAM users, credentials, roles, policies. Authentication and authorization of existing users, credentials, roles, policies are not impacted. Other AWS services like AWS CloudFormation that use IAM roles were also impacted.</div>",
+      "service": "iam"
+    }
+  ]
 }
