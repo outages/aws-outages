@@ -3826,5 +3826,15 @@
       "service": "iam"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Oregon)",
+      "summary": "Connectivity Issues",
+      "date": "1630434320",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:25 AM PDT</span>&nbsp;We are investigating an issue which is affecting network traffic for some customers using AWS services in the US-WEST-2 Region.</div>",
+      "service": "internetconnectivity-us-west-2"
+    }
+  ]
 }
