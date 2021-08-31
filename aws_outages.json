@@ -3833,7 +3833,7 @@
       "date": "1630434320",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:25 AM PDT</span>&nbsp;We are investigating an issue which is affecting network traffic for some customers using AWS services in the US-WEST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:25 AM PDT</span>&nbsp;We are investigating an issue which is affecting network traffic for some customers using AWS services in the US-WEST-2 Region.</div><div><span class=\"yellowfg\">12:13 PM PDT</span>&nbsp;We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.</div>",
       "service": "internetconnectivity-us-west-2"
     },
     {
@@ -3842,7 +3842,7 @@
       "date": "1630435612",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:46 AM PDT</span>&nbsp;We are investigating connectivity, provisioning, and target registration issues for load balancers in the US-WEST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:46 AM PDT</span>&nbsp;We are investigating connectivity, provisioning, and target registration issues for load balancers in the US-WEST-2 Region.</div><div><span class=\"yellowfg\">12:10 PM PDT</span>&nbsp;We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.</div>",
       "service": "elb-us-west-2"
     }
   ]
