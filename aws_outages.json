@@ -658,7 +658,7 @@
       "service": "ec2-us-east-1"
     },
     {
-      "service_name": "Amazon OpenSearch Service (N. California)",
+      "service_name": "Amazon Elasticsearch Service (N. California)",
       "summary": "[RESOLVED] Domain Connectivity",
       "date": "1539650824",
       "status": 1,
@@ -2431,7 +2431,7 @@
       "service": "batch-us-west-1"
     },
     {
-      "service_name": "Amazon OpenSearch Service (N. Virginia)",
+      "service_name": "Amazon Elasticsearch Service (N. Virginia)",
       "summary": "Increased indexing and query error rates for some VPC Domains",
       "date": "1590072270",
       "status": "1",
@@ -3313,7 +3313,7 @@
       "service": "elb-ap-northeast-1"
     },
     {
-      "service_name": "Amazon OpenSearch Service (N. Virginia)",
+      "service_name": "Amazon Elasticsearch Service (N. Virginia)",
       "summary": "[RESOLVED]  Increased Domain Operation Error Rates",
       "date": "1614293418",
       "status": "1",
