@@ -3865,11 +3865,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Hong Kong)",
-      "summary": "API错误率的上升 | API的錯誤率上升 | Increased API error rates",
+      "summary": "[RESOLVED] API错误率的上升 | API的錯誤率上升 | Increased API error rates",
       "date": "1631281173",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;我们正在调查AP-EAST-1地区EC2 API错误率的上升，若有新的进展时会立即更新。| 我們正在調查AP-EAST-1地區EC2 API的錯誤率上升，若有新的進展時會立即更新。| We are investigating increased EC2 API error rates in the AP-EAST-1 Region. We will provide more information as it becomes available.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;我们正在调查AP-EAST-1地区EC2 API错误率的上升，若有新的进展时会立即更新。| 我們正在調查AP-EAST-1地區EC2 API的錯誤率上升，若有新的進展時會立即更新。| We are investigating increased EC2 API error rates in the AP-EAST-1 Region. We will provide more information as it becomes available.</div><div><span class=\"yellowfg\"> 7:30 AM PDT</span>&nbsp;Between 5:23 AM and 6:56 AM PDT we experienced increased error rates for APIs and new instance launches in the AP-EAST-1 Region. The root cause was a small number of hosts in a subsystem that failed to process API requests. Retries of API calls would have succeeded in many cases. The issue has been resolved and the service is operating normally. </div>",
       "service": "ec2-ap-east-1"
     }
   ]
