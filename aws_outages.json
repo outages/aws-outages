@@ -3862,5 +3862,15 @@
       "service": "directconnect-ap-northeast-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Hong Kong)",
+      "summary": "Increased API error rates",
+      "date": "1631281173",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;We are investigating increased EC2 API error rates in the AP-EAST-1 Region. We will provide more information as it becomes available.</div>",
+      "service": "ec2-ap-east-1"
+    }
+  ]
 }
