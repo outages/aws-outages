@@ -3878,7 +3878,7 @@
       "date": "1632712292",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:11 PM PDT</span>&nbsp;We are investigating degraded performance for some EBS volumes in a single Availability Zone (USE1-AZ2) in the US-EAST-1 Region. Some new EC2 instance launches, within the affected Availability Zone, are also impacted by this issue. We are working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:11 PM PDT</span>&nbsp;We are investigating degraded performance for some EBS volumes in a single Availability Zone (USE1-AZ2) in the US-EAST-1 Region. Some new EC2 instance launches, within the affected Availability Zone, are also impacted by this issue. We are working to resolve the issue.</div><div><span class=\"yellowfg\"> 8:41 PM PDT</span>&nbsp;We can confirm degraded performance for some EBS volumes within a single Availability Zone (USE1-AZ2) in the US-EAST-1 Region. Existing EC2 instances within the affected Availability Zone that use EBS volumes may also experience impairment due to stuck IO to the attached EBS volume(s). Newly launched EC2 instances within the affected Availability Zone may fail to launch due to the degraded volume performance. We continue to work toward determining root cause and mitigating impact but recommend that you fail out of the affected Availability Zone (USE1-AZ2) if you are able to do so. Other Availability Zones within the US-EAST-1 Region are not affected by this issue.</div>",
       "service": "ec2-us-east-1"
     }
   ]
