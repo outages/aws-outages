@@ -3889,5 +3889,15 @@
       "service": "chime"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Lambda (Ireland)",
+      "summary": "Increased invoke timeouts",
+      "date": "1633447955",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are investigating increased invoke timeout rates for AWS Lambda functions in the EU-WEST-1 Region.</div>",
+      "service": "lambda-eu-west-1"
+    }
+  ]
 }
