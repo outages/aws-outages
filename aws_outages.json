@@ -3896,7 +3896,7 @@
       "date": "1633447955",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are investigating increased invoke timeout rates for AWS Lambda functions in the EU-WEST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are investigating increased invoke timeout rates for AWS Lambda functions in the EU-WEST-1 Region.</div><div><span class=\"yellowfg\"> 9:15 AM PDT</span>&nbsp;We are still investigating increased invoke timeout rates for AWS Lambda functions in the EU-WEST-1 Region. A subset of functions making API calls to other AWS services within the region are affected.</div>",
       "service": "lambda-eu-west-1"
     }
   ]
