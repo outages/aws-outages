@@ -3907,5 +3907,15 @@
       "service": "ec2-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Seoul)",
+      "summary": "[RESOLVED] Increased API Error Rates",
+      "date": "1633637388",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:09 PM PDT</span>&nbsp;Between 12:24 PM and 12:34 PM PDT we experienced increased API error rates in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally.  During the period of impact, API's may have failed and we recommend that customers retry these API calls.  Customers do not need to take additional measures to restore the availability of this service.  Additional AWS services may have seen API failures during this period.  If you have any questions or are experiencing any operational issues with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support .</div>",
+      "service": "ec2-ap-northeast-2"
+    }
+  ]
 }
