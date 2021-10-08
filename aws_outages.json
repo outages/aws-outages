@@ -3905,17 +3905,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:46 PM PDT</span>&nbsp;We are investigating network connectivity for some instances within a single Availability Zone (USE1-AZ4) in the US-EAST-1 Region. We have identified the root cause and are working to restore connectivity for the affected instances. Some EBS volumes are also experiencing degraded performance due to this issue.</div><div><span class=\"yellowfg\"> 7:13 PM PDT</span>&nbsp;We continue to work to mitigate the issue affecting connectivity to some instances in a single Availability Zone (USE1-AZ4) in the US-EAST-1 Region. The root cause is a loss of power to a small number of EC2 instances and some networking devices within the affected Availability Zone. A small number of EC2 instances are also experiencing network connectivity issue as a result of the loss of power to the affected networking devices. We are working to restore power to the affected instances. If you are able to launch new EC2 instances, all APIs are operating normally with in the affected Availability Zone. We do not expect the issue to affect any other power line-ups within the affected Availability Zone or other Availability Zones within the Region.</div><div><span class=\"yellowfg\"> 7:34 PM PDT</span>&nbsp;We have restored power to the affected line-up and are seeing recovery for the majority of the affected EC2 instances and EBS volumes. We continue to work on the remaining EC2 instances and EBS volumes.</div><div><span class=\"yellowfg\"> 7:47 PM PDT</span>&nbsp;Starting at 6:05 PM PDT some EC2 instances within a single Availability Zone experienced a loss of power. Other instances within the affected Availability Zone experienced connectivity issues and some EBS volumes experienced degraded performance. The root cause of the event was a loss of power to a single line-up within the affected Availability Zone. Power was restored to the affected line-up at 7:20 PM PDT and at 7:35 PM PDT, the affected EC2 instances and EBS volumes had recovered. The issue has been resolved and the service is operating normally. </div>",
       "service": "ec2-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (Seoul)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1633637388",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:09 PM PDT</span>&nbsp;PDT 시간으로 12:24 PM과 12:34 PM 사이에, AP-NORTHEAST-2 리전에서 API 에러율 증가가 발생했습니다. 이 이슈는 해결되었고 서비스는 현재 정상 동작 중입니다. 이슈가 영향을 미치는 중에는 API 실패가 발생했을 수 있고, 고객들이 API 호출들을 재시도 할 것을 권고합니다. 고객들이 서비스의 가용성을 복구하기 위한 추가적인 조치를 취할 필요는 없습니다. 이 기간 동안 다른 AWS 서비스들에서도 API 실패가 발생할 수 있었습니다. 만일 궁금한 점이나 서비스와 관련된 운영상의 이슈를 겪으신다면, AWS Support Center를 통해 AWS 기술지원팀에 문의해주십시오. https://console.aws.amazon.com/support  |  Between 12:24 PM and 12:34 PM PDT we experienced increased API error rates in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally.  During the period of impact, API's may have failed and we recommend that customers retry these API calls.  Customers do not need to take additional measures to restore the availability of this service.  Additional AWS services may have seen API failures during this period.  If you have any questions or are experiencing any operational issues with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support .</div>",
       "service": "ec2-ap-northeast-2"
     }
-  ]
+  ],
+  "current": []
 }
