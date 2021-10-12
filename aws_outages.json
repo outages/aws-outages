@@ -3919,11 +3919,11 @@
   "current": [
     {
       "service_name": "AWS Management Console",
-      "summary": "Elevated Error Rates for AWS Management Console ",
+      "summary": "[RESOLVED] Elevated Error Rates for AWS Management Console ",
       "date": "1634052623",
-      "status": "3",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:30 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:38 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for the AWS Management Console.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:30 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:38 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:47 AM PDT</span>&nbsp;Between 8:10 AM and 8:39 AM PDT we experienced increased error rates and latency for the AWS Management Console. The issue has been resolved and the console is operating normally.  This issue did not affect any AWS service APIs, they were operating correctly during this time.</div>",
       "service": "management-console"
     }
   ]
