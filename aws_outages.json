@@ -3916,5 +3916,15 @@
       "service": "ec2-ap-northeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Management Console",
+      "summary": "Elevated Error Rates for AWS Management Console ",
+      "date": "1634052623",
+      "status": "3",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:30 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:38 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for the AWS Management Console.</div>",
+      "service": "management-console"
+    }
+  ]
 }
