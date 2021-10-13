@@ -3925,6 +3925,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:30 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:38 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:47 AM PDT</span>&nbsp;Between 8:10 AM and 8:39 AM PDT we experienced increased error rates and latency for the AWS Management Console. The issue has been resolved and the console is operating normally.  This issue did not affect any AWS service APIs, they were operating correctly during this time.</div>",
       "service": "management-console"
+    },
+    {
+      "service_name": "AWS Directory Service (Sydney)",
+      "summary": "Increased Authentication Error Rates ",
+      "date": "1634086680",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:58 PM PDT</span>&nbsp;We are investigating authentication errors on AD Connector directories that have MFA authentication enabled in the AP-SOUTHEAST-2 Region. Other AWS services, including Workspaces and Client VPN, are also affected by this event if they are configured to use AD Connector directories with MFA authentication enabled.</div>",
+      "service": "directoryservice-ap-southeast-2"
     }
   ]
 }
