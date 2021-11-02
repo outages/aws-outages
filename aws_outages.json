@@ -3952,6 +3952,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:34 AM PDT</span>&nbsp;We are investigating connectivity issues in the US-GOV-WEST1 Region. </div>",
       "service": "internetconnectivity-us-gov-west-1"
+    },
+    {
+      "service_name": "Amazon Elastic Compute Cloud (US-West)",
+      "summary": "Network Connectivity",
+      "date": "1635875642",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:54 AM PDT</span>&nbsp;Network Connectivity\nWe're investigating network connectivity issues for instances within a single Availability Zone (USGW1-AZ3) in the US-GOV-WEST-1 Region. We are also seeing increased error rates and latencies for the EC2 APIs within the region and are working to solve the issue.</div>",
+      "service": "ec2-us-gov-west-1"
     }
   ]
 }
