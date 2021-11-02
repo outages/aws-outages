@@ -3952,6 +3952,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:54 AM PDT</span>&nbsp;Network Connectivity\nWe're investigating network connectivity issues for instances within a single Availability Zone (USGW1-AZ3) in the US-GOV-WEST-1 Region. We are also seeing increased error rates and latencies for the EC2 APIs within the region and are working to solve the issue.</div><div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We continue to work towards resolving the issue affecting connectivity for instances within a single Availability Zone (USGW-AZ3) in the US-GOV-WEST-1 Region. The issue is affecting network connectivity from the Internet to instances in the affected Availability Zone, between instances within the affected Availability Zone and between instances within the affected Availability Zone and other Availability Zones. The EC2 APIs are also experiencing increased error rates and latencies within the US-GOV-WEST-1 Region, which is also affecting the AWS Management Console. We have made some progress in mitigating the impact for other AWS services, such as connectivity to Amazon S3, but continue to work on resolving the issue.</div>",
       "service": "ec2-us-gov-west-1"
+    },
+    {
+      "service_name": "Amazon Kinesis Data Streams (US-West)",
+      "summary": "Increased API Error Rates",
+      "date": "1635879208",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:53 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-GOV-WEST-1 Region.</div>",
+      "service": "kinesis-us-gov-west-1"
     }
   ]
 }
