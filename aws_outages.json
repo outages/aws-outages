@@ -3943,6 +3943,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:32 AM PDT</span>&nbsp;We are investigating connectivity issues in the US-GOV-WEST1 Region. </div>",
       "service": "internetconnectivity-us-gov-west-1"
+    },
+    {
+      "service_name": "AWS Internet Connectivity (US-West)",
+      "summary": "Network Connectivity in US-GOV-WEST1",
+      "date": "1635874468",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:34 AM PDT</span>&nbsp;We are investigating connectivity issues in the US-GOV-WEST1 Region. </div>",
+      "service": "internetconnectivity-us-gov-west-1"
     }
   ]
 }
