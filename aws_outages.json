@@ -3934,5 +3934,15 @@
       "service": "directoryservice-ap-southeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (US-West)",
+      "summary": "Network Connectivity in US-GOV-WEST1",
+      "date": "1635874351",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:32 AM PDT</span>&nbsp;We are investigating connectivity issues in the US-GOV-WEST1 Region. </div>",
+      "service": "internetconnectivity-us-gov-west-1"
+    }
+  ]
 }
