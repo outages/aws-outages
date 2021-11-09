@@ -3970,5 +3970,15 @@
       "service": "internetconnectivity-sa-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Simple Storage Service (N. Virginia)",
+      "summary": "Elevated API Error Rates",
+      "date": "1636495106",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:58 PM PST</span>&nbsp;We are investigating increased 5xx error rates and latencies for requests to the Amazon S3 APIs in the US-EAST-1 Region. Where possible, we recommend that requests that fail with a 5xx error be retried.</div>",
+      "service": "s3-us-standard"
+    }
+  ]
 }
