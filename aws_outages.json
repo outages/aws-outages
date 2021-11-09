@@ -3977,7 +3977,7 @@
       "date": "1636495106",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:58 PM PST</span>&nbsp;We are investigating increased 5xx error rates and latencies for requests to the Amazon S3 APIs in the US-EAST-1 Region. Where possible, we recommend that requests that fail with a 5xx error be retried.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:58 PM PST</span>&nbsp;We are investigating increased 5xx error rates and latencies for requests to the Amazon S3 APIs in the US-EAST-1 Region. Where possible, we recommend that requests that fail with a 5xx error be retried.</div><div><span class=\"yellowfg\"> 2:48 PM PST</span>&nbsp;We have identified the S3 subsystem responsible for increased 5xx error rates for the S3 PUT APIs, and are working to isolate the root cause within this subsystem. Customers may also be experiencing increased latency when performing PUT operations. During this time, we recommend customers retry any failed requests.</div>",
       "service": "s3-us-standard"
     },
     {
