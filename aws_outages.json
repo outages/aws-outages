@@ -3979,6 +3979,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:58 PM PST</span>&nbsp;We are investigating increased 5xx error rates and latencies for requests to the Amazon S3 APIs in the US-EAST-1 Region. Where possible, we recommend that requests that fail with a 5xx error be retried.</div>",
       "service": "s3-us-standard"
+    },
+    {
+      "service_name": "Amazon Redshift (N. Virginia)",
+      "summary": "Redshift cluster reboot and degraded performance",
+      "date": "1636496591",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 2:23 PM PST</span>&nbsp;We are investigating cluster reboots and degraded performance for Redshift Clusters in the US-EAST-1 Region.</div>",
+      "service": "redshift-us-east-1"
     }
   ]
 }
