@@ -4004,7 +4004,7 @@
       "date": "1637641154",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:13 PM PST</span>&nbsp;We continue to investigate increased event delivery delays in AF-SOUTH-1 Region. We are actively working to resolve the issue.</div>",
       "service": "events-af-south-1"
     },
     {
@@ -4013,7 +4013,7 @@
       "date": "1637641175",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:09 PM PST</span>&nbsp;We can confirm elevated API error rates for CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. We are actively working to resolve the issue. Customers may experience issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams is not affected.</div>",
       "service": "cloudwatch-af-south-1"
     }
   ]
