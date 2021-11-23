@@ -3997,6 +3997,24 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:51 AM PST</span>&nbsp;We are investigating increased error rates within the EC2 Management Console in the EU-NORTH-1 Region.</div><div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are starting to see recovery for the issue causing increased error rates in the EC2 Console in the EU-NORTH-1 Region. We expect to see full recovery shortly. In the meantime, the EC2 APIs and EC2 CLI remain unaffected by the issue.</div><div><span class=\"yellowfg\"> 8:38 AM PST</span>&nbsp;We have resolved the issue causing increased error rates for the EC2 Management Console in the EU-NORTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-eu-north-1"
+    },
+    {
+      "service_name": "Amazon EventBridge (Cape Town)",
+      "summary": "Event Delivery Delays",
+      "date": "1637641154",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div>",
+      "service": "events-af-south-1"
+    },
+    {
+      "service_name": "Amazon CloudWatch (Cape Town)",
+      "summary": "Metric Stream Delivery Delays ",
+      "date": "1637641175",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div>",
+      "service": "cloudwatch-af-south-1"
     }
   ]
 }
