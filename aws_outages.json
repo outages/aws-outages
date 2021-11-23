@@ -4009,11 +4009,11 @@
     },
     {
       "service_name": "Amazon CloudWatch (Cape Town)",
-      "summary": "Metric Stream Delivery Delays ",
+      "summary": "[RESOLVED] Metric Stream Delivery Delays ",
       "date": "1637641175",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:09 PM PST</span>&nbsp;We can confirm elevated API error rates for CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. We are actively working to resolve the issue. Customers may experience issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams is not affected.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:09 PM PST</span>&nbsp;We can confirm elevated API error rates for CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. We are actively working to resolve the issue. Customers may experience issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams is not affected.</div><div><span class=\"yellowfg\"> 9:42 PM PST</span>&nbsp;Between 7:30 PM and 9:25 PM PST, we experienced elevated error rates when calling CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. Customers may have experienced issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams was not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudwatch-af-south-1"
     }
   ]
