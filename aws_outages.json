@@ -3997,6 +3997,15 @@
       "service": "ec2-eu-north-1"
     },
     {
+      "service_name": "Amazon EventBridge (Cape Town)",
+      "summary": "[RESOLVED] Event Delivery Delays",
+      "date": "1637641154",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:13 PM PST</span>&nbsp;We continue to investigate increased event delivery delays in AF-SOUTH-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:26 PM PST</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken initial mitigation actions based on our investigations and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23, 12:04 AM PST</span>&nbsp;We continue working to identify the root cause of elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken further mitigation actions which have reduced the delivery latency and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23,  1:59 AM PST</span>&nbsp;Between November 22 7:30 PM and November 23 1:32 AM PST, we experienced elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "events-af-south-1"
+    },
+    {
       "service_name": "Amazon CloudWatch (Cape Town)",
       "summary": "[RESOLVED] Metric Stream Delivery Delays ",
       "date": "1637641175",
@@ -4006,15 +4015,5 @@
       "service": "cloudwatch-af-south-1"
     }
   ],
-  "current": [
-    {
-      "service_name": "Amazon EventBridge (Cape Town)",
-      "summary": "[RESOLVED] Event Delivery Delays",
-      "date": "1637641154",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:13 PM PST</span>&nbsp;We continue to investigate increased event delivery delays in AF-SOUTH-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:26 PM PST</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken initial mitigation actions based on our investigations and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23, 12:04 AM PST</span>&nbsp;We continue working to identify the root cause of elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken further mitigation actions which have reduced the delivery latency and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23,  1:59 AM PST</span>&nbsp;Between November 22 7:30 PM and November 23 1:32 AM PST, we experienced elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "events-af-south-1"
-    }
-  ]
+  "current": []
 }
