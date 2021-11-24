@@ -4022,7 +4022,7 @@
       "date": "1637779569",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:10 AM PST</span>&nbsp;We continue to investigate increased function invoke error rates within the US-EAST-2 Region. We are working to determine the root cause of the issue and will continue to provide updates as we make progress in resolving the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div>",
       "service": "lambda-us-east-2"
     },
     {
@@ -4042,6 +4042,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div>",
       "service": "apigateway-us-east-2"
+    },
+    {
+      "service_name": "AWS Batch (Ohio)",
+      "summary": "Increased API Error Rates and Scaling Delays",
+      "date": "1637781298",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are investigating increased API error rates and delays in scaling of some AWS Batch Compute Environments in the US-EAST-2 Region.</div>",
+      "service": "batch-us-east-2"
     }
   ]
 }
