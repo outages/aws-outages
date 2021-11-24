@@ -4040,7 +4040,7 @@
       "date": "1637780385",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:24 AM PST</span>&nbsp;We have confirmed that the elevated API error rate is restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs).</div>",
       "service": "apigateway-us-east-2"
     },
     {
