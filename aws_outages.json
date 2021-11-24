@@ -4018,38 +4018,38 @@
   "current": [
     {
       "service_name": "AWS Lambda (Ohio)",
-      "summary": "Increased Error Rates",
+      "summary": "[RESOLVED] Increased Error Rates",
       "date": "1637779569",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:10 AM PST</span>&nbsp;We continue to investigate increased function invoke error rates within the US-EAST-2 Region. We are working to determine the root cause of the issue and will continue to provide updates as we make progress in resolving the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div><div><span class=\"yellowfg\">11:34 AM PST</span>&nbsp;We have identified the root cause within Lambda that is causing the increased error rates for function invocations within the US-EAST-2 Region. The subsystem responsible for executing functions is currently impaired and we are working to resolve it. We have seen some improvement in Lambda function invocation error rates and believe that this will continue as we take steps to resolve the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div>",
+      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:10 AM PST</span>&nbsp;We continue to investigate increased function invoke error rates within the US-EAST-2 Region. We are working to determine the root cause of the issue and will continue to provide updates as we make progress in resolving the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div><div><span class=\"yellowfg\">11:34 AM PST</span>&nbsp;We have identified the root cause within Lambda that is causing the increased error rates for function invocations within the US-EAST-2 Region. The subsystem responsible for executing functions is currently impaired and we are working to resolve it. We have seen some improvement in Lambda function invocation error rates and believe that this will continue as we take steps to resolve the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div><div><span class=\"yellowfg\">12:12 PM PST</span>&nbsp;Between 10:27 AM and 12:03 PM PST we experienced increased Lambda invoke error rates in the US-EAST-2 Region. It may take some additional time to process backlogged async invoke traffic that accumulated during this period. The issue has been resolved and the service is operating normally.</div>",
       "service": "lambda-us-east-2"
     },
     {
       "service_name": "AWS Management Console",
-      "summary": "Increased Error Rates",
+      "summary": "[RESOLVED] Increased Error Rates",
       "date": "1637780142",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:55 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console is the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:46 AM PST</span>&nbsp;We are seeing some recovery in error rates and latencies for the AWS Management Console in the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">10:55 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console is the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:46 AM PST</span>&nbsp;We are seeing some recovery in error rates and latencies for the AWS Management Console in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:13 PM PST</span>&nbsp;Between 10:26 AM and 12:05 PM PST we experienced increased error rates and latencies for the AWS Management Console in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "management-console"
     },
     {
       "service_name": "Amazon API Gateway (Ohio)",
-      "summary": "Increased API Error Rates",
+      "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1637780385",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:24 AM PST</span>&nbsp;We have confirmed that the elevated API error rate is restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs).</div>",
+      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:24 AM PST</span>&nbsp;We have confirmed that the elevated API error rate is restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs).</div><div><span class=\"yellowfg\">12:20 PM PST</span>&nbsp;Between 10:27 AM and 12:06 PM PST, we experienced elevated API error rate in the US-EAST-2 Region, restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs). The issue has been resolved, and the service is operating normally. </div>",
       "service": "apigateway-us-east-2"
     },
     {
       "service_name": "AWS Batch (Ohio)",
-      "summary": "Increased API Error Rates and Scaling Delays",
+      "summary": "[RESOLVED] Increased API Error Rates and Scaling Delays",
       "date": "1637781298",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are investigating increased API error rates and delays in scaling of some AWS Batch Compute Environments in the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are investigating increased API error rates and delays in scaling of some AWS Batch Compute Environments in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:12 PM PST</span>&nbsp;Between 10:25 AM and 12:00 PM PST we experienced increased error rates for all AWS Batch APIs, as well as some Compute Environment scaling delays, in the US-EAST-2 Region. Compute Resource connectivity and running jobs were not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "batch-us-east-2"
     }
   ]
