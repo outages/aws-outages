@@ -4015,5 +4015,15 @@
       "service": "cloudwatch-af-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Lambda (Ohio)",
+      "summary": "Increased Error Rates",
+      "date": "1637779569",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div>",
+      "service": "lambda-us-east-2"
+    }
+  ]
 }
