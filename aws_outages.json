@@ -4031,7 +4031,7 @@
       "date": "1637780142",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:55 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console is the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">10:55 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console is the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:46 AM PST</span>&nbsp;We are seeing some recovery in error rates and latencies for the AWS Management Console in the US-EAST-2 Region.</div>",
       "service": "management-console"
     },
     {
