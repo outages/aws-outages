@@ -4058,7 +4058,7 @@
       "date": "1638021360",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div>",
+      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div><div><span class=\"yellowfg\"> 6:12 AM PST</span>&nbsp;We are starting to see improved SNS API success rates and latency in the US-WEST-2 Region, and are working towards full recovery.</div>",
       "service": "sns-us-west-2"
     }
   ]
