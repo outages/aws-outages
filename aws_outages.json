@@ -4054,11 +4054,11 @@
   "current": [
     {
       "service_name": "Amazon Simple Notification Service (Oregon)",
-      "summary": "Increased Latency and Error Rates",
+      "summary": "[RESOLVED] Increased Latency and Error Rates",
       "date": "1638021360",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div><div><span class=\"yellowfg\"> 6:12 AM PST</span>&nbsp;We are starting to see improved SNS API success rates and latency in the US-WEST-2 Region, and are working towards full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div><div><span class=\"yellowfg\"> 6:12 AM PST</span>&nbsp;We are starting to see improved SNS API success rates and latency in the US-WEST-2 Region, and are working towards full recovery.</div><div><span class=\"yellowfg\"> 6:42 AM PST</span>&nbsp;Between 5:05 AM and 5:55 AM PST, we experienced increased SNS API latency and error rates in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-us-west-2"
     }
   ]
