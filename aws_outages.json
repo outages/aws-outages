@@ -4067,7 +4067,7 @@
       "date": "1638042899",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:54 AM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters.  We are are working towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\">11:55 AM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters.  We are are working towards resolution.</div><div><span class=\"yellowfg\">12:49 PM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters. We have isolated the likely root cause to a subsystem that saw an unexpected jump in resource consumption.  We continue to work towards resolution.</div>",
       "service": "cloudwatch-eu-west-1"
     }
   ]
