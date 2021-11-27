@@ -4051,5 +4051,15 @@
       "service": "batch-us-east-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Simple Notification Service (Oregon)",
+      "summary": "Increased Latency and Error Rates",
+      "date": "1638021360",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div>",
+      "service": "sns-us-west-2"
+    }
+  ]
 }
