@@ -4060,6 +4060,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div><div><span class=\"yellowfg\"> 6:12 AM PST</span>&nbsp;We are starting to see improved SNS API success rates and latency in the US-WEST-2 Region, and are working towards full recovery.</div><div><span class=\"yellowfg\"> 6:42 AM PST</span>&nbsp;Between 5:05 AM and 5:55 AM PST, we experienced increased SNS API latency and error rates in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-us-west-2"
+    },
+    {
+      "service_name": "Amazon CloudWatch (Ireland)",
+      "summary": "Delayed CloudWatch Metrics",
+      "date": "1638042899",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:54 AM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters.  We are are working towards resolution.</div>",
+      "service": "cloudwatch-eu-west-1"
     }
   ]
 }
