@@ -4072,7 +4072,7 @@
   "current": [
     {
       "service_name": "AWS CloudShell (N. Virginia)",
-      "summary": "[RESOLVED] Increased Latencies and Failures rates",
+      "summary": "[RESOLVED] Increased Latencies and Failure Rates",
       "date": "1638507226",
       "status": "0",
       "details": "",
