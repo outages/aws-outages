@@ -4072,11 +4072,11 @@
   "current": [
     {
       "service_name": "AWS CloudShell (N. Virginia)",
-      "summary": "Increased Latencies and Failures rates",
+      "summary": "[RESOLVED] Increased Latencies and Failures rates",
       "date": "1638507226",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:53 PM PST</span>&nbsp;We are experiencing increased latencies and failures in launching CloudShell environments in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:53 PM PST</span>&nbsp;We are experiencing increased latencies and failures in launching CloudShell environments in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 7:05 PM and 9:15 PM PST we experienced increased latencies and failures launching CloudShell environments in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudshell-us-east-1"
     }
   ]
