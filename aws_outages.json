@@ -4069,5 +4069,15 @@
       "service": "cloudwatch-eu-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudShell (N. Virginia)",
+      "summary": "Increased Latencies and Failures rates",
+      "date": "1638507226",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:53 PM PST</span>&nbsp;We are experiencing increased latencies and failures in launching CloudShell environments in the US-EAST-1 Region.</div>",
+      "service": "cloudshell-us-east-1"
+    }
+  ]
 }
