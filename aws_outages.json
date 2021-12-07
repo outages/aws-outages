@@ -4108,11 +4108,11 @@
     },
     {
       "service_name": "Amazon DynamoDB (N. Virginia)",
-      "summary": "Increased API Error Rates",
+      "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1638896271",
-      "status": "2",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:57 AM PST</span>&nbsp;We are currently investigating increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:57 AM PST</span>&nbsp;We are currently investigating increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 3:40 PM PST</span>&nbsp;Between 7:40 AM and 2:25 PM PST, we experienced increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region. Data plane operations were not impacted. The issue has been resolved and the service is operating normally.</div>",
       "service": "dynamodb-us-east-1"
     },
     {
