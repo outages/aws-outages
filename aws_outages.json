@@ -4087,6 +4087,42 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:26 AM PST</span>&nbsp;We are experiencing API and console issues in the US-EAST-1 Region.  We have identified root cause and we are actively working towards recovery.  This issue is affecting the global console landing page, which is also hosted in US-EAST-1.  Customers may be able to access region-specific consoles going to https://console.aws.amazon.com/.  So, to access the US-WEST-2 console, try https://us-west-2.console.aws.amazon.com/</div>",
       "service": "management-console"
+    },
+    {
+      "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
+      "summary": "Increased API Error Rates",
+      "date": "1638895771",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We are experiencing elevated error rates for EC2 APIs in the US-EAST-1 region.  We have identified root cause and we are actively working towards recovery.</div>",
+      "service": "ec2-us-east-1"
+    },
+    {
+      "service_name": "Amazon Connect (N. Virginia)",
+      "summary": "Degraded Contact Handling",
+      "date": "1638896019",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div>",
+      "service": "connect-us-east-1"
+    },
+    {
+      "service_name": "Amazon DynamoDB (N. Virginia)",
+      "summary": "Increased API Error Rates",
+      "date": "1638896271",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:57 AM PST</span>&nbsp;We are currently investigating increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region.</div>",
+      "service": "dynamodb-us-east-1"
+    },
+    {
+      "service_name": "AWS Support Center",
+      "summary": "Increased Error Rates",
+      "date": "1638896490",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div>",
+      "service": "supportcenter"
     }
   ]
 }
