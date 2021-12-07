@@ -4103,7 +4103,7 @@
       "date": "1638896019",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:18 AM PST</span>&nbsp;We can confirm degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div>",
       "service": "connect-us-east-1"
     },
     {
@@ -4119,7 +4119,7 @@
       "service_name": "AWS Support Center",
       "summary": "Increased Error Rates",
       "date": "1638896490",
-      "status": "1",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div>",
       "service": "supportcenter"
