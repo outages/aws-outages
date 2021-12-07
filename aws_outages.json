@@ -4121,7 +4121,7 @@
       "date": "1638896490",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 AM PST</span>&nbsp;We can confirm increased error rates for the Support Center console and Support API in the US-EAST-1 Region. We have identified the root cause of the issue and are working towards resolution.</div>",
       "service": "supportcenter"
     }
   ]
