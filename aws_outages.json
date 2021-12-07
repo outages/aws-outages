@@ -4117,11 +4117,11 @@
     },
     {
       "service_name": "AWS Support Center",
-      "summary": "Increased Error Rates",
+      "summary": "[RESOLVED] Increased Error Rates",
       "date": "1638896490",
-      "status": "2",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PST</span>&nbsp;We continue to see increased error rates for the Support Center console and Support API in the US-EAST-1 Region. Support Cases successfully created via the console or the API may not be successfully routed to Support Engineers. We continue to work toward full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PST</span>&nbsp;We continue to see increased error rates for the Support Center console and Support API in the US-EAST-1 Region. Support Cases successfully created via the console or the API may not be successfully routed to Support Engineers. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 3:13 PM PST</span>&nbsp;Support Center SHD Post Proposal: Between 7:33 AM and 2:25 PM PST, we experienced increased error rates for the Support Center console and Support API in the US-EAST-1 Region. This resulted in errors in creating support cases and delays in routing cases to Support Engineers. The issue has been resolved and our Support Engineering team is responding to cases. The service is operating normally.</div>",
       "service": "supportcenter"
     },
     {
@@ -4132,6 +4132,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We have temporarily disabled event deliveries in the US-EAST-1 Region. Customers who have EventBridge rules that trigger from 1st party AWS events (including CloudTrail), scheduled events via CloudWatch, events from 3rd parties, and events they post themselves via the PutEvents API action will not trigger targets. These events will still be received by EventBridge and will deliver once we recover.</div><div><span class=\"yellowfg\"> 3:00 PM PST</span>&nbsp;We have re-enabled event deliveries in the US-EAST-1 Region, but are experiencing event delivery latencies. Customers who have EventBridge rules that trigger from 1st party AWS events (including CloudTrail), scheduled events via CloudWatch, events from 3rd parties, and events they post themselves via the PutEvents API action will be delayed.</div>",
       "service": "events-us-east-1"
+    },
+    {
+      "service_name": "Amazon API Gateway (N. Virginia)",
+      "summary": "Elevated Errors and Latencies",
+      "date": "1638919396",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:23 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are working towards resolution.</div>",
+      "service": "apigateway-us-east-1"
     }
   ]
 }
