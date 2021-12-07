@@ -4090,11 +4090,11 @@
     },
     {
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
-      "summary": "Increased API Error Rates",
+      "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1638895771",
-      "status": "2",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We are experiencing elevated error rates for EC2 APIs in the US-EAST-1 region.  We have identified root cause and we are actively working towards recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We are experiencing elevated error rates for EC2 APIs in the US-EAST-1 region.  We have identified root cause and we are actively working towards recovery.</div><div><span class=\"yellowfg\"> 3:31 PM PST</span>&nbsp;Between 7:32 AM and 3:10 PM PST we experienced increased API error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-1"
     },
     {
@@ -4121,7 +4121,7 @@
       "date": "1638896490",
       "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PST</span>&nbsp;We continue to see increased error rates for the Support Center console and Support API in the US-EAST-1 Region. Support Cases successfully created via the console or the API may not be successfully routed to Support Engineers. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 3:13 PM PST</span>&nbsp;Support Center SHD Post Proposal: Between 7:33 AM and 2:25 PM PST, we experienced increased error rates for the Support Center console and Support API in the US-EAST-1 Region. This resulted in errors in creating support cases and delays in routing cases to Support Engineers. The issue has been resolved and our Support Engineering team is responding to cases. The service is operating normally.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PST</span>&nbsp;We continue to see increased error rates for the Support Center console and Support API in the US-EAST-1 Region. Support Cases successfully created via the console or the API may not be successfully routed to Support Engineers. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 3:13 PM PST</span>&nbsp;Between 7:33 AM and 2:25 PM PST, we experienced increased error rates for the Support Center console and Support API in the US-EAST-1 Region. This resulted in errors in creating support cases and delays in routing cases to Support Engineers. The issue has been resolved and our Support Engineering team is responding to cases. The service is operating normally.</div>",
       "service": "supportcenter"
     },
     {
@@ -4141,6 +4141,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:23 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are working towards resolution.</div>",
       "service": "apigateway-us-east-1"
+    },
+    {
+      "service_name": "Amazon Elastic Container Service (N. Virginia)",
+      "summary": "Elevated Fargate task launch failures",
+      "date": "1638919976",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div>",
+      "service": "ecs-us-east-1"
     }
   ]
 }
