@@ -4078,5 +4078,15 @@
       "service": "cloudshell-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Management Console",
+      "summary": "Increased Error Rates",
+      "date": "1638894176",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:26 AM PST</span>&nbsp;We are experiencing API and console issues in the US-EAST-1 Region.  We have identified root cause and we are actively working towards recovery.  This issue is affecting the global console landing page, which is also hosted in US-EAST-1.  Customers may be able to access region-specific consoles going to https://console.aws.amazon.com/.  So, to access the US-WEST-2 console, try https://us-west-2.console.aws.amazon.com/</div>",
+      "service": "management-console"
+    }
+  ]
 }
