@@ -4157,7 +4157,7 @@
       "date": "1638922058",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 5:20 PM PST</span>&nbsp;We have seen improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 5:20 PM PST</span>&nbsp;We have seen improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 8:02 PM PST</span>&nbsp;Improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region is accelerating, we continue to work towards full recovery.</div>",
       "service": "batch-us-east-1"
     }
   ]
