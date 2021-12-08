@@ -4076,14 +4076,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:53 PM PST</span>&nbsp;We are experiencing increased latencies and failures in launching CloudShell environments in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 7:05 PM and 9:15 PM PST we experienced increased latencies and failures launching CloudShell environments in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudshell-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Management Console",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1638894176",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:26 AM PST</span>&nbsp;We are experiencing API and console issues in the US-EAST-1 Region.  We have identified root cause and we are actively working towards recovery.  This issue is affecting the global console landing page, which is also hosted in US-EAST-1.  Customers may be able to access region-specific consoles going to https://console.aws.amazon.com/.  So, to access the US-WEST-2 console, try https://us-west-2.console.aws.amazon.com/</div><div><span class=\"yellowfg\"> 4:25 PM PST</span>&nbsp;We are seeing improvements in the error rates and latencies in the AWS Management Console in the US-EAST-1 Region. We are continuing to work towards resolution</div><div><span class=\"yellowfg\"> 5:14 PM PST</span>&nbsp;Between 7:32 AM to 4:56 PM PST we experienced increased error rates and latencies for the AWS Management Console in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "management-console"
@@ -4092,7 +4090,7 @@
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1638895771",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:49 AM PST</span>&nbsp;We are experiencing elevated error rates for EC2 APIs in the US-EAST-1 region.  We have identified root cause and we are actively working towards recovery.</div><div><span class=\"yellowfg\"> 3:31 PM PST</span>&nbsp;Between 7:32 AM and 3:10 PM PST we experienced increased API error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-1"
@@ -4101,7 +4099,7 @@
       "service_name": "Amazon Connect (N. Virginia)",
       "summary": "[RESOLVED] Degraded Contact Handling",
       "date": "1638896019",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:18 AM PST</span>&nbsp;We can confirm degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 4:47 PM PST</span>&nbsp;We are seeing improvements to contact handling in the US-EAST-1 Region. We are continuing to work towards resolution</div><div><span class=\"yellowfg\"> 5:10 PM PST</span>&nbsp;Between 7:25 AM PST and 4:47 PM PST we experienced degraded Contact handling, increased user login errors, and increased API error rates in the US-EAST-1 Region. During this time, end-customers may have experienced delays or errors when placing a call or starting a chat, and agents may have experienced issues logging in or being connected with end-customers. The issue has been resolved and the service is operating normally.</div>",
       "service": "connect-us-east-1"
@@ -4110,7 +4108,7 @@
       "service_name": "Amazon DynamoDB (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1638896271",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:57 AM PST</span>&nbsp;We are currently investigating increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 3:40 PM PST</span>&nbsp;Between 7:40 AM and 2:25 PM PST, we experienced increased error rates with DynamoDB Control Plane APIs, including the Backup and Restore APIs in US-EAST-1 Region. Data plane operations were not impacted. The issue has been resolved and the service is operating normally.</div>",
       "service": "dynamodb-us-east-1"
@@ -4119,7 +4117,7 @@
       "service_name": "AWS Support Center",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1638896490",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:01 AM PST</span>&nbsp;We are investigating increased error rates for the Support Center console and Support API in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:55 PM PST</span>&nbsp;We continue to see increased error rates for the Support Center console and Support API in the US-EAST-1 Region. Support Cases successfully created via the console or the API may not be successfully routed to Support Engineers. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 3:13 PM PST</span>&nbsp;Between 7:33 AM and 2:25 PM PST, we experienced increased error rates for the Support Center console and Support API in the US-EAST-1 Region. This resulted in errors in creating support cases and delays in routing cases to Support Engineers. The issue has been resolved and our Support Engineering team is responding to cases. The service is operating normally.</div>",
       "service": "supportcenter"
@@ -4128,7 +4126,7 @@
       "service_name": "Amazon EventBridge (N. Virginia)",
       "summary": "[RESOLVED] Event Delivery Delays",
       "date": "1638917670",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:54 PM PST</span>&nbsp;We have temporarily disabled event deliveries in the US-EAST-1 Region. Customers who have EventBridge rules that trigger from 1st party AWS events (including CloudTrail), scheduled events via CloudWatch, events from 3rd parties, and events they post themselves via the PutEvents API action will not trigger targets. These events will still be received by EventBridge and will deliver once we recover.</div><div><span class=\"yellowfg\"> 3:00 PM PST</span>&nbsp;We have re-enabled event deliveries in the US-EAST-1 Region, but are experiencing event delivery latencies. Customers who have EventBridge rules that trigger from 1st party AWS events (including CloudTrail), scheduled events via CloudWatch, events from 3rd parties, and events they post themselves via the PutEvents API action will be delayed.</div><div><span class=\"yellowfg\"> 4:31 PM PST</span>&nbsp;We continue to see event delivery latencies in the US-EAST-1 region. We have identified the root cause and are working toward recovery.</div><div><span class=\"yellowfg\"> 6:00 PM PST</span>&nbsp;Event delivery latency for new events in the US-EAST-1 Region have returned to normal levels. We continue to process a backlog of events.</div><div><span class=\"yellowfg\"> 9:21 PM PST</span>&nbsp;Between 7:30 AM and 8:40 PM PST we experienced elevated event delivery latency in the US-EAST-1 Region. Event delivery latencies have returned to normal levels. Some CloudTrail events for API calls between 7:35 AM and 6:05 PM PST may be delayed but will be delivered in the coming hours.</div>",
       "service": "events-us-east-1"
@@ -4137,11 +4135,22 @@
       "service_name": "Amazon API Gateway (N. Virginia)",
       "summary": "[RESOLVED] Elevated Errors and Latencies",
       "date": "1638919396",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:23 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\"> 4:05 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are continuing to work towards resolution.</div><div><span class=\"yellowfg\"> 4:41 PM PST</span>&nbsp;We have seen improvement in error rates and latencies for invokes in the US-EAST-1 region. We continue to drive towards full recovery.</div><div><span class=\"yellowfg\"> 5:23 PM PST</span>&nbsp;Between 9:02 AM and 5:01 PM PST we experienced increased error rates and latencies for invokes in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "apigateway-us-east-1"
     },
+    {
+      "service_name": "AWS Batch (N. Virginia)",
+      "summary": "[RESOLVED] Increased Job Processing Delays",
+      "date": "1638922058",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 5:20 PM PST</span>&nbsp;We have seen improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 8:02 PM PST</span>&nbsp;Improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region is accelerating, we continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:29 PM PST</span>&nbsp;Between 7:35 AM and 8:13 PM PST, we experienced increase job state transition delays of AWS Batch Jobs in the US-EAST-1 Region.  The issue has been resolved and the service is now operating normally for new job submissions.  Jobs that were delayed from earlier in the event will be processed in order until we clear the queue.</div>",
+      "service": "batch-us-east-1"
+    }
+  ],
+  "current": [
     {
       "service_name": "Amazon Elastic Container Service (N. Virginia)",
       "summary": "Elevated Fargate task launch failures",
@@ -4150,15 +4159,6 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div><div><span class=\"yellowfg\"> 4:44 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are working towards recovery.</div><div><span class=\"yellowfg\"> 5:31 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are starting to see recovery. As we work towards full recovery, customers may experience insufficient capacity errors and these are being addressed as well.</div><div><span class=\"yellowfg\"> 7:30 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div><div><span class=\"yellowfg\">11:01 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this and have recently seen a decrease in these errors while continuing to work towards full recovery. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div>",
       "service": "ecs-us-east-1"
-    },
-    {
-      "service_name": "AWS Batch (N. Virginia)",
-      "summary": "[RESOLVED] Increased Job Processing Delays",
-      "date": "1638922058",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 5:20 PM PST</span>&nbsp;We have seen improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 8:02 PM PST</span>&nbsp;Improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region is accelerating, we continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:29 PM PST</span>&nbsp;Between 7:35 AM and 8:13 PM PST, we experienced increase job state transition delays of AWS Batch Jobs in the US-EAST-1 Region.  The issue has been resolved and the service is now operating normally for new job submissions.  Jobs that were delayed from earlier in the event will be processed in order until we clear the queue.</div>",
-      "service": "batch-us-east-1"
     }
   ]
 }
