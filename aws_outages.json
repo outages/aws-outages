@@ -4081,11 +4081,11 @@
   "current": [
     {
       "service_name": "AWS Management Console",
-      "summary": "Increased Error Rates",
+      "summary": "[RESOLVED] Increased Error Rates",
       "date": "1638894176",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:26 AM PST</span>&nbsp;We are experiencing API and console issues in the US-EAST-1 Region.  We have identified root cause and we are actively working towards recovery.  This issue is affecting the global console landing page, which is also hosted in US-EAST-1.  Customers may be able to access region-specific consoles going to https://console.aws.amazon.com/.  So, to access the US-WEST-2 console, try https://us-west-2.console.aws.amazon.com/</div><div><span class=\"yellowfg\"> 4:25 PM PST</span>&nbsp;We are seeing improvements in the error rates and latencies in the AWS Management Console in the US-EAST-1 Region. We are continuing to work towards resolution</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:26 AM PST</span>&nbsp;We are experiencing API and console issues in the US-EAST-1 Region.  We have identified root cause and we are actively working towards recovery.  This issue is affecting the global console landing page, which is also hosted in US-EAST-1.  Customers may be able to access region-specific consoles going to https://console.aws.amazon.com/.  So, to access the US-WEST-2 console, try https://us-west-2.console.aws.amazon.com/</div><div><span class=\"yellowfg\"> 4:25 PM PST</span>&nbsp;We are seeing improvements in the error rates and latencies in the AWS Management Console in the US-EAST-1 Region. We are continuing to work towards resolution</div><div><span class=\"yellowfg\"> 5:14 PM PST</span>&nbsp;Between 7:32 AM to 4:56 PM PST we experienced increased error rates and latencies for the AWS Management Console in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "management-console"
     },
     {
@@ -4099,11 +4099,11 @@
     },
     {
       "service_name": "Amazon Connect (N. Virginia)",
-      "summary": "Degraded Contact Handling",
+      "summary": "[RESOLVED] Degraded Contact Handling",
       "date": "1638896019",
-      "status": "2",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:18 AM PST</span>&nbsp;We can confirm degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:53 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:08 AM PST</span>&nbsp;We are experiencing degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 9:18 AM PST</span>&nbsp;We can confirm degraded Contact handling by agents in the US-EAST-1 Region. Agents may experience issues logging in or being connected with end-customers.</div><div><span class=\"yellowfg\"> 4:47 PM PST</span>&nbsp;We are seeing improvements to contact handling in the US-EAST-1 Region. We are continuing to work towards resolution</div><div><span class=\"yellowfg\"> 5:10 PM PST</span>&nbsp;Between 7:25 AM PST and 4:47 PM PST we experienced degraded Contact handling, increased user login errors, and increased API error rates in the US-EAST-1 Region. During this time, end-customers may have experienced delays or errors when placing a call or starting a chat, and agents may have experienced issues logging in or being connected with end-customers. The issue has been resolved and the service is operating normally.</div>",
       "service": "connect-us-east-1"
     },
     {
@@ -4135,11 +4135,11 @@
     },
     {
       "service_name": "Amazon API Gateway (N. Virginia)",
-      "summary": "Elevated Errors and Latencies",
+      "summary": "[RESOLVED] Elevated Errors and Latencies",
       "date": "1638919396",
-      "status": "2",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:23 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\"> 4:05 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are continuing to work towards resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:23 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\"> 4:05 PM PST</span>&nbsp;We continue to see increased error rates and latencies for invokes in the US-EAST-1 region. We have identified the root cause and are continuing to work towards resolution.</div><div><span class=\"yellowfg\"> 4:41 PM PST</span>&nbsp;We have seen improvement in error rates and latencies for invokes in the US-EAST-1 region. We continue to drive towards full recovery.</div><div><span class=\"yellowfg\"> 5:23 PM PST</span>&nbsp;Between 9:02 AM and 5:01 PM PST we experienced increased error rates and latencies for invokes in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "apigateway-us-east-1"
     },
     {
@@ -4148,7 +4148,7 @@
       "date": "1638919976",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div><div><span class=\"yellowfg\"> 4:44 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are working towards recovery.</div><div><span class=\"yellowfg\"> 5:31 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are starting to see recovery. As we work towards full recovery, customers may experience insufficient capacity errors and these are being addressed as well.</div>",
       "service": "ecs-us-east-1"
     },
     {
@@ -4157,7 +4157,7 @@
       "date": "1638922058",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:07 PM PST</span>&nbsp;We have identified the root cause of increased delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div><div><span class=\"yellowfg\"> 5:20 PM PST</span>&nbsp;We have seen improvement from the delay in job state transitions of AWS Batch Jobs in the US-EAST-1 Region and continue to work toward resolution.</div>",
       "service": "batch-us-east-1"
     }
   ]
