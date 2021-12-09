@@ -4141,6 +4141,15 @@
       "service": "apigateway-us-east-1"
     },
     {
+      "service_name": "Amazon Elastic Container Service (N. Virginia)",
+      "summary": "[RESOLVED] Elevated Fargate task launch failures",
+      "date": "1638919976",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div><div><span class=\"yellowfg\"> 4:44 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are working towards recovery.</div><div><span class=\"yellowfg\"> 5:31 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are starting to see recovery. As we work towards full recovery, customers may experience insufficient capacity errors and these are being addressed as well.</div><div><span class=\"yellowfg\"> 7:30 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div><div><span class=\"yellowfg\">11:01 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this and have recently seen a decrease in these errors while continuing to work towards full recovery. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div><div><span class=\"yellowfg\">Dec 8,  2:29 AM PST</span>&nbsp;Between 7:31 AM PST on December 7 and 2:20 AM PST on December 8, ECS experienced increased API error rates, latencies, and task launch failures. API error rates and latencies recovered by 6:10 PM PST on December 7. After this point, ECS customers using the EC2 launch type were fully recovered. ECS customers using the Fargate launch type along with EKS customers using Fargate continued to see decreasing impact in the form of insufficient capacity errors between 4:40 PM PST on December 7 and 2:20 AM on December 8. The service is now operating normally. A small set of customers may still experience low levels of insufficient capacity errors and will be notified using the Personal Health Dashboard in that case. There was no impact to running tasks during the event although any ECS task that failed health checks would have been stopped because of that failing health check.</div>",
+      "service": "ecs-us-east-1"
+    },
+    {
       "service_name": "AWS Batch (N. Virginia)",
       "summary": "[RESOLVED] Increased Job Processing Delays",
       "date": "1638922058",
@@ -4150,15 +4159,5 @@
       "service": "batch-us-east-1"
     }
   ],
-  "current": [
-    {
-      "service_name": "Amazon Elastic Container Service (N. Virginia)",
-      "summary": "[RESOLVED] Elevated Fargate task launch failures",
-      "date": "1638919976",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:32 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day, but we are still investigating task launch failures using the Fargate launch type. Task launches using the EC2 launch type are not impacted.</div><div><span class=\"yellowfg\"> 4:44 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are working towards recovery.</div><div><span class=\"yellowfg\"> 5:31 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. We have identified the root cause for the increased Fargate launch failures and are starting to see recovery. As we work towards full recovery, customers may experience insufficient capacity errors and these are being addressed as well.</div><div><span class=\"yellowfg\"> 7:30 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div><div><span class=\"yellowfg\">11:01 PM PST</span>&nbsp;ECS has recovered from the issue earlier in the day. Task launches using the EC2 launch type are fully recovered. Fargate task launches are currently experiencing increased insufficient capacity errors. We are working on addressing this and have recently seen a decrease in these errors while continuing to work towards full recovery. In the interim, tasks sizes smaller than 4vCPU are less likely to see insufficient capacity errors.</div><div><span class=\"yellowfg\">Dec 8,  2:29 AM PST</span>&nbsp;Between 7:31 AM PST on December 7 and 2:20 AM PST on December 8, ECS experienced increased API error rates, latencies, and task launch failures. API error rates and latencies recovered by 6:10 PM PST on December 7. After this point, ECS customers using the EC2 launch type were fully recovered. ECS customers using the Fargate launch type along with EKS customers using Fargate continued to see decreasing impact in the form of insufficient capacity errors between 4:40 PM PST on December 7 and 2:20 AM on December 8. The service is now operating normally. A small set of customers may still experience low levels of insufficient capacity errors and will be notified using the Personal Health Dashboard in that case. There was no impact to running tasks during the event although any ECS task that failed health checks would have been stopped because of that failing health check.</div>",
-      "service": "ecs-us-east-1"
-    }
-  ]
+  "current": []
 }
