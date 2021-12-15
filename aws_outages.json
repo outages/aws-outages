@@ -4180,29 +4180,29 @@
   "current": [
     {
       "service_name": "AWS Internet Connectivity (Oregon)",
-      "summary": "Internet Connectivity",
+      "summary": "[RESOLVED] Internet Connectivity",
       "date": "1639582979",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:43 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-2 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:43 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-2 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:14 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-WEST-2 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.\n</div>",
       "service": "internetconnectivity-us-west-2"
     },
     {
       "service_name": "AWS Internet Connectivity (N. California)",
-      "summary": "Internet Connectivity",
+      "summary": "[RESOLVED] Internet Connectivity",
       "date": "1639583545",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:52 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:52 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:10 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-WEST-1 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "internetconnectivity-us-west-1"
     },
     {
       "service_name": "AWS Internet Connectivity (US-West)",
-      "summary": "Internet Connectivity",
+      "summary": "[RESOLVED] Internet Connectivity",
       "date": "1639583722",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:55 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:00 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-GOV-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:55 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:00 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-GOV-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:10 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-GOV-WEST-1 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "internetconnectivity-us-gov-west-1"
     }
   ]
