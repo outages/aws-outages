@@ -4177,5 +4177,15 @@
       "service": "redshift-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Oregon)",
+      "summary": "Internet Connectivity",
+      "date": "1639582979",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:42 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-2 Region.</div>",
+      "service": "internetconnectivity-us-west-2"
+    }
+  ]
 }
