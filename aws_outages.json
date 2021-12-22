@@ -4204,5 +4204,15 @@
       "service": "internetconnectivity-us-gov-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Elastic Beanstalk (N. Virginia)",
+      "summary": "Console Application Upload Errors",
+      "date": "1640158400",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:33 PM PST</span>&nbsp;We are investigating an issue where customers are unable to upload and deploy new application versions through the Elastic Beanstalk console in multiple Regions. Customers who need to update or deploy a new application version should do so using the AWS CLI. Existing applications are not impacted by this issue</div>",
+      "service": "elasticbeanstalk-us-east-1"
+    }
+  ]
 }
