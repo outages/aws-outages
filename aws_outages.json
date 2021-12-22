@@ -4238,7 +4238,7 @@
       "date": "1640203590",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:06 PM PST</span>&nbsp;We continue to investigate increased error rates for some customers using Directory Services AD Connector or Managed AD with Amazon SSO in US-EAST-1 Region. This is also impacting some services, like Amazon WorkSpaces, that can be configured to use Directory Services for user authentication. Some customers may begin to see signs of recovery. Customers using other Active Directory functionality are not impacted at this time.</div>",
+      "description": "<div><span class=\"yellowfg\">12:06 PM PST</span>&nbsp;We continue to investigate increased error rates for some customers using Directory Services AD Connector or Managed AD with Amazon SSO in US-EAST-1 Region. This is also impacting some services, like Amazon WorkSpaces, that can be configured to use Directory Services for user authentication. Some customers may begin to see signs of recovery. Customers using other Active Directory functionality are not impacted at this time.</div><div><span class=\"yellowfg\"> 2:29 PM PST</span>&nbsp;We continue to resolve increased error rates for Directory Services AD or Managed AD, impacting some services like Amazon WorkSpaces that can be configured to use Directory Services for user authentication.  We are prioritizing the most impacted directories to expedite resolution.  Additional customers will see recovery as resolution takes place.  Customers using other Active Directory functionality are not impacted at this time.</div>",
       "service": "directoryservice-us-east-1"
     }
   ]
