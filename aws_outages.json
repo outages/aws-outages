@@ -4229,7 +4229,7 @@
       "date": "1640193970",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:26 AM PST</span>&nbsp;We are investigating increased error rates for some customers using Directory Services AD Connector or Managed AD with Amazon SSO in US-EAST-1 Region.  Customers using other Active Directory functionality are not impacted at this time.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:26 AM PST</span>&nbsp;We are investigating increased error rates for some customers using Directory Services AD Connector or Managed AD with Amazon SSO in US-EAST-1 Region.  Customers using other Active Directory functionality are not impacted at this time.</div><div><span class=\"yellowfg\">10:49 AM PST</span>&nbsp;We continue to investigate increased error rates for some customers using Directory Services AD Connector or Managed AD with Amazon SSO in US-EAST-1 Region.  Some customers may begin to see signs of recovery.  Customers using other Active Directory functionality are not impacted at this time.</div>",
       "service": "sso-us-east-1"
     }
   ]
