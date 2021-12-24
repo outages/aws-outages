@@ -4240,5 +4240,15 @@
       "service": "directoryservice-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Mumbai)",
+      "summary": "[RESOLVED] Internet connectivity",
+      "date": "1640371277",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:41 AM PST</span>&nbsp;Between 8:59 AM and 9:32 AM PST and between 9:40 AM and 10:16 AM PST we observed Internet connectivity issues with a network provider outside of our network in the AP-SOUTH-1 Region. This impacted Internet connectivity from some customer networks to the AP-SOUTH-1 Region. Connectivity between EC2 instances and other AWS services within the Region was not impacted by this event. The issue has been resolved and we continue to work with the external provider to ensure it does not reoccur.\n</div>",
+      "service": "internetconnectivity-ap-south-1"
+    }
+  ]
 }
