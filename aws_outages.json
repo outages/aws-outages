@@ -4249,5 +4249,24 @@
       "service": "internetconnectivity-ap-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Simple Notification Service (N. Virginia)",
+      "summary": "SMS Delivery Delays",
+      "date": "1642185280",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:34 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of SNS and Pinpoint customers delivering SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div>",
+      "service": "sns-us-east-1"
+    },
+    {
+      "service_name": "Amazon Pinpoint (N. Virginia)",
+      "summary": "Pinpoint Sending/Receiving Delays",
+      "date": "1642185596",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:39 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of Pinpoint customers sending and receiving SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div>",
+      "service": "pinpoint-us-east-1"
+    }
+  ]
 }
