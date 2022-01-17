@@ -4267,5 +4267,15 @@
       "service": "sns-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Seoul)",
+      "summary": "Increased API Error Rates ",
+      "date": "1642432540",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:15 AM PST</span>&nbsp;We are investigating increased API error rates in the ap-northeast-2 Region.</div>",
+      "service": "ec2-ap-northeast-2"
+    }
+  ]
 }
