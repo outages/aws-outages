@@ -4265,17 +4265,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of SNS and Pinpoint customers delivering SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div><div><span class=\"yellowfg\">11:00 AM PST</span>&nbsp;We can confirm that long codes are not impacted, only US toll-free numbers are impacted.  We continue to work with our partners to fully resolve this issue.</div><div><span class=\"yellowfg\">11:12 AM PST</span>&nbsp;We are seeing early signs of recovery, and continue to work with our downstream partners to fully resolve the issue.</div><div><span class=\"yellowfg\">11:38 AM PST</span>&nbsp;We can confirm that the delivery of SMS messages for US toll free numbers has recovered. However, we continue to see issues with delivery receipts being delayed and are working with our downstream partners to resolve the issue.</div><div><span class=\"yellowfg\"> 2:44 PM PST</span>&nbsp;Between 5:14 AM and 11:38 AM PST, we experienced increased delivery latency while delivering SMS messages using US toll-free numbers. Also starting at 5:14 AM, SMS message delivery receipts were delayed, which created a backlog of undelivered delivery receipts. We are continuing to work with our downstream partners to clear this backlog. Receipts for new SMS deliveries will also be delayed until this backlog clears. The issues have been resolved and the service is operating normally.</div>",
       "service": "sns-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (Seoul)",
       "summary": "[RESOLVED] Increased API Error Rates ",
       "date": "1642432540",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:15 AM PST</span>&nbsp;메시지: AP-NORTHEAST-2 리전에서 API 오류율 증가에 대해 조사하고 있습니다. | We are investigating increased API error rates in the ap-northeast-2 Region.</div><div><span class=\"yellowfg\"> 7:50 AM PST</span>&nbsp;태평양 표준시(PST) 오전 6시 55분부터 오전 7시 40분 사이에 AP-NORTHEAST-2 리전에서 API 오류율이 증가했습니다. 현재 문제가 해결되었으며 서비스가 정상적으로 작동하고 있습니다. 궁금한 점이 있거나 서비스와 관련하여 운영상의 문제가 있는 경우 AWS 지원 센터 (https://console.aws.amazon.com/support) 를 통해 AWS 지원 부서에 문의 부탁 드립니다. | Between 6:55 AM and 7:40 AM PST we experienced increased API error rates in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
       "service": "ec2-ap-northeast-2"
     }
-  ]
+  ],
+  "current": []
 }
