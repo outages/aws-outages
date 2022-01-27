@@ -4,7 +4,7 @@ This is an *unofficial* repository that provides a Git history of outages at [AW
 
 ## How to use
 
-- Visit the [history for the `aws_outages.json`](https://github.com/marcolussetti/aws-outages/commits/master/aws_outages.json) file.
+- Visit the [history for the `aws_outages.json`](https://github.com/outages/aws-outages/commits/main/aws_outages.json) file.
 
 ## Credits
 
