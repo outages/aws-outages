@@ -4274,17 +4274,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:15 AM PST</span>&nbsp;메시지: AP-NORTHEAST-2 리전에서 API 오류율 증가에 대해 조사하고 있습니다. | We are investigating increased API error rates in the ap-northeast-2 Region.</div><div><span class=\"yellowfg\"> 7:50 AM PST</span>&nbsp;태평양 표준시(PST) 오전 6시 55분부터 오전 7시 40분 사이에 AP-NORTHEAST-2 리전에서 API 오류율이 증가했습니다. 현재 문제가 해결되었으며 서비스가 정상적으로 작동하고 있습니다. 궁금한 점이 있거나 서비스와 관련하여 운영상의 문제가 있는 경우 AWS 지원 센터 (https://console.aws.amazon.com/support) 를 통해 AWS 지원 부서에 문의 부탁 드립니다. | Between 6:55 AM and 7:40 AM PST we experienced increased API error rates in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support</div>",
       "service": "ec2-ap-northeast-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Internet Connectivity (Seoul)",
       "summary": "[RESOLVED] 네트워크 연결 | Network Connectivity",
       "date": "1644150596",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:29 AM PST</span>&nbsp;English follows Korean | 한국어버전 뒤에 영어버전이 있습니다\n\n태평양 표준시 (PST) 기준 오전 3시 32분에서 오전 3시 54분사이에 AP-NORTHEAST-2 리전의 단일 가용 영역(apne2-az3)에 있는 일부 EC2 인스턴스의 인터넷 연결에 영향을 미치는 연결 문제가 발생했습니다. 리전 내의 인스턴스 및 서비스에 대한 연결은 영향을 받지 않았습니다. 현재 문제가 해결되었고 연결이 복원되었습니다. 현재 이 문제를 해결하기 위해 필요한 조치는 없습니다. 궁금하신 점이 있으시거나 서비스 운영에 문제가 있는 경우 AWS 지원 센터 (https://console.aws.amazon.com/support) 를 통해 문의하시기 바랍니다.\n\nBetween 3:32 AM and 3.54 AM PST we experienced connectivity issues affecting Internet connectivity for some EC2 instances in a single Availability Zone (apne2-az3) in AP-NORTHEAST-2 Region. Connectivity to instances and services within the Region was not impacted. The issue has been resolved and connectivity has been restored. No action is currently required to address this issue. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support .</div>",
       "service": "internetconnectivity-ap-northeast-2"
     }
-  ]
+  ],
+  "current": []
 }
