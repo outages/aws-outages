@@ -4285,5 +4285,15 @@
       "service": "internetconnectivity-ap-northeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Virtual Private Cloud (Frankfurt)",
+      "summary": "Elevated Error Rates for VPC Console",
+      "date": "1646295847",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:24 AM PST</span>&nbsp;We are investigating elevated error rates for the VPC Management Console in the EU-CENTRAL-1 Region.</div>",
+      "service": "vpc-eu-central-1"
+    }
+  ]
 }
