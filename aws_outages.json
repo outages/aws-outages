@@ -4283,17 +4283,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:29 AM PST</span>&nbsp;English follows Korean | 한국어버전 뒤에 영어버전이 있습니다\n\n태평양 표준시 (PST) 기준 오전 3시 32분에서 오전 3시 54분사이에 AP-NORTHEAST-2 리전의 단일 가용 영역(apne2-az3)에 있는 일부 EC2 인스턴스의 인터넷 연결에 영향을 미치는 연결 문제가 발생했습니다. 리전 내의 인스턴스 및 서비스에 대한 연결은 영향을 받지 않았습니다. 현재 문제가 해결되었고 연결이 복원되었습니다. 현재 이 문제를 해결하기 위해 필요한 조치는 없습니다. 궁금하신 점이 있으시거나 서비스 운영에 문제가 있는 경우 AWS 지원 센터 (https://console.aws.amazon.com/support) 를 통해 문의하시기 바랍니다.\n\nBetween 3:32 AM and 3.54 AM PST we experienced connectivity issues affecting Internet connectivity for some EC2 instances in a single Availability Zone (apne2-az3) in AP-NORTHEAST-2 Region. Connectivity to instances and services within the Region was not impacted. The issue has been resolved and connectivity has been restored. No action is currently required to address this issue. If you have any questions or are experiencing any operational issue with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support .</div>",
       "service": "internetconnectivity-ap-northeast-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Virtual Private Cloud (Frankfurt)",
       "summary": "[RESOLVED] Elevated Error Rates for VPC Console",
       "date": "1646295847",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:24 AM PST</span>&nbsp;We are investigating elevated error rates for the VPC Management Console in the EU-CENTRAL-1 Region.</div><div><span class=\"yellowfg\">12:51 AM PST</span>&nbsp;We have identified the root cause and are starting to see recovery of the VPC Management Console in the EU-CENTRAL-1 Region. We recommend signing out and signing back into your account to refresh your session. We continue working towards full recovery and will continue to keep you updated.</div><div><span class=\"yellowfg\"> 1:06 AM PST</span>&nbsp;Between March 2 10:03 PM and March 3 12:30 AM PST, the VPC Management Console experienced elevated error rates in the EU-CENTRAL-1 Region. API and CLI access were not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "vpc-eu-central-1"
     }
-  ]
+  ],
+  "current": []
 }
