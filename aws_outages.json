@@ -4297,12 +4297,21 @@
   "current": [
     {
       "service_name": "AWS Lambda (US-West)",
-      "summary": "Increased API and Invoke Error Rates",
+      "summary": "[RESOLVED] Increased API and Invoke Error Rates",
       "date": "1646856563",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">12:37 PM PST</span>&nbsp;We can confirm increased invoke and API error rates in the US-GOV-WEST-1 Region. We have deployed a mitigation strategy and continue to work through full resolution.</div><div><span class=\"yellowfg\"> 1:06 PM PST</span>&nbsp;Between 11:07 AM and 12:50 PM PST, we experienced increased invoke and API error rates in the US-GOV-WEST-1 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "lambda-us-gov-west-1"
+    },
+    {
+      "service_name": "Multiple services (N. Virginia)",
+      "summary": "Increased API Error Rates",
+      "date": "1646859683",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">12:37 PM PST</span>&nbsp;We can confirm investigating increased invoke and API error rates in the US-GOV-WEST-1 Region. We have deployed a mitigation strategy and continue to work through full resolution.</div>",
-      "service": "lambda-us-gov-west-1"
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div>",
+      "service": "multipleservices-us-east-1"
     }
   ]
 }
