@@ -4306,11 +4306,11 @@
     },
     {
       "service_name": "Multiple services (N. Virginia)",
-      "summary": "Increased API Error Rates",
+      "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1646859683",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div><div><span class=\"yellowfg\"> 1:29 PM PST</span>&nbsp;Between 12:43 PM and 12:59 PM PST, we experienced increased error rates and latencies for some AWS services within the US-EAST-1 Region. All services are now operating normally, but S3 Event Notifications continues to process a backlog of events that developed during the event. </div>",
       "service": "multipleservices-us-east-1"
     }
   ]
