@@ -4310,7 +4310,7 @@
       "date": "1646859683",
       "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div><div><span class=\"yellowfg\"> 1:29 PM PST</span>&nbsp;Between 12:43 PM and 12:59 PM PST, we experienced increased error rates and latencies for some AWS services within the US-EAST-1 Region. All services are now operating normally, but S3 Event Notifications continues to process a backlog of events that developed during the event. </div>",
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div><div><span class=\"yellowfg\"> 1:29 PM PST</span>&nbsp;Between 12:43 PM and 12:59 PM PST, we experienced increased error rates and latencies for some AWS services within the US-EAST-1 Region. All services are now operating normally, but S3 Event Notifications continues to process a backlog of events that developed during the event. \n\nThe root cause of this issue was an update to the SQS and Lambda endpoints that inadvertently prevented some traffic from reaching these endpoints.</div><div><span class=\"yellowfg\"> 1:45 PM PST</span>&nbsp;S3 Event Notifications have delivered the backlog of events. This issue is resolved and all services are now operating normally.</div>",
       "service": "multipleservices-us-east-1"
     }
   ]
