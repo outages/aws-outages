@@ -4310,7 +4310,7 @@
       "date": "1646859683",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div>",
       "service": "multipleservices-us-east-1"
     }
   ]
