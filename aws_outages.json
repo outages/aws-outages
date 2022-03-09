@@ -4294,5 +4294,15 @@
       "service": "vpc-eu-central-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Lambda (US-West)",
+      "summary": "Increased API and Invoke Error Rates",
+      "date": "1646856563",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div>",
+      "service": "lambda-us-gov-west-1"
+    }
+  ]
 }
