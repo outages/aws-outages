@@ -4301,7 +4301,7 @@
       "date": "1646856563",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">12:37 PM PST</span>&nbsp;We can confirm investigating increased invoke and API error rates in the US-GOV-WEST-1 Region. We have deployed a mitigation strategy and continue to work through full resolution.</div>",
       "service": "lambda-us-gov-west-1"
     }
   ]
