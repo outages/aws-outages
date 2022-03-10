@@ -4292,14 +4292,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:24 AM PST</span>&nbsp;We are investigating elevated error rates for the VPC Management Console in the EU-CENTRAL-1 Region.</div><div><span class=\"yellowfg\">12:51 AM PST</span>&nbsp;We have identified the root cause and are starting to see recovery of the VPC Management Console in the EU-CENTRAL-1 Region. We recommend signing out and signing back into your account to refresh your session. We continue working towards full recovery and will continue to keep you updated.</div><div><span class=\"yellowfg\"> 1:06 AM PST</span>&nbsp;Between March 2 10:03 PM and March 3 12:30 AM PST, the VPC Management Console experienced elevated error rates in the EU-CENTRAL-1 Region. API and CLI access were not affected. The issue has been resolved and the service is operating normally.</div>",
       "service": "vpc-eu-central-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Lambda (US-West)",
       "summary": "[RESOLVED] Increased API and Invoke Error Rates",
       "date": "1646856563",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:09 PM PST</span>&nbsp;We are investigating increased invoke and API error rates in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">12:37 PM PST</span>&nbsp;We can confirm increased invoke and API error rates in the US-GOV-WEST-1 Region. We have deployed a mitigation strategy and continue to work through full resolution.</div><div><span class=\"yellowfg\"> 1:06 PM PST</span>&nbsp;Between 11:07 AM and 12:50 PM PST, we experienced increased invoke and API error rates in the US-GOV-WEST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "lambda-us-gov-west-1"
@@ -4308,10 +4306,11 @@
       "service_name": "Multiple services (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1646859683",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:16 PM PST</span>&nbsp;We are seeing recovery in API error rates for all services.</div><div><span class=\"yellowfg\"> 1:29 PM PST</span>&nbsp;Between 12:43 PM and 12:59 PM PST, we experienced increased error rates and latencies for some AWS services within the US-EAST-1 Region. All services are now operating normally, but S3 Event Notifications continues to process a backlog of events that developed during the event. \n\nThe root cause of this issue was an update to the SQS and Lambda endpoints that inadvertently prevented some traffic from reaching these endpoints.</div><div><span class=\"yellowfg\"> 1:45 PM PST</span>&nbsp;S3 Event Notifications have delivered the backlog of events. This issue is resolved and all services are now operating normally.</div>",
       "service": "multipleservices-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
