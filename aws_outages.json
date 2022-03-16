@@ -4312,5 +4312,15 @@
       "service": "multipleservices-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS DataSync (N. Virginia)",
+      "summary": "Elevated error rates",
+      "date": "1647437391",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:29 AM PDT</span>&nbsp;We are investigating elevated error rates for DataSync tasks with EFS source or destination locations resulting in \"The DataSync destination location is not mounted correctly\".</div>",
+      "service": "datasync-us-east-1"
+    }
+  ]
 }
