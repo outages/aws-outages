@@ -1,33 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Connect (N. Virginia)",
-      "summary": "[RESOLVED] Degraded Amazon Connect login performance",
-      "date": "1617678631",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We are investigating reports of increased error rates in the US-EAST-1 region for users to log onto Amazon Connect.</div><div><span class=\"yellowfg\"> 9:21 PM PDT</span>&nbsp;We are continuing to investigate reports of increased error rates in the us-east-1 region for users to log onto Amazon Connect</div><div><span class=\"yellowfg\"> 9:33 PM PDT</span>&nbsp;Between 6:57 PM and 9:24 PM PDT Amazon Connect users experienced increased login error rates in the us-east-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "connect-us-east-1"
-    },
-    {
-      "service_name": "Amazon WorkMail (N. Virginia)",
-      "summary": "[RESOLVED] Degraded WorkMail WebMail performance",
-      "date": "1617678855",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:14 PM PDT</span>&nbsp;We are investigating a degraded customer experience with the WorkMail Web client in the US-EAST-1 Region impacting logins.</div><div><span class=\"yellowfg\"> 9:12 PM PDT</span>&nbsp;We are continuing to investigate a degraded customer experience with the WorkMail Web client in the US-EAST-1 Region. </div><div><span class=\"yellowfg\"> 9:33 PM PDT</span>&nbsp;Between 6:57 PM and 9:25 PM PDT we experienced a degraded customer experience logging in to the WorkMail Web client in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "workmail-us-east-1"
-    },
-    {
-      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
-      "summary": "[RESOLVED] Degraded instance registration",
-      "date": "1617683231",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:27 PM PDT</span>&nbsp;Between 7:05 PM and 8:50 PM PDT, we experienced increased load balancer provisioning and back-end target registration times in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "elb-us-east-1"
-    },
-    {
       "service_name": "AWS Lambda (Oregon)",
       "summary": "[RESOLVED] Lambda Management Console Errors",
       "date": "1617754061",
