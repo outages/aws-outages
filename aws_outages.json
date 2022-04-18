@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Lambda (Oregon)",
-      "summary": "[RESOLVED] Lambda Management Console Errors",
-      "date": "1617754061",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:07 PM PDT</span>&nbsp;We are investigating increased error rates for the Lambda Management Console in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 5:46 PM PDT</span>&nbsp;Between 3:04 PM and 5:18 PM PDT, we experienced increased error rates for the Lambda Management Console in the US-WEST-2 Region. The event was limited to customers accessing the AWS Lambda console. The AWS Lambda data plane and API were not affected by this event. The issue has been resolved and the service is operating normally.</div>",
-      "service": "lambda-us-west-2"
-    },
-    {
       "service_name": "AWS Billing Console",
       "summary": "[RESOLVED] Increased AWS Billing Console errors",
       "date": "1618316888",
