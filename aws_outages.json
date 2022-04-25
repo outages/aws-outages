@@ -1,42 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Billing Console",
-      "summary": "[RESOLVED] Increased AWS Billing Console errors",
-      "date": "1618316888",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:28 AM PDT</span>&nbsp;We are investigating increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div><div><span class=\"yellowfg\"> 6:08 AM PDT</span>&nbsp;We continue to investigate increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console.</div><div><span class=\"yellowfg\"> 8:17 AM PDT</span>&nbsp;Between April 12 10:25 AM PDT and April 13 6:55 AM PDT, we experienced increased error rates for customers in India when performing Credit Card and Net Banking payments in the AWS Billing Console. The issue has been resolved and the service is operating normally.</div>",
-      "service": "billingconsole"
-    },
-    {
-      "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
-      "summary": "[RESOLVED] Increased API Errors",
-      "date": "1618339468",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">11:44 AM PDT</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:17 PM PDT</span>&nbsp;We are working to resolve the issue resulting in increased error rates for the following EC2 APIs in the US-EAST-1 Region: RunInstances, *SecurityGroups, *NetworkInterfaces, *RouteTables, *AccountAttributes, and *NetworkAcls. These APIs will affect the ability to launch new EC2 instances and make mutating changes to Virtual Private Cloud (VPC) network configuration(s). Existing instances and networks continue to work normally. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\">12:56 PM PDT</span>&nbsp;We continue to work toward recovery for the issue resulting in increased API error rates for the EC2 APIs in the US-EAST-1 Region. We have identified the root cause and applied mitigations to reduce the impact, while we continue to work towards full mitigation. Some APIs may experience errors or “request limit exceeded” when calling an affected API or using the EC2 Management Console. In many cases, a retry of the request may succeed as some requests are still succeeding. Other AWS services that utilize these affected APIs for their own workflows may also be experiencing impact. These services have posted impact via the Personal Health and/or Service Health Dashboards. We will provide an update in 30 minutes.</div><div><span class=\"yellowfg\"> 1:22 PM PDT</span>&nbsp;We continue to work towards full resolution for the issue resulting in increased error rates for the EC2 APIs in the US-EAST-1 Region. We have applied some request throttling for the affected APIs, which has reduced error rates, allowing several APIs to see early recovery. We are adjusting these throttling for some of the affected APIs, which are causing some additional API errors and elevated errors in the EC2 Management Console. We would expect API error rates to continue to recover with the mitigation steps we have taken as we work towards full recovery.</div><div><span class=\"yellowfg\"> 2:13 PM PDT</span>&nbsp;We continue to work towards full recovery for the issue resulting in increased error rates for the EC2 APIs in the US-EAST-1 Region. We have adjusted request throttles to reduce error rates for the affected APIs. While this has worked for some of the affected APIs, such as RunInstances, some of the affected APIs are now returning “request limit exceeded”. If this does occur, attempt to reduce your request rate for the affected API and retry. With the request throttling, some of the affected services are also beginning to see recovery. We continue to work on resolving the underlying root cause and expect to be fully recovered within the next hour.</div><div><span class=\"yellowfg\"> 3:01 PM PDT</span>&nbsp;We have further adjusted request throttles to reduce error rates for the affected APIs, so “request limit exceeded” errors should now be significantly reduced. We are now in the final stages of resolving the issue with the underlying data store. Once resolved, we will remove all API throttles and expect all API operations to return to normal levels.</div><div><span class=\"yellowfg\"> 3:55 PM PDT</span>&nbsp;We have resolved the issue resulting in the increased error rates for the EC2 APIs, and removed all API request throttling, in the US-EAST-1 Region. Beginning at 11:11 AM PDT, we experienced an increase in API error rates for RunInstances and networking related EC2 APIs. At 12:57 PM PDT, request throttling was applied to several of the affected APIs, which helped to improve error rates for the RunInstances API. We continued to work towards full resolution, while removing request throttles, until 3:30 PM PDT, at which time all affected APIs returned to normal levels of operation. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-us-east-1"
-    },
-    {
-      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
-      "summary": "[RESOLVED] Increased Provisioning and Scaling Latencies",
-      "date": "1618343445",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">12:50 PM PDT</span>&nbsp;We can confirm increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 1:38 PM PDT</span>&nbsp;We have determined the root cause of increased scaling latencies for Elastic Load Balancers in the US-EAST-1 Region and are working towards mitigation.</div><div><span class=\"yellowfg\"> 2:39 PM PDT</span>&nbsp;The team is closely monitoring the issue with EC2 APIs, and continues to see reductions in scaling and provisioning latencies. Other load balancing operations, including target registrations and traffic processing are unaffected. Once the issue with the EC2 APIs is resolved, we will process the backlog of any pending operations before we observe full resolution.</div><div><span class=\"yellowfg\"> 3:44 PM PDT</span>&nbsp;Beginning at 11:13 AM PDT we experienced increased provisioning and scaling latencies for Elastic Load Balancers in the US-EAST-1 Region. Recovery for scaling latency occurred at 1:15 PM PDT, and recovery for provisioning latency occurred at 3:35 PM PDT. The issue has been resolved and the service is operating normally.</div>",
-      "service": "elb-us-east-1"
-    },
-    {
-      "service_name": "AWS Batch (Oregon)",
-      "summary": "[RESOLVED] Compute Environments going INVALID",
-      "date": "1618364745",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:45 PM PDT</span>&nbsp;We are investigating increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 7:12 PM PDT</span>&nbsp;We can confirm increased transitions to INVALID of some AWS Batch Compute Environments in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:00 PM PDT</span>&nbsp;Between 5:25 PM and 7:52 PM PDT, some AWS Batch Compute Environments transitioned to INVALID in the US-WEST-2 Region. The issue has been resolved and the service is working normally.</div>",
-      "service": "batch-us-west-2"
-    },
-    {
       "service_name": "AWS AppSync (N. Virginia)",
       "summary": "[RESOLVED] Increased API Latencies",
       "date": "1619193400",
