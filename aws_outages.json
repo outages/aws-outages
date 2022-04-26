@@ -886,11 +886,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Singapore)",
-      "summary": "Increased Launch Error Rates",
+      "summary": "[RESOLVED] Increased Launch Error Rates",
       "date": "1650969049",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:30 AM PDT</span>&nbsp;We are investigating increased error rates for new launches that uses EBS Encryption from an unencrypted AMI in a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. For a small number of volumes in the Availability Zone, increased EBS I/O latencies may also be experienced. Existing instances are not affected, and no other launch requests are affected. We have identified the root cause and are working towards recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:30 AM PDT</span>&nbsp;We are investigating increased error rates for new launches that uses EBS Encryption from an unencrypted AMI in a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. For a small number of volumes in the Availability Zone, increased EBS I/O latencies may also be experienced. Existing instances are not affected, and no other launch requests are affected. We have identified the root cause and are working towards recovery.</div><div><span class=\"yellowfg\"> 4:30 AM PDT</span>&nbsp;Between 1:32 AM and 3:46 AM PDT, we experienced increased error rates for new launches that used EBS volumes in a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. A small number of volumes in the Availability Zone may have experienced increased EBS I/O latencies during this time, and this issue has also been resolved for the vast majority of customers. We will be directly notifying a small subset of customers who may still be affected by increased EBS I/O latencies via the AWS Health Dashboard.</div>",
       "service": "ec2-ap-southeast-1"
     }
   ]
