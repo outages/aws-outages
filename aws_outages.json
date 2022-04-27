@@ -899,7 +899,7 @@
       "date": "1651071794",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:03 AM PDT</span>&nbsp;We are investigating increased Amazon Redshift API and Console error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:58 AM PDT</span>&nbsp;We continue to investigate increased Amazon Redshift API and Console error rates in the US-EAST-1 Region that impact cluster management operations and may impact customer queries and applications using the Redshift Data API and JDBC/ODBC drivers using temporary credentials.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:03 AM PDT</span>&nbsp;We are investigating increased Amazon Redshift API and Console error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:58 AM PDT</span>&nbsp;We continue to investigate increased Amazon Redshift API and Console error rates in the US-EAST-1 Region that impact cluster management operations and may impact customer queries and applications using the Redshift Data API and JDBC/ODBC drivers using temporary credentials.</div><div><span class=\"yellowfg\"> 9:34 AM PDT</span>&nbsp;We are narrowing in on the root cause of the issue causing increased Amazon Redshift API and Console error rates in the US-EAST-1 Region. The issue is impacting cluster management operations and may impact customer queries and applications using the Redshift Data API and JDBC/ODBC drivers when using temporary credentials.</div>",
       "service": "redshift-us-east-1"
     }
   ]
