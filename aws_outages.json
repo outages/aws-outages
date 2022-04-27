@@ -892,5 +892,15 @@
       "service": "ec2-ap-southeast-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Redshift (N. Virginia)",
+      "summary": "Increased Error Rates",
+      "date": "1651071794",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:03 AM PDT</span>&nbsp;We are investigating increased Amazon Redshift API and Console error rates in the US-EAST-1 Region.</div>",
+      "service": "redshift-us-east-1"
+    }
+  ]
 }
