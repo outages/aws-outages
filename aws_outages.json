@@ -890,17 +890,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:30 AM PDT</span>&nbsp;We are investigating increased error rates for new launches that uses EBS Encryption from an unencrypted AMI in a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. For a small number of volumes in the Availability Zone, increased EBS I/O latencies may also be experienced. Existing instances are not affected, and no other launch requests are affected. We have identified the root cause and are working towards recovery.</div><div><span class=\"yellowfg\"> 4:30 AM PDT</span>&nbsp;Between 1:32 AM and 3:46 AM PDT, we experienced increased error rates for new launches that used EBS volumes in a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. A small number of volumes in the Availability Zone may have experienced increased EBS I/O latencies during this time, and this issue has also been resolved for the vast majority of customers. We will be directly notifying a small subset of customers who may still be affected by increased EBS I/O latencies via the AWS Health Dashboard.</div>",
       "service": "ec2-ap-southeast-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Redshift (N. Virginia)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1651071794",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:03 AM PDT</span>&nbsp;We are investigating increased Amazon Redshift API and Console error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:58 AM PDT</span>&nbsp;We continue to investigate increased Amazon Redshift API and Console error rates in the US-EAST-1 Region that impact cluster management operations and may impact customer queries and applications using the Redshift Data API and JDBC/ODBC drivers using temporary credentials.</div><div><span class=\"yellowfg\"> 9:34 AM PDT</span>&nbsp;We are narrowing in on the root cause of the issue causing increased Amazon Redshift API and Console error rates in the US-EAST-1 Region. The issue is impacting cluster management operations and may impact customer queries and applications using the Redshift Data API and JDBC/ODBC drivers when using temporary credentials.</div><div><span class=\"yellowfg\">10:18 AM PDT</span>&nbsp;Between 7:12 AM and 9:52 AM PDT, we experienced increased error rates in Amazon Redshift API and Console error rates in the US-EAST-1 Region. The issue impacted cluster management operations and certain customer queries and applications using the Redshift Data API and JDBC/ODBC drivers when using temporary credentials. The issue has been resolved and the service is operating normally.</div>",
       "service": "redshift-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
