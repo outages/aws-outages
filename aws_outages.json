@@ -913,11 +913,11 @@
   "current": [
     {
       "service_name": "AWS IoT Core (Oregon)",
-      "summary": "Increased API Errors and Latencies",
+      "summary": "[RESOLVED] Increased API Errors and Latencies",
       "date": "1651634279",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for Connect, Subscribe &amp; Publish operations in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:40 PM PDT</span>&nbsp;We have identified the root cause for increased error rates and latency of Connect, Subscribe and Publish operations for new connections in the US-WEST-2 Region and are working towards resolution. A scheduled update to optimize the underlying infrastructure for the AWS IoT registry resulted in lower memory availability than required - this has been corrected, and recovery is in progress. Existing connections are not affected.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for Connect, Subscribe &amp; Publish operations in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:40 PM PDT</span>&nbsp;We have identified the root cause for increased error rates and latency of Connect, Subscribe and Publish operations for new connections in the US-WEST-2 Region and are working towards resolution. A scheduled update to optimize the underlying infrastructure for the AWS IoT registry resulted in lower memory availability than required - this has been corrected, and recovery is in progress. Existing connections are not affected.</div><div><span class=\"yellowfg\"> 8:55 PM PDT</span>&nbsp;Between 7:17 PM and 8:41 PM PDT, we experienced increased error rates and latency for Connect, Subscribe, Publish and Registry operations in the US-WEST-2 Region. Existing connections were not affected by the event. The issue has been resolved and the service is operating normally.</div>",
       "service": "awsiot-us-west-2"
     }
   ]
