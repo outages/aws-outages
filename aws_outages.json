@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS AppSync (N. Virginia)",
-      "summary": "[RESOLVED] Increased API Latencies",
-      "date": "1619193400",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:56 AM PDT</span>&nbsp;We are investigating increased API latencies in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:36 AM PDT</span>&nbsp;We are starting to see recovery for increased API latencies and timeouts in the US-EAST-1 Region and continue to work towards resolution. </div><div><span class=\"yellowfg\"> 9:51 AM PDT</span>&nbsp;Between 4:41 AM and 9:00 AM PDT, we experienced increased API latencies and timeouts in the US-EAST-1 Region. The issue has been resolved and the service is operating normally. </div>",
-      "service": "appsync-us-east-1"
-    },
-    {
       "service_name": "AWS Lambda (N. Virginia)",
       "summary": "[RESOLVED] Increased Latencies and Error Rates",
       "date": "1619482717",
