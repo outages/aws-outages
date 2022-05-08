@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Lambda (N. Virginia)",
-      "summary": "[RESOLVED] Increased Latencies and Error Rates",
-      "date": "1619482717",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:22 PM PDT</span>&nbsp;Between 4:14 PM and 4:22 PM PDT the Lambda invoke API experienced increased latencies and error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "lambda-us-east-1"
-    },
-    {
       "service_name": "Amazon CloudFront",
       "summary": "[RESOLVED] Change Propagation Delays",
       "date": "1620324983",
