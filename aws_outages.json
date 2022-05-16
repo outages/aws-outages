@@ -901,5 +901,15 @@
       "service": "awsiot-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon API Gateway (Ireland)",
+      "summary": "Increased Error Rates",
+      "date": "1652721211",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for API Gateway in the EU-WEST-1 Region. Some other AWS services are also affected by this issue, which we will provide further details on shortly. We are working to determine root cause and resolve the issues.</div>",
+      "service": "apigateway-eu-west-1"
+    }
+  ]
 }
