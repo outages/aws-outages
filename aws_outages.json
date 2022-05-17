@@ -899,17 +899,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for Connect, Subscribe &amp; Publish operations in the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:40 PM PDT</span>&nbsp;We have identified the root cause for increased error rates and latency of Connect, Subscribe and Publish operations for new connections in the US-WEST-2 Region and are working towards resolution. A scheduled update to optimize the underlying infrastructure for the AWS IoT registry resulted in lower memory availability than required - this has been corrected, and recovery is in progress. Existing connections are not affected.</div><div><span class=\"yellowfg\"> 8:55 PM PDT</span>&nbsp;Between 7:17 PM and 8:41 PM PDT, we experienced increased error rates and latency for Connect, Subscribe, Publish and Registry operations in the US-WEST-2 Region. Existing connections were not affected by the event. The issue has been resolved and the service is operating normally.</div>",
       "service": "awsiot-us-west-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon API Gateway (Ireland)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1652721211",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for API Gateway in the EU-WEST-1 Region. Some other AWS services are also affected by this issue, which we will provide further details on shortly. We are working to determine root cause and resolve the issues.</div><div><span class=\"yellowfg\">10:31 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for API Gateway in the EU-WEST-1 Region. Both the error rates and latencies are at a low enough level where retries would allow for a request to succeed. We have identified the root cause and are working to fully resolve the issue. The following AWS services are experiencing low levels of error rates as a result of this issue: Amazon Certificate Manager (ACM), AppSync, Cognito, EKS, Fault Injection Simulator (FIS), Service Catalog, and Sagemaker. We continue to work towards resolving the issue.</div><div><span class=\"yellowfg\">10:38 AM PDT</span>&nbsp;Between 9:39 AM and 10:27 AM PDT, we experienced increased error rates and latencies for API Gateway in the EU-WEST-1 Region. All AWS services - including Amazon Certificate Manager (ACM), AppSync, Cognito, EKS, Fault Injection Simulator (FIS), Service Catalog, and Sagemaker - have now recovered. The issue has been resolved and the service is operating normally.</div>",
       "service": "apigateway-eu-west-1"
     }
-  ]
+  ],
+  "current": []
 }
