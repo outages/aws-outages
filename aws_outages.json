@@ -910,5 +910,15 @@
       "service": "apigateway-eu-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
+      "summary": "Increased API errors and latencies",
+      "date": "1652830549",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:35 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for ELB APIs in the US-EAST-1 Region. This issue does not affect traffic on running load balancers.</div>",
+      "service": "elb-us-east-1"
+    }
+  ]
 }
