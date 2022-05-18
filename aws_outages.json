@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon CloudFront",
-      "summary": "[RESOLVED] Change Propagation Delays",
-      "date": "1620324983",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">11:16 AM PDT</span>&nbsp;We are investigating delays in propagation times for changes to CloudFront configurations. End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div><div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We can confirm that actual invalidations are being propagated as usual, but the invalidation status confirmation through the console and API is delayed. This issue is not impacting propagation times for changes to CloudFront configurations as previously stated. End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div><div><span class=\"yellowfg\">12:10 PM PDT</span>&nbsp;We have identified the root cause of delays in reporting status changes of CloudFront invalidations. We continue to work toward resolution. All CloudFront edge locations are consuming configuration changes and invalidations normally. Also, End-user requests for content from our edge locations are not affected by this issue and are being served normally.</div><div><span class=\"yellowfg\">12:43 PM PDT</span>&nbsp;Between 10:04 AM PDT and 12:20 PM PDT, customers might have experienced delays in reporting status change of CloudFront invalidations. During this time, all CloudFront edge locations were consuming configuration changes and invalidations normally but were not updating status changes in console or via CloudFront APIs. The issue has been resolved and the service is operating normally.</div>",
-      "service": "cloudfront"
-    },
-    {
-      "service_name": "Amazon Elastic Compute Cloud (Sao Paulo)",
-      "summary": "[RESOLVED] Network Connectivity Issue",
-      "date": "1620331000",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">12:56 PM PDT</span>&nbsp;We are investigating connectivity issues for some instances in a single Availability Zone (sae1-az2) in the SA-EAST-1 Region. </div><div><span class=\"yellowfg\"> 1:19 PM PDT</span>&nbsp;Starting at 12:20 PM PDT, we experienced low levels of packet loss for Internet Connectivity for some instances in a single Availability Zone (sae1-az2) in the SA-EAST-1 Region. Between 12:48 PM and 12:59 PM PDT, DNS resolution within the affected Availability Zone (sae1-az2) and connectivity between the affected Availability Zone (sae1-az2) and other Availability Zones using public IP addressing also experienced low levels of packet loss. At 1:12 PM PDT, all packet loss issues were resolved. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-sa-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
       "summary": "[RESOLVED] API Errors, Increased Provisioning Times / Registration Latencies",
       "date": "1620993901",
@@ -908,17 +890,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for API Gateway in the EU-WEST-1 Region. Some other AWS services are also affected by this issue, which we will provide further details on shortly. We are working to determine root cause and resolve the issues.</div><div><span class=\"yellowfg\">10:31 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for API Gateway in the EU-WEST-1 Region. Both the error rates and latencies are at a low enough level where retries would allow for a request to succeed. We have identified the root cause and are working to fully resolve the issue. The following AWS services are experiencing low levels of error rates as a result of this issue: Amazon Certificate Manager (ACM), AppSync, Cognito, EKS, Fault Injection Simulator (FIS), Service Catalog, and Sagemaker. We continue to work towards resolving the issue.</div><div><span class=\"yellowfg\">10:38 AM PDT</span>&nbsp;Between 9:39 AM and 10:27 AM PDT, we experienced increased error rates and latencies for API Gateway in the EU-WEST-1 Region. All AWS services - including Amazon Certificate Manager (ACM), AppSync, Cognito, EKS, Fault Injection Simulator (FIS), Service Catalog, and Sagemaker - have now recovered. The issue has been resolved and the service is operating normally.</div>",
       "service": "apigateway-eu-west-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
       "summary": "[RESOLVED] Increased API errors and latencies",
       "date": "1652830549",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:35 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for ELB APIs in the US-EAST-1 Region. This issue does not affect traffic on running load balancers.</div><div><span class=\"yellowfg\"> 5:09 PM PDT</span>&nbsp;We continue to investigate increased error rates and latencies for ELB APIs in the US-EAST-1 Region. Traffic remains unaffected on running load balancers. In many cases, a retry of the request may succeed as some requests are still succeeding. Other AWS services that utilize these affected APIs for their own workflows may also be experiencing impact. These services have posted impact to your account events. We’ll continue to update this post as we have more information to share.</div><div><span class=\"yellowfg\"> 5:35 PM PDT</span>&nbsp;We have identified the root cause of the increased error rates and latencies for ELB APIs in the US-EAST-1 Region and have taken steps to mitigate the issue. We are now seeing recovery for the affected ELB APIs. For the duration of the event, API error rates have remained at a level where retries are likely to succeed. Traffic to existing load balancers was not affected by this event. We will continue to monitor until we can confirm full recovery.</div><div><span class=\"yellowfg\"> 5:39 PM PDT</span>&nbsp;Between 3:58 PM and 5:28 PM PDT, we experienced increased error rates and latencies for some ELB APIs in the US-EAST-1 Region. For the duration of the event, API error rates have remained at a level where retries are likely to succeed. Traffic to existing load balancers was not affected by this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "elb-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
