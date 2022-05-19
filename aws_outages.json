@@ -904,11 +904,11 @@
   "current": [
     {
       "service_name": "Amazon Kinesis Data Streams (Stockholm)",
-      "summary": "Elevated API latencies and error rates and packetloss",
+      "summary": "[RESOLVED] Elevated API latencies and error rates and packetloss",
       "date": "1652985887",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">11:44 AM PDT</span>&nbsp;We are investigating elevated API errors and latencies and elevated packetloss in the EU-NORTH-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">11:44 AM PDT</span>&nbsp;We are investigating elevated API errors and latencies and elevated packet loss in the EU-NORTH-1 Region.</div><div><span class=\"yellowfg\">12:08 PM PDT</span>&nbsp;Between 11:12 AM and 11:45 AM PDT, we experienced elevated API errors and latencies and connectivity issues in the EU-NORTH-1 Region. The issue has been resolved and the services are operating normally.</div>",
       "service": "kinesis-eu-north-1"
     }
   ]
