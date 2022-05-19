@@ -901,5 +901,15 @@
       "service": "elb-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Kinesis Data Streams (Stockholm)",
+      "summary": "Elevated API latencies and error rates and packetloss",
+      "date": "1652985887",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:44 AM PDT</span>&nbsp;We are investigating elevated API errors and latencies and elevated packetloss in the EU-NORTH-1 Region.</div>",
+      "service": "kinesis-eu-north-1"
+    }
+  ]
 }
