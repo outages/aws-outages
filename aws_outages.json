@@ -910,5 +910,15 @@
       "service": "kinesis-eu-north-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "[RESOLVED] Increased Errors Managing Payment Methods",
+      "date": "1653519230",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:53 PM PDT</span>&nbsp;Between 12:30 PM and 2:10 PM PDT we experienced increased errors managing payment methods. The issue is resolved and the service is operating normally.</div>",
+      "service": "billingconsole"
+    }
+  ]
 }
