@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Load Balancing (N. Virginia)",
-      "summary": "[RESOLVED] API Errors, Increased Provisioning Times / Registration Latencies",
-      "date": "1620993901",
-      "status": "0",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:47 AM PDT</span>&nbsp;We are investigating increased API error rates and increased provisioning/registration latencies for ELBs in the US-EAST-1 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\">10:38 AM PDT</span>&nbsp;Starting at 5:05 AM PDT, we experienced periods of increased error rates and provisioning/registration latencies for ELB APIs in the US-EAST-1 Region. The periods of elevated API error rates were resolved at 7:55 AM PDT. The periods of increased provisioning/latencies were resolved for the vast majority of customers by 8:31 AM PDT, with full recovery at 9:11 AM PDT. Connectivity to existing load balancers was not affected. The issue has been resolved and the service is operating normally.</div>",
-      "service": "elb-us-east-1"
-    },
-    {
-      "service_name": "Amazon WorkSpaces (N. Virginia)",
-      "summary": "[RESOLVED] Increased Errors Connecting to WorkSpaces",
-      "date": "1621023810",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:23 PM PDT</span>&nbsp;We are investigating connectivity issues and WorkSpaces automatically rebooting in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 2:05 PM PDT</span>&nbsp;We can confirm an issue causing a loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. We have identified the root cause and are rolling out a mitigation.</div><div><span class=\"yellowfg\"> 3:26 PM PDT</span>&nbsp;We are currently deploying a mitigation for the issue that is causing loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. Workspaces will recover as this mitigation is deployed.</div><div><span class=\"yellowfg\"> 5:01 PM PDT</span>&nbsp;We continue to see recovery for some Windows WorkSpaces as our mitigation is deployed in the US-EAST-1 Region. </div><div><span class=\"yellowfg\"> 6:10 PM PDT</span>&nbsp;Recently, we experienced an issue that caused loss of connectivity and reboots for a subset of Windows WorkSpaces in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "workspaces-us-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (Oregon)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1621884419",
@@ -908,17 +890,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:44 AM PDT</span>&nbsp;We are investigating elevated API errors and latencies and elevated packet loss in the EU-NORTH-1 Region.</div><div><span class=\"yellowfg\">12:08 PM PDT</span>&nbsp;Between 11:12 AM and 11:45 AM PDT, we experienced elevated API errors and latencies and connectivity issues in the EU-NORTH-1 Region. The issue has been resolved and the services are operating normally.</div>",
       "service": "kinesis-eu-north-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Billing Console",
       "summary": "[RESOLVED] Increased Errors Managing Payment Methods",
       "date": "1653519230",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:53 PM PDT</span>&nbsp;Between 12:30 PM and 2:10 PM PDT we experienced increased errors managing payment methods. The issue is resolved and the service is operating normally.</div>",
       "service": "billingconsole"
     }
-  ]
+  ],
+  "current": []
 }
