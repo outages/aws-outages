@@ -901,5 +901,15 @@
       "service": "billingconsole"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Route 53",
+      "summary": "Intermittent DNS resolution failures",
+      "date": "1653618095",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:21 PM PDT</span>&nbsp;We are aware of intermediate DNS resolution issues for certain specific AWS names. This is due to an issue with third-party DNS provider outside AWS.  DNS queries for domains hosted on Route 53 are operating without any issues at this time.  We are actively working with the third-party DNS provider to resolve the issue as quickly as possible.</div>",
+      "service": "route53"
+    }
+  ]
 }
