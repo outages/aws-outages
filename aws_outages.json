@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (Oregon)",
-      "summary": "[RESOLVED] Increased API Error Rates",
-      "date": "1621884419",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">12:26 PM PDT</span>&nbsp;We are experiencing increased API error rates for the EC2 APIs in the US-WEST-2 Region. We have identified root cause and are actively working to mitigate impact. Some APIs may experience errors or “request limit exceeded” when calling an affected API or using the EC2 Management Console. In many cases, a retry of the request may succeed as some requests are still succeeding. Other AWS services that utilize these affected APIs for their own workflows may also be experiencing impact. These services have posted impact via the Personal Health and/or Service Health Dashboards. We'll continue to update this post as we have more information to share.</div><div><span class=\"yellowfg\">12:45 PM PDT</span>&nbsp;Between 11:02 AM and 12:40 PM PDT, we experienced increased API error rates in the US-WEST-2 Region. During this time, customers may have experienced 500 Errors or \"Request Limit Exceeded\" when calling an affected API, or using the EC2 Management Console. In many cases, retries of failed API requests were successful. Other AWS services that utilize the affected APIs for their own workflows also experienced impact. Those AWS Services have communicated with affected customers via the Personal Health Dashboard. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-us-west-2"
-    },
-    {
       "service_name": "AWS Sign-In (N. Virginia)",
       "summary": "[RESOLVED] Increased Latencies for SAML Sign-In",
       "date": "1623264111",
