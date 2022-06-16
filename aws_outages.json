@@ -910,5 +910,15 @@
       "service": "elb-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "[RESOLVED] Incorrect Free Tier Email Alerts",
+      "date": "1655342154",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:15 PM PDT</span>&nbsp;We are investigating customers receiving email alerts about Free Tier Usage which does not match what customers are seeing in the billing console.</div><div><span class=\"yellowfg\"> 6:39 PM PDT</span>&nbsp;Between 11:00 AM and 6:00 PM PDT, some customers received incorrect email alerts about their Free Tier Usage. This was caused by an incorrect software deployment, which has since been rolled back. During this time, the AWS Billing Console was reporting the correct information. Customers who received an incorrect email alert will receive a notification via the AWS Health Dashboard Event Log in your AWS account.</div><div><span class=\"yellowfg\"> 6:53 PM PDT</span>&nbsp;We want to clarify our previous post. Between 11:00 AM and 6:00 PM PDT, the Home page and the Bills page on the AWS Billing Console reported correct information. The Free Tier page on the AWS Billing Console displayed the same incorrect information included in the incorrect email alert.  We have corrected the issue that caused both the incorrect emails and the incorrect information in the Free Tier page on the AWS Billing Console, and they are all reporting correct information now.</div>",
+      "service": "billingconsole"
+    }
+  ]
 }
