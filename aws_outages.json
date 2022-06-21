@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Sign-In (N. Virginia)",
-      "summary": "[RESOLVED] Increased Latencies for SAML Sign-In",
-      "date": "1623264111",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">11:41 AM PDT</span>&nbsp;We are investigating periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. </div><div><span class=\"yellowfg\">12:31 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div><div><span class=\"yellowfg\">12:58 PM PDT</span>&nbsp;We are seeing signs of recovery for the timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:22 PM PDT</span>&nbsp;Between 7:46 AM and 11:37 AM PDT, we experienced periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to investigate likely root causes and continue to drive to full resolution. The service is operating normally.</div>",
-      "service": "signin-us-east-1"
-    },
-    {
-      "service_name": "AWS Management Console",
-      "summary": "[RESOLVED] Increased Error Rates and Latencies for SAML Based Federation",
-      "date": "1623266658",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">12:24 PM PDT</span>&nbsp;We can confirm periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We have identified the root cause and continue to work toward resolution.</div><div><span class=\"yellowfg\">12:58 PM PDT</span>&nbsp;We are seeing signs of recovery for the timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:21 PM PDT</span>&nbsp;Between 7:46 AM and 11:37 AM PDT, we experienced periods of request timeouts and increased latencies when attempting to sign-in to the AWS Management Console using SAML based federation. We continue to investigate likely root causes and continue to drive to full resolution. The service is operating normally.</div>",
-      "service": "management-console"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (Frankfurt)",
       "summary": "[RESOLVED] Connectivity Issues &amp; API Errors",
       "date": "1623356647",
