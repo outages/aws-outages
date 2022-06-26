@@ -2,15 +2,6 @@
   "archive": [
     {
       "service_name": "AWS CodeBuild (N. Virginia)",
-      "summary": "[RESOLVED] Increased Latency for Build Operations",
-      "date": "1623692973",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:49 AM PDT</span>&nbsp;Beginning at 5:20 AM PDT, we experienced increased queue latency for Build operations in the US-EAST-1 Region. We have identified the subsystem responsible for the increase in latency, and have begun mitigation efforts. At this time, we are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\">11:24 AM PDT</span>&nbsp;Beginning at 5:15 AM we began experiencing increased latencies for Build operations. At 7:15 AM, we began notifying impacted customers via the Personal Health Dashboard. By 9:48 AM, we had processed the backlog of latent build operations, and at 10:20 AM, we verified that all new build operations were progressing normally. The issue has been resolved and the service is operating normally.</div>",
-      "service": "codebuild-us-east-1"
-    },
-    {
-      "service_name": "AWS CodeBuild (N. Virginia)",
       "summary": "[RESOLVED] Increased Error Rate when creating a build",
       "date": "1623763587",
       "status": "1",
