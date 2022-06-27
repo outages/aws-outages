@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS CodeBuild (N. Virginia)",
-      "summary": "[RESOLVED] Increased Error Rate when creating a build",
-      "date": "1623763587",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:26 AM PDT</span>&nbsp;We are investigating an issue where customers may run into errors preventing them from creating new builds in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:02 AM PDT</span>&nbsp;We have mitigated the issue and are monitoring for recovery. </div><div><span class=\"yellowfg\"> 8:11 AM PDT</span>&nbsp;Changes have been reverted and we continue to monitor recovery. </div><div><span class=\"yellowfg\"> 8:31 AM PDT</span>&nbsp;Recently, AWS CodeBuild experienced elevated AccountLimitExceededException error rates when starting a build.  The issue was resolved at 8:10 AM PDT, and the service is operating normally.</div>",
-      "service": "codebuild-us-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Load Balancing (Ohio)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1623887035",
