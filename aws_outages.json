@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Load Balancing (Ohio)",
-      "summary": "[RESOLVED] Increased API Error Rates",
-      "date": "1623887035",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:43 PM PDT</span>&nbsp;We are investigating increased error rates for ELB APIs in the US-EAST-2 Region. Connectivity to existing load balancers is not affected.</div><div><span class=\"yellowfg\"> 5:30 PM PDT</span>&nbsp;We can confirm increased error rates and latencies for ELB APIs in the US-EAST-2 Region and continue to work towards resolution. Connectivity to existing load balancers remains unaffected.</div><div><span class=\"yellowfg\"> 6:42 PM PDT</span>&nbsp;The increased error rates and latencies for ELB APIs in the US-EAST-2 Region are related to a Amazon Relational Database Service issue. Connectivity to existing load balancers remains unaffected. For further updates, please use the RDS Service Health Dashboard post.</div><div><span class=\"yellowfg\"> 9:40 PM PDT</span>&nbsp;Between 3:30 PM and 8:14 PM PDT, we experienced increased API error rates and latencies in the US-EAST-2 Region which were related to the Amazon Relational Database Service issue. The root cause has been addressed, and the service is operating normally.</div>",
-      "service": "elb-us-east-2"
-    },
-    {
-      "service_name": "Amazon Relational Database Service (Ohio)",
-      "summary": "[RESOLVED] Instance Unavailablility",
-      "date": "1623887565",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:52 PM PDT</span>&nbsp;We are investigating connectivity issues to some RDS instances in the US-EAST-2 region.</div><div><span class=\"yellowfg\"> 5:35 PM PDT</span>&nbsp;We can confirm connectivity issues to some RDS instances in the US-EAST-2 Region, and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 6:04 PM PDT</span>&nbsp;We are actively working to mitigate connectivity issues for some RDS instances in the US-EAST-2 Region and continue to work towards resolution. The issue with Aurora PostgreSQL is also impacting Elasticache, ELB, API Gateway and Elastic Beanstalk APIs. Existing Elasticache, ELB and API Gateway instances continue to operate normally.</div><div><span class=\"yellowfg\"> 6:33 PM PDT</span>&nbsp;We have narrowed the cause of the connectivity issues impacting some RDS instances in the US-EAST-2 Region and we are continuing to work towards mitigation. The issue with Aurora PostgreSQL is also impacting Elasticache, ELB, API Gateway and Elastic Beanstalk APIs. Existing Elasticache, ELB and API Gateway instances continue to operate normally.</div><div><span class=\"yellowfg\"> 7:09 PM PDT</span>&nbsp;We have begun to see some recovery for the connectivity issues impacting some RDS instances in the US-EAST-2 Region, and we are continuing to work towards mitigation.</div><div><span class=\"yellowfg\"> 8:23 PM PDT</span>&nbsp;We are making progress towards restoring connectivity for the set of impacted Aurora PostgreSQL instances. Some database instances may see intermittent periods of recovery, but may not be fully recovered and we continue to work towards full recovery of these instances.</div><div><span class=\"yellowfg\"> 9:45 PM PDT</span>&nbsp;Between 3:30 PM and 9:30 PM PDT, some Amazon Relational Database Service (RDS) Aurora PostgreSQL instances in the US-EAST-2 Region experienced increased latency and fault rates. This issue also caused issues with Elasticache, ELB, and API Gateway APIs. Existing Elasticache, ELB, and API Gateway instances were not impacted by this event and were operating normally during this entire impact period. We have recovered the vast majority of affected instances and will contact any customers who are still impacted through the Personal Health Dashboard (PHD).</div>",
-      "service": "rds-us-east-2"
-    },
-    {
       "service_name": "Amazon Simple Storage Service (Stockholm)",
       "summary": "[RESOLVED] Elevated IAM Error Rate",
       "date": "1623976331",
