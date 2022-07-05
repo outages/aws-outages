@@ -775,5 +775,15 @@
       "service": "billingconsole"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "Availability Decreased",
+      "date": "1657032030",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:40 AM PDT</span>&nbsp;We can confirm a decrease in the Cost Explorer Console availability. We are actively working towards resolution.</div>",
+      "service": "billingconsole"
+    }
+  ]
 }
