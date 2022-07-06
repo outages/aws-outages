@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Internet Connectivity (Ohio)",
-      "summary": "[RESOLVED] Internet Connectivity",
-      "date": "1624564393",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">12:53 PM PDT</span>&nbsp;Between 12:15 PM and 12:21 PM PDT we observed connectivity issues between some customer networks and the US-EAST-2 Region. Connectivity within the Region was not impacted. The issue has been resolved and the service is operating normally.</div>",
-      "service": "internetconnectivity-us-east-2"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (Ohio)",
       "summary": "[RESOLVED] Network Connectivity Issues",
       "date": "1624992057",
@@ -773,17 +764,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:15 PM PDT</span>&nbsp;We are investigating customers receiving email alerts about Free Tier Usage which does not match what customers are seeing in the billing console.</div><div><span class=\"yellowfg\"> 6:39 PM PDT</span>&nbsp;Between 11:00 AM and 6:00 PM PDT, some customers received incorrect email alerts about their Free Tier Usage. This was caused by an incorrect software deployment, which has since been rolled back. During this time, the AWS Billing Console was reporting the correct information. Customers who received an incorrect email alert will receive a notification via the AWS Health Dashboard Event Log in your AWS account.</div><div><span class=\"yellowfg\"> 6:53 PM PDT</span>&nbsp;We want to clarify our previous post. Between 11:00 AM and 6:00 PM PDT, the Home page and the Bills page on the AWS Billing Console reported correct information. The Free Tier page on the AWS Billing Console displayed the same incorrect information included in the incorrect email alert.  We have corrected the issue that caused both the incorrect emails and the incorrect information in the Free Tier page on the AWS Billing Console, and they are all reporting correct information now.</div>",
       "service": "billingconsole"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Billing Console",
       "summary": "[RESOLVED] Availability Decreased",
       "date": "1657032030",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:40 AM PDT</span>&nbsp;We can confirm a decrease in the Cost Explorer Console availability. We are actively working towards resolution.</div><div><span class=\"yellowfg\"> 8:39 AM PDT</span>&nbsp;We have identified the cause of the issue affecting Cost Explorer and are working towards resolution. Customers using the Cost Explorer console may experience long load times, timeouts and errors using the console. Cost Explorer APIs are experiencing elevated latencies and error rates. The issue is limited to the Cost Explorer console and APIs, AWS Billing is not otherwise impacted.</div><div><span class=\"yellowfg\"> 9:19 AM PDT</span>&nbsp;We continue to investigate the issue affecting Cost Explorer and are working towards resolution.  We will provide the next update by 10:00 AM PDT.</div><div><span class=\"yellowfg\">10:01 AM PDT</span>&nbsp;We continue to investigate the issue affecting Cost Explorer and are working towards resolution.  We will provide the next update by 10:30am PDT.</div><div><span class=\"yellowfg\">10:33 AM PDT</span>&nbsp;Between 05:10 AM and 10:27 AM PDT, customers using the Cost Explorer console experienced long load times, timeouts, or errors using the console. Cost Explorer APIs also experienced elevated latencies and error rates. The issue has been resolved and the service is operating normally. AWS Billing was otherwise not impacted.</div>",
       "service": "billingconsole"
     }
-  ]
+  ],
+  "current": []
 }
