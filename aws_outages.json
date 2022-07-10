@@ -782,7 +782,7 @@
       "date": "1657475798",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:56 AM PDT</span>&nbsp;Message: We are investigating instance impairments in a single Availability Zone (EUW2-AZ1) in the EU-WEST-1 Region. Other Availability Zones are not affected by the event and we are working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\">10:56 AM PDT</span>&nbsp;Message: We are investigating instance impairments in a single Availability Zone (EUW2-AZ1) in the EU-WEST-1 Region. Other Availability Zones are not affected by the event and we are working to resolve the issue.</div><div><span class=\"yellowfg\">11:13 AM PDT</span>&nbsp;Some instances in a single Availability Zone are currently impaired or have lost power in the EU-WEST-2 Region. The root cause is a thermal event within a data center in the affected Availability Zone that we are working to resolve. Some instances may also be experiencing network connectivity issues in the affected Availability Zone. Elastic Load Balancing has shifted traffic away from the Availability Zone. All multi-AZ databases have failed away from the affected Availability Zone, however single-AZ database will remain affected until we see full recovery. We do not yet have a an ETA for full recovery but expect it to be more than an hour. We will provide further guidance as soon as we have it. For customers that are able to fail away from the affected Availability Zone, we recommend doing so.</div>",
       "service": "ec2-eu-west-2"
     }
   ]
