@@ -757,5 +757,15 @@
       "service": "ec2-eu-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Single Sign-On (N. Virginia)",
+      "summary": "Increased AWS SSO Management Console Error Rates",
+      "date": "1658156924",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:08 AM PDT</span>&nbsp;[8:08 AM PDT] We are investigating increased error rates in the AWS SSO management console in the US-EAST-1 Region.</div>",
+      "service": "sso-us-east-1"
+    }
+  ]
 }
