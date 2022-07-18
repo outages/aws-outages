@@ -764,7 +764,7 @@
       "date": "1658156924",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:08 AM PDT</span>&nbsp;[8:08 AM PDT] We are investigating increased error rates in the AWS SSO management console in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:08 AM PDT</span>&nbsp;[8:08 AM PDT] We are investigating increased error rates in the AWS SSO management console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PDT</span>&nbsp;We can confirm an issue with the AWS Single Sign-On (SSO) service, which is affecting customers who are using an external identity provider that is enabled in the US-EAST-1 Region.  Affected customers experiencing issues when attempting SSO authentication for the AWS console and services.  We are actively working towards identifying the root cause.</div>",
       "service": "sso-us-east-1"
     }
   ]
