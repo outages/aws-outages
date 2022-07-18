@@ -760,11 +760,11 @@
   "current": [
     {
       "service_name": "AWS Single Sign-On (N. Virginia)",
-      "summary": "Increased AWS SSO Management Console Error Rates",
+      "summary": "[RESOLVED] Increased AWS SSO Management Console Error Rates",
       "date": "1658156924",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:08 AM PDT</span>&nbsp;We are investigating increased error rates in the AWS SSO management console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PDT</span>&nbsp;We can confirm an issue with the AWS Single Sign-On (SSO) service, which is affecting customers who are using an external identity provider that is enabled in the US-EAST-1 Region.  Affected customers experiencing issues when attempting SSO authentication for the AWS console and services.  We are actively working towards identifying the root cause.</div><div><span class=\"yellowfg\"> 9:10 AM PDT</span>&nbsp;We are seeing recovery of this issue since 8:41 AM PDT, and all AWS console and API requests authenticated with an external SSO provider in the US-EAST-1 Region should be working properly now. We are continuing to monitor systems before confirming full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 8:08 AM PDT</span>&nbsp;We are investigating increased error rates in the AWS SSO management console in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 8:49 AM PDT</span>&nbsp;We can confirm an issue with the AWS Single Sign-On (SSO) service, which is affecting customers who are using an external identity provider that is enabled in the US-EAST-1 Region.  Affected customers experiencing issues when attempting SSO authentication for the AWS console and services.  We are actively working towards identifying the root cause.</div><div><span class=\"yellowfg\"> 9:10 AM PDT</span>&nbsp;We are seeing recovery of this issue since 8:41 AM PDT, and all AWS console and API requests authenticated with an external SSO provider in the US-EAST-1 Region should be working properly now. We are continuing to monitor systems before confirming full recovery.</div><div><span class=\"yellowfg\"> 9:43 AM PDT</span>&nbsp;Between 7:34 AM and 8:41 AM PDT AWS Single Sign-On (SSO) customers using an external identity provider that is enabled in the US-EAST-1 Region experienced issues when attempting SSO authentication for the AWS console and services.  The issue has been identified and mitigated, and all SSO authentication requests working properly now.</div>",
       "service": "sso-us-east-1"
     }
   ]
