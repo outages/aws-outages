@@ -773,7 +773,7 @@
       "date": "1658178914",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:15 PM PDT</span>&nbsp;We are investigating increased error rates for SSO in the US-EAST-1 Region. </div>",
+      "description": "<div><span class=\"yellowfg\"> 2:15 PM PDT</span>&nbsp;We are investigating increased error rates for SSO in the US-EAST-1 Region. </div><div><span class=\"yellowfg\"> 2:44 PM PDT</span>&nbsp;We can confirm an issue that is preventing customers from establishing new sessions or re-authenticating existing sessions as the authentication page is not available. Existing sessions are not affected by this issue, but will experience difficultly re-authenticating should the existing session expire. This issue is affecting AWS services that use sign-in authentication, including Single Sign-on, Workspaces, WorkMail, Connect, Directory Service, QuickSight and WorkDocs. This issue does not affect authentication using IAM users or roles. We are working to resolve the issue and will provide you with regular updates.</div>",
       "service": "sso-us-east-1"
     }
   ]
