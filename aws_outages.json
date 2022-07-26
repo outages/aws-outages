@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon CloudWatch (Tokyo)",
-      "summary": "[RESOLVED] エラー率およびレイテンシーの上昇 | Increased Error rates and Latencies",
-      "date": "1626280770",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:39 AM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける CloudWatch Logs API のエラー率とレイテンシーの増加を調査しています。現在この問題の解決に取り組んでいます。 | We are investigating increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:04 AM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける API エラー率の上昇およびログイベントの遅延を確認しています。現在この問題の解決に取り組んでいます。| We can confirm elevated API error rates and some delayed log events in AP-NORTHEAST-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:39 AM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける API エラー率の上昇およびログイベントの遅延の原因を特定しました。復旧の兆候を確認しており、解決に向け引き続き対応を行っています。 | We have identified the root cause of the elevated API error rates and some delayed log events in the AP-NORTHEAST-1 Region. We are beginning to see signs of recovery and continue working towards resolution.</div><div><span class=\"yellowfg\">12:07 PM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける CloudWatch Logs API のエラー率とレイテンシーの増加について引き続き調査および解決に取り組んでいます。| We continue to work on investigating and resolving increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region.</div><div><span class=\"yellowfg\"> 2:28 PM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける CloudWatch Logs API のエラー率とレイテンシーの上昇を解消すると予測される緩和策の実施を完了しました。エラー率の改善が見られる一方で引き続き高い水準のレイテンシーを確認しており、完全な解決に向け引き続き対応を行っています。 | We have completed a mitigation strategy that we anticipated would resolve the increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. While we have seen some recovery in error rates, we continue to see elevated levels of latency and continue working towards full resolution.</div><div><span class=\"yellowfg\"> 3:42 PM PDT</span>&nbsp;AP-NORTHEAST-1 リージョンにおける CloudWatch Logs API のレイテンシー上昇と残存しているエラーの解消のため、第二の緩和策の展開を行なっております。解決に向け引き続き対応を行っております。 | We are deploying a second mitigation strategy to resolve elevated latency and the remaining level of errors for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. We continue working towards recovery.</div><div><span class=\"yellowfg\"> 5:05 PM PDT</span>&nbsp;日本時間 2021/07/14 23:01 から 2021/07/15 08:20 の間、AP-NORTHEAST-1 リージョンにおける CloudWatch Logs API のエラー率とレイテンシーの上昇が発生しておりました。この問題は解決し、現在サービスは正常に動作しています。 | Between 7:01 AM and 4:20 PM PDT we experienced increased error rates and latencies for CloudWatch Logs APIs in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "cloudwatch-ap-northeast-1"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (Milan)",
       "summary": "[RESOLVED] Increased Error rates",
       "date": "1626910891",
