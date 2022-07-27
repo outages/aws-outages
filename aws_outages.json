@@ -760,11 +760,11 @@
   "current": [
     {
       "service_name": "AWS Secrets Manager (N. Virginia)",
-      "summary": "Increased API Errors and Latencies",
+      "summary": "[RESOLVED] Increased API Errors and Latencies",
       "date": "1658948667",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:04 PM PDT</span>&nbsp;We are investigating increased API connection timeout errors and latencies in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:33 PM PDT</span>&nbsp;We can confirm increased error rates and latencies for Secrets Manager APIs in the US-EAST-1 Region. We are working to identify root cause and resolve the issue. \n\nCustomers using Secrets Manager to store secrets may experience errors when using the Secrets Manager APIs, including customers invoking Secrets Manager from Lambda functions. \n\nLambda functions that are not calling Secrets Manager APIs are not affected by this event. We continue to work to understand the issue and will continue to provide updates. </div>",
+      "description": "<div><span class=\"yellowfg\">12:04 PM PDT</span>&nbsp;We are investigating increased API connection timeout errors and latencies in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:33 PM PDT</span>&nbsp;We can confirm increased error rates and latencies for Secrets Manager APIs in the US-EAST-1 Region. We are working to identify root cause and resolve the issue. \n\nCustomers using Secrets Manager to store secrets may experience errors when using the Secrets Manager APIs, including customers invoking Secrets Manager from Lambda functions. \n\nLambda functions that are not calling Secrets Manager APIs are not affected by this event. We continue to work to understand the issue and will continue to provide updates. </div><div><span class=\"yellowfg\">12:57 PM PDT</span>&nbsp;We have resolved the issue causing increased error rates and latencies for the Secrets Manager APIs in the US-EAST-1 Region. Customers using Secrets Manager to store secrets may have experienced errors when using the Secrets Manager APIs, including customers invoking Secrets Manager from Lambda functions. Lambda functions that are not using Secrets Manager were not affected by this event. The issue was resolved at 12:30 PM PDT, when error rates and latencies returned to normal levels. The issue has been resolved and the service is operating normally.</div>",
       "service": "secretsmanager-us-east-1"
     }
   ]
