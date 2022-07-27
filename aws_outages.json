@@ -764,7 +764,7 @@
       "date": "1658948667",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:04 PM PDT</span>&nbsp;We are investigating increased API connection timeout errors and latencies in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">12:04 PM PDT</span>&nbsp;We are investigating increased API connection timeout errors and latencies in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:33 PM PDT</span>&nbsp;We can confirm increased error rates and latencies for Secrets Manager APIs in the US-EAST-1 Region. We are working to identify root cause and resolve the issue. \n\nCustomers using Secrets Manager to store secrets may experience errors when using the Secrets Manager APIs, including customers invoking Secrets Manager from Lambda functions. \n\nLambda functions that are not calling Secrets Manager APIs are not affected by this event. We continue to work to understand the issue and will continue to provide updates. </div>",
       "service": "secretsmanager-us-east-1"
     }
   ]
