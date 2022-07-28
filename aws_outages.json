@@ -766,5 +766,15 @@
       "service": "secretsmanager-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Ohio)",
+      "summary": "Network Connectivity",
+      "date": "1659028264",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:11 AM PDT</span>&nbsp;We are investigating network connectivity issues for some instances and increased error rates and latencies for the EC2 APIs within the US-EAST-2 Region.</div>",
+      "service": "ec2-us-east-2"
+    }
+  ]
 }
