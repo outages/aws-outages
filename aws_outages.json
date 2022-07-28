@@ -769,11 +769,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic Compute Cloud (Ohio)",
-      "summary": "Network Connectivity",
+      "summary": "Instance Impairments",
       "date": "1659028264",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:11 AM PDT</span>&nbsp;We are investigating network connectivity issues for some instances and increased error rates and latencies for the EC2 APIs within the US-EAST-2 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">10:11 AM PDT</span>&nbsp;We are investigating network connectivity issues for some instances and increased error rates and latencies for the EC2 APIs within the US-EAST-2 Region.</div><div><span class=\"yellowfg\">10:25 AM PDT</span>&nbsp;We can confirm that some instances within a single Availability Zone (USE2-AZ1) in the US-EAST-2 Region have experienced a loss of power. The loss of power is affecting part of a single data center within the affected Availability Zone. Power has been restored to the affected facility and at this stage the majority of the affected EC2 instances have recovered. We expect to recover the vast majority of EC2 instances within the next hour. For customers that need immediate recovery, we recommend failing away from the affected Availability Zone as other Availability Zones are not affected by this issue.</div>",
       "service": "ec2-us-east-2"
     }
   ]
