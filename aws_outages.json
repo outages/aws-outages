@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Lambda (Milan)",
-      "summary": "[RESOLVED] Increased Invoke Error Rate",
-      "date": "1628028846",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:14 PM PDT</span>&nbsp;We are investigating increased invoke error rates in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 3:45 PM PDT</span>&nbsp;Between 2:39 PM and 3:16 PM PDT, we experienced increased invoke error rates in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally. </div>",
-      "service": "lambda-eu-south-1"
-    },
-    {
-      "service_name": "AWS Management Console",
-      "summary": "[RESOLVED] Increased Management Console Error Rates",
-      "date": "1628029136",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:18 PM PDT</span>&nbsp;We are investigating increased errors for AWS Management Console in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 3:46 PM PDT</span>&nbsp;Between 2:38 PM and 3:16 PM PDT, we experienced increased errors for AWS Management Console in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally. </div>",
-      "service": "management-console"
-    },
-    {
       "service_name": "Amazon ElastiCache (Ireland)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1628216388",
