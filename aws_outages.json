@@ -748,5 +748,15 @@
       "service": "ec2-us-east-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudTrail (N. Virginia)",
+      "summary": "CloudTrail event delivery delays",
+      "date": "1660680453",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 1:07 PM PDT</span>&nbsp;We are investigating increased latency of CloudTrail events causing CloudTrail events processing delays in the US-EAST-1 Region starting at 9:33 AM PDT. CloudTrail customers in US-EAST-1 Region will receive events with delay as high as 4 hours.  All new events after 12:57 PM PDT will be processed immediately. ETA for backlog consumption is 3:30 PM PDT.</div>",
+      "service": "cloudtrail-us-east-1"
+    }
+  ]
 }
