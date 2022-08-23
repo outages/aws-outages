@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
-      "summary": "[RESOLVED] DescribeImages API",
-      "date": "1628699197",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:26 AM PDT</span>&nbsp;We are investigating an issue where the ‘virtualization type’ field is incorrectly set in the DescribeImages API call for the EC2 APIs in the US-EAST-1 Region. The virtualization type for some images is being returned as “paravirt” instead of “hvm”. This can impact the instance selection in the console and also cause some EMR jobs to fail to start as EMR does not support “paravirt” images. We have identified the root cause of the issue and are working to resolve it. Note that the underlying images (AMI) are not affected by this issue, which has only affected the returning of the metadata for the ‘virtualization type’ field. Once resolved, images will continue to operate as they did before. </div><div><span class=\"yellowfg\">10:25 AM PDT</span>&nbsp;We continue to make progress in resolving the issue where the virtualization type is incorrectly set in the DescribeImages API call for the EC2 APIs in the US-EAST-1 Region. The issue will prevent some images from launching on the current generation (e.g. c5, m5, r5, t3, etc.) instance types and some previous generation instances (e.g t2) as they do not support “paravirt” virtualization. Customers could choose to launch on a previous generation instance type that does support ‘paravirt’ virtualization, or attempt launching via the EC2 command line tools, which in many cases when allow for the instance to be launched. We continue to work on resolving the issue.</div><div><span class=\"yellowfg\">11:01 AM PDT</span>&nbsp;We have begun to see recovery for some of the affected images (AMI), which are now returning the correct virtualization type. We expect to see full recovery within the next hour, at which time all operations affected by this issue should be operating normally. We will provide an update once we have fully recovered.</div><div><span class=\"yellowfg\">11:24 AM PDT</span>&nbsp;We have resolved the issue where the virtualization type is incorrectly set in the DescribeImages API call for the EC2 APIs in the US-EAST-1 Region. Starting at 2:43 AM PDT, some images (AMI) returned the incorrect virtualization type (‘paravirt’ instead of ‘hvm’) in a DescribeImages API call. Since some instance types do not support ‘paravirt’ images, this prevented the EC2 Management Console and some EMR jobs from being able to launch new EC2 instances. As of 11:17 AM PDT, the issue has been fully resolved. Instances launched during this time do not need to be relaunched. The issue has been resolved and the service is operating normally.\n</div>",
-      "service": "ec2-us-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Container Service (N. Virginia)",
       "summary": "[RESOLVED] Elevated API Error Rates",
       "date": "1629201355",
