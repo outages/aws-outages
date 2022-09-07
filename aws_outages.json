@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Identity and Access Management",
-      "summary": "[RESOLVED] IAM errors and propagation latency",
-      "date": "1629996723",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:52 AM PDT</span>&nbsp;We are investigating elevated latencies and errors on the IAM APIs. In addition, we are investigating propagation delays for recently created or recently updated IAM users, credentials, roles, policies. Authentication and authorization of existing users, credentials, roles, policies are not impacted. Other AWS services like AWS CloudFormation that use IAM roles were also impacted.</div><div><span class=\"yellowfg\">10:39 AM PDT</span>&nbsp;Between 6:44 AM and 9:12 AM PDT, customers experienced elevated latency and error rates in response to IAM API requests, as well as delays in describing recently created or modified IAM resources. In addition, between 6:44 AM and 10:02 AM, propagation of IAM API updates was delayed in the ME-SOUTH-1, EU-SOUTH-1, AP-EAST-1, and AF-SOUTH-1 regions, and newly created or recently updated IAM users, credentials, roles, and policies may not have been available for authentication and authorization in those regions. Other AWS Services that rely on IAM changes to provision resources, such as CloudFormation, were also impacted. Authentication and authorization for existing users, credentials, roles, policies were not impacted. The issue has been resolved and the service is operating normally.</div>",
-      "service": "iam"
-    },
-    {
       "service_name": "AWS Internet Connectivity (Oregon)",
       "summary": "[RESOLVED] Connectivity Issues",
       "date": "1630434320",
