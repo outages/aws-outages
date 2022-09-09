@@ -703,5 +703,15 @@
       "service": "ecs-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Systems Manager (N. Virginia)",
+      "summary": "Increased API Error Rates and Latency",
+      "date": "1662737760",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:36 AM PDT</span>&nbsp;We are investigating increased API error rates and latency in the US-EAST-1 Region. This will impact customers' ability to make calls to Parameter Store.</div>",
+      "service": "ec2systemsmanager-us-east-1"
+    }
+  ]
 }
