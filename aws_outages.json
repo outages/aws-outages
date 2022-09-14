@@ -680,10 +680,10 @@
     {
       "service_name": "Amazon Elastic Compute Cloud (Cape Town)",
       "summary": "Increased API Error Rates",
-      "date": "1663153287",
-      "status": "1",
+      "date": "1663153260",
+      "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:01 AM PDT</span>&nbsp;We are investigating increased API error rates in the AF-SOUTH-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:01 AM PDT</span>&nbsp;We are investigating increased API error rates in the AF-SOUTH-1 Region. Existing instances are unaffected.</div><div><span class=\"yellowfg\"> 4:21 AM PDT</span>&nbsp;We are experiencing elevated API errors and latency with the IAM authentication service in the AF-SOUTH-1 Region.  This is causing impact on services that require IAM authentication.  We are actively investigating root cause to identify a path to mitigation.</div>",
       "service": "ec2-af-south-1"
     }
   ]
