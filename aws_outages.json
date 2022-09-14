@@ -676,5 +676,15 @@
       "service": "ec2systemsmanager-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Cape Town)",
+      "summary": "Increased API Error Rates",
+      "date": "1663153287",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:01 AM PDT</span>&nbsp;We are investigating increased API error rates in the AF-SOUTH-1 Region.</div>",
+      "service": "ec2-af-south-1"
+    }
+  ]
 }
