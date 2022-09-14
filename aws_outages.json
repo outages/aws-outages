@@ -683,7 +683,7 @@
       "date": "1663153260",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:01 AM PDT</span>&nbsp;We are investigating increased API error rates in the AF-SOUTH-1 Region. Existing instances are unaffected.</div><div><span class=\"yellowfg\"> 4:21 AM PDT</span>&nbsp;We are experiencing elevated API errors and latency with the IAM authentication service in the AF-SOUTH-1 Region.  This is causing impact on services that require IAM authentication.  We are actively investigating root cause to identify a path to mitigation.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:01 AM PDT</span>&nbsp;We are investigating increased API error rates in the AF-SOUTH-1 Region. Existing instances are unaffected.</div><div><span class=\"yellowfg\"> 4:21 AM PDT</span>&nbsp;We are experiencing elevated API errors and latency with the IAM authentication service in the AF-SOUTH-1 Region.  This is causing impact on services that require IAM authentication.  We are actively investigating root cause to identify a path to mitigation.</div><div><span class=\"yellowfg\"> 5:13 AM PDT</span>&nbsp;We continue to see elevated API and latency for IAM authentication and authorization requests in the AF-SOUTH-1. The IAM errors affect any AWS API call that requires authentication, though some calls may still be succeeding due to API credential caching. We have all teams engaged in investigation of root cause and mitigation, but we do not have an ETA for recovery at this time.</div>",
       "service": "ec2-af-south-1"
     }
   ]
