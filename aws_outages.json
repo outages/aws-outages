@@ -692,7 +692,7 @@
       "date": "1663585076",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:57 AM PDT</span>&nbsp;We are experiencing delays creating, deleting, and updating Route 53 health checks.  This is also affecting provisioning and scaling workflows for services like ELB, EKS, and RDS that use Route 53 health checks as well.  We have identified the issue and have a path towards recovery, however we do expect that to take at least a couple hours.\n\nExisting Route 53 health checks are operating normally, and are correctly reflecting the health status of their configured resources. \n</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:57 AM PDT</span>&nbsp;We are experiencing delays creating, deleting, and updating Route 53 health checks.  This is also affecting provisioning and scaling workflows for services like ELB, EKS, and RDS that use Route 53 health checks as well.  We have identified the issue and have a path towards recovery, however we do expect that to take at least a couple hours.\n\nExisting Route 53 health checks are operating normally, and are correctly reflecting the health status of their configured resources. \n</div><div><span class=\"yellowfg\"> 4:32 AM PDT</span>&nbsp;We continue to work towards recovery of the Route 53 Health Check API, and expect health check create, update, and delete delays to be resolved within about 90 minutes.  However, it will take a bit longer for other impacted services to fully recover their own provisioning and scaling workflows as they have their own backlogs to work through.</div>",
       "service": "route53"
     }
   ]
