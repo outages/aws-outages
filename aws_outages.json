@@ -685,5 +685,15 @@
       "service": "ec2-af-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Route 53",
+      "summary": "Increased Route 53 Health Check API latency",
+      "date": "1663585076",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 3:57 AM PDT</span>&nbsp;We are experiencing delays creating, deleting, and updating Route 53 health checks.  This is also affecting provisioning and scaling workflows for services like ELB, EKS, and RDS that use Route 53 health checks as well.  We have identified the issue and have a path towards recovery, however we do expect that to take at least a couple hours.\n\nExisting Route 53 health checks are operating normally, and are correctly reflecting the health status of their configured resources. \n</div>",
+      "service": "route53"
+    }
+  ]
 }
