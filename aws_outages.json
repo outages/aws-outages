@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (Hong Kong)",
-      "summary": "[RESOLVED] API错误率的上升 | API的錯誤率上升 | Increased API error rates",
-      "date": "1631281173",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;我们正在调查AP-EAST-1地区EC2 API错误率的上升，若有新的进展时会立即更新。| 我們正在調查AP-EAST-1地區EC2 API的錯誤率上升，若有新的進展時會立即更新。| We are investigating increased EC2 API error rates in the AP-EAST-1 Region. We will provide more information as it becomes available.</div><div><span class=\"yellowfg\"> 7:30 AM PDT</span>&nbsp;在 20:23 至 21:56 (UTC+8) 之间，我们在 AP-EAST-1 区域遇到了 API 和新实例启动错误率增加的情况。发生原因是子系统中的少数主机无法处理 API 请求。 在多数情况下，重试调用 API 之后可成功执行。 目前问题已解决，服务已恢复正常运行。| 在 20:23 至 21:56 (UTC+8) 之間，我們在 AP-EAST-1 區域遇到了 API 和新實例啟動錯誤率增加的情況。發生原因是子系統中的少數主機無法處理 API 請求。 在多數情況下，重試調用 API 之後可成功執行。 目前問題已解決，服務已恢復正常運行。| Between 5:23 AM and 6:56 AM PDT we experienced increased error rates for APIs and new instance launches in the AP-EAST-1 Region. The root cause was a small number of hosts in a subsystem that failed to process API requests. Retries of API calls would have succeeded in many cases. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-ap-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
       "summary": "[RESOLVED] Degraded EBS Volume Performance",
       "date": "1632712292",
@@ -692,17 +683,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:57 AM PDT</span>&nbsp;We are experiencing delays creating, deleting, and updating Route 53 health checks.  This is also affecting provisioning and scaling workflows for services like ELB, EKS, and RDS that use Route 53 health checks as well.  We have identified the issue and have a path towards recovery, however we do expect that to take at least a couple hours.\n\nExisting Route 53 health checks are operating normally, and are correctly reflecting the health status of their configured resources. \n</div><div><span class=\"yellowfg\"> 4:32 AM PDT</span>&nbsp;We continue to work towards recovery of the Route 53 Health Check API, and expect health check create, update, and delete delays to be resolved within about 90 minutes.  However, it will take a bit longer for other impacted services to fully recover their own provisioning and scaling workflows as they have their own backlogs to work through.</div><div><span class=\"yellowfg\"> 5:28 AM PDT</span>&nbsp;The Route 53 health check API has recovered, and all operations are now being processed normally.  Other services that were impacted by this issue are processing their scaling and provisioning backlogs.</div><div><span class=\"yellowfg\"> 6:25 AM PDT</span>&nbsp;Between 12:00 AM and 5:05 AM PDT, customers experienced elevated errors and latency when calling the Route 53 Health Checks API.  This issue also affected provisioning and scaling workflows for some other AWS services.  The Route 53 Health Checks API is now working normally.  ELB, EKS, EMR, and Amazon MQ are still processing backlogs, and affected customers can get more information in Account Specific Service Events.</div>",
       "service": "route53"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (Mumbai)",
       "summary": "[RESOLVED] Increased API error rates",
       "date": "1663816639",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased API error rates for DetachVolume, AttachVolume, and AssociateIamInstanceProfile in the AP-SOUTH-1 Region. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\"> 8:35 PM PDT</span>&nbsp;Between 6:26 PM and 8:23 PM PDT we experienced increased API error rates for DetachVolume, AttachVolume, and AssociateIamInstanceProfile in the AP-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-ap-south-1"
     }
-  ]
+  ],
+  "current": []
 }
