@@ -694,5 +694,15 @@
       "service": "route53"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Mumbai)",
+      "summary": "[RESOLVED] Increased API error rates",
+      "date": "1663816639",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased API error rates for DetachVolume, AttachVolume, and AssociateIamInstanceProfile in the AP-SOUTH-1 Region. We have identified the root cause and are working towards resolution.</div><div><span class=\"yellowfg\"> 8:35 PM PDT</span>&nbsp;Between 6:26 PM and 8:23 PM PDT we experienced increased API error rates for DetachVolume, AttachVolume, and AssociateIamInstanceProfile in the AP-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "ec2-ap-south-1"
+    }
+  ]
 }
