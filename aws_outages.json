@@ -694,5 +694,15 @@
       "service": "ec2-ap-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Systems Manager (Oregon)",
+      "summary": "[RESOLVED] Increased API Error Rates",
+      "date": "1664323892",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:11 PM PDT</span>&nbsp;We are experiencing increased latency and error rates when calling the StartSession API for a subset of customers in the US-WEST-2 Region. We have identified the issue and working towards resolution.</div><div><span class=\"yellowfg\"> 5:50 PM PDT</span>&nbsp;Between 2:40 PM and 5:45 PM PDT, we experienced increased latency and error rates when calling the StartSession API for a subset of customers in the US-WEST-2 Region. The issue has been resolved and the service is operating normally. </div>",
+      "service": "ec2systemsmanager-us-west-2"
+    }
+  ]
 }
