@@ -703,5 +703,15 @@
       "service": "ec2systemsmanager-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon API Gateway (Oregon)",
+      "summary": "Increased Invoke Error Rates",
+      "date": "1664385235",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;[10:10 AM PDT] We are investigating increased error rates for invokes in the US-WEST-2 Region.</div><div><span class=\"yellowfg\">10:33 AM PDT</span>&nbsp;[10:33 AM PDT] We are investigating increased error rates for invokes in the US-WEST-2 Region. We do not yet have a root cause, but are investigating multiple potential root causes in parallel. In addition, we are implementing filters on inbound traffic from a set of sources with recent significant traffic shifts, which may help mitigate the impact.  We do not yet have a solid ETA, but will continue to provide updates as we progress.</div>",
+      "service": "apigateway-us-west-2"
+    }
+  ]
 }
