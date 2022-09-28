@@ -707,10 +707,10 @@
     {
       "service_name": "Amazon API Gateway (Oregon)",
       "summary": "Increased Invoke Error Rates",
-      "date": "1664385235",
+      "date": "1664385180",
       "status": "2",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;[10:10 AM PDT] We are investigating increased error rates for invokes in the US-WEST-2 Region.</div><div><span class=\"yellowfg\">10:33 AM PDT</span>&nbsp;[10:33 AM PDT] We are investigating increased error rates for invokes in the US-WEST-2 Region. We do not yet have a root cause, but are investigating multiple potential root causes in parallel. In addition, we are implementing filters on inbound traffic from a set of sources with recent significant traffic shifts, which may help mitigate the impact.  We do not yet have a solid ETA, but will continue to provide updates as we progress.</div>",
+      "description": "<div><span class=\"yellowfg\">10:13 AM PDT</span>&nbsp;We are investigating increased error rates for invokes in the US-WEST-2 Region.</div><div><span class=\"yellowfg\">10:33 AM PDT</span>&nbsp;We are investigating increased error rates for invokes in the US-WEST-2 Region. We do not yet have a root cause, but are investigating multiple potential root causes in parallel. In addition, we are implementing filters on inbound traffic from a set of sources with recent significant traffic shifts, which may help mitigate the impact.  We do not yet have a solid ETA, but will continue to provide updates as we progress.</div><div><span class=\"yellowfg\">10:59 AM PDT</span>&nbsp;We continue to see elevated error rates and latencies for invokes on API Gateway endpoints in the US-WEST-2 Region. While engineers continue to work towards root cause, we have deployed traffic filters from sources with significant increases in traffic prior to the event. As a result of these traffic filters, we are seeing a reduction in error rates and latencies, but continue to work towards full recovery. Although error rates are improving, we do not yet have an ETA for full recovery. The issue is also affecting API requests to some AWS services, including those listed below. Amazon Connect is experiencing increased failures in handling new calls, chats, and tasks as well as issues with user login in the US-WEST-2 Region. We will continue to provide updates as we progress.</div>",
       "service": "apigateway-us-west-2"
     }
   ]
