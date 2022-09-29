@@ -721,5 +721,15 @@
       "service": "redshift-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Multiple services (Sao Paulo)",
+      "summary": "Increased Error rates and Latencies",
+      "date": "1664457641",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:20 AM PDT</span>&nbsp;We are investigating increased error rates and latencies affecting multiple services and the AWS Console in the SA-EAST-1 Region.</div>",
+      "service": "multipleservices-sa-east-1"
+    }
+  ]
 }
