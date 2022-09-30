@@ -719,17 +719,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:39 PM PDT</span>&nbsp;We are experiencing elevated errors for calls to the Redshift API and console.  We have identified the root cause of these errors, and are in the process of applying a mitigation to address the issue.  While we work to apply the mitigation, customers are encouraged to re-attempt failed API queries, as they are likely to succeed after multiple attempts.  We do not have a firm ETA for recovery at this time, but will report on the results of the mitigation when it has been applied in 1 hour.</div><div><span class=\"yellowfg\"> 2:42 PM PDT</span>&nbsp;Between 6:15 AM and 2:02 PM PDT, we experienced increased latency and error rates in US-EAST-1 Region impacting customers using Query Editor v2 and the Redshift Console. The issue has been resolved and the service is operating normally.</div>",
       "service": "redshift-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Multiple services (Sao Paulo)",
       "summary": "[RESOLVED] Increased Error rates and Latencies",
       "date": "1664457641",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:20 AM PDT</span>&nbsp;We are investigating increased error rates and latencies affecting multiple services and the AWS Console in the SA-EAST-1 Region.</div><div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for some services within the SA-EAST-1 Region. The AWS Management Console is also experiencing elevated error rates as a result of this issue. The root cause of the issue appears to be elevated network packet loss which is affecting some AWS service APIs. The EC2 network, and existing EC2 instances, are not affected by this event. Some services have seen improvements in error rates as a result of mitigations taken by engineers, but we continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 6:55 AM PDT</span>&nbsp;Between 5:56 AM and 6:46 AM PDT, we experienced increased error rates and latencies affecting multiple services and the AWS Management Console in the SA-EAST-1 Region. The EC2 network, and existing EC2 instances, were not affected by this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "multipleservices-sa-east-1"
     }
-  ]
+  ],
+  "current": []
 }
