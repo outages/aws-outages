@@ -730,5 +730,15 @@
       "service": "multipleservices-sa-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Managed Grafana (Oregon)",
+      "summary": "Authentication Issue",
+      "date": "1664954146",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div>",
+      "service": "grafana-us-west-2"
+    }
+  ]
 }
