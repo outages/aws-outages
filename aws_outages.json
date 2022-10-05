@@ -733,11 +733,11 @@
   "current": [
     {
       "service_name": "Amazon Managed Grafana (Oregon)",
-      "summary": "Authentication Issue",
+      "summary": "[RESOLVED] Authentication Issue",
       "date": "1664954146",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div><div><span class=\"yellowfg\">12:50 AM PDT</span>&nbsp;We have identified the cause of the authentication issue affecting some workspaces in the US-WEST-2 Region and continue to work toward resolution. </div>",
+      "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div><div><span class=\"yellowfg\">12:50 AM PDT</span>&nbsp;We have identified the cause of the authentication issue affecting some workspaces in the US-WEST-2 Region and continue to work toward resolution. </div><div><span class=\"yellowfg\"> 1:30 AM PDT</span>&nbsp;Between October 4 11:00 PM and October 5 1:07 AM PDT, we experienced authentication issue affecting some workspaces in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "grafana-us-west-2"
     }
   ]
