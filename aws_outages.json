@@ -737,7 +737,7 @@
       "date": "1664954146",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div>",
+      "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div><div><span class=\"yellowfg\">12:50 AM PDT</span>&nbsp;We have identified the cause of the authentication issue affecting some workspaces in the US-WEST-2 Region and continue to work toward resolution. </div>",
       "service": "grafana-us-west-2"
     }
   ]
