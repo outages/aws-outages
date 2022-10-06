@@ -728,17 +728,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:20 AM PDT</span>&nbsp;We are investigating increased error rates and latencies affecting multiple services and the AWS Console in the SA-EAST-1 Region.</div><div><span class=\"yellowfg\"> 6:39 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for some services within the SA-EAST-1 Region. The AWS Management Console is also experiencing elevated error rates as a result of this issue. The root cause of the issue appears to be elevated network packet loss which is affecting some AWS service APIs. The EC2 network, and existing EC2 instances, are not affected by this event. Some services have seen improvements in error rates as a result of mitigations taken by engineers, but we continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 6:55 AM PDT</span>&nbsp;Between 5:56 AM and 6:46 AM PDT, we experienced increased error rates and latencies affecting multiple services and the AWS Management Console in the SA-EAST-1 Region. The EC2 network, and existing EC2 instances, were not affected by this event. The issue has been resolved and the service is operating normally.</div>",
       "service": "multipleservices-sa-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Managed Grafana (Oregon)",
       "summary": "[RESOLVED] Authentication Issue",
       "date": "1664954146",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:15 AM PDT</span>&nbsp;We are investigating authentication issues affecting workspace availability in the US-WEST-2 Region</div><div><span class=\"yellowfg\">12:50 AM PDT</span>&nbsp;We have identified the cause of the authentication issue affecting some workspaces in the US-WEST-2 Region and continue to work toward resolution. </div><div><span class=\"yellowfg\"> 1:30 AM PDT</span>&nbsp;Between October 4 11:00 PM and October 5 1:07 AM PDT, we experienced authentication issue affecting some workspaces in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "grafana-us-west-2"
     }
-  ]
+  ],
+  "current": []
 }
