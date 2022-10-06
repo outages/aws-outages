@@ -742,11 +742,11 @@
   "current": [
     {
       "service_name": "Amazon Simple Storage Service (UAE)",
-      "summary": "Elevated API Error rates",
+      "summary": "[RESOLVED] Elevated API Error rates",
       "date": "1665093648",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 3:00 PM PDT</span>&nbsp;Beginning at 2:13 PM PDT, we began observing elevated error rates for Amazon S3 PUT and GET APIs in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail.</div><div><span class=\"yellowfg\"> 3:03 PM PDT</span>&nbsp;We are seeing recovery in the elevated error rates for S3 and other AWS services. We are continuing to monitor progress towards full recovery.</div>",
+      "description": "<div><span class=\"yellowfg\"> 3:00 PM PDT</span>&nbsp;Beginning at 2:13 PM PDT, we began observing elevated error rates for Amazon S3 PUT and GET APIs in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail.</div><div><span class=\"yellowfg\"> 3:03 PM PDT</span>&nbsp;We are seeing recovery in the elevated error rates for S3 and other AWS services. We are continuing to monitor progress towards full recovery.</div><div><span class=\"yellowfg\"> 3:24 PM PDT</span>&nbsp;Between 2:13 PM PDT and 2:57 PM PDT we experienced increased error rates for Amazon S3 requests in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail. The issue has been resolved and the service is operating normally.</div>",
       "service": "s3-me-central-1"
     }
   ]
