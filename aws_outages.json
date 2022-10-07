@@ -739,6 +739,15 @@
       "service": "grafana-us-west-2"
     },
     {
+      "service_name": "Multiple services (UAE)",
+      "summary": "[RESOLVED] Elevated API Error rates",
+      "date": "1665092370",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 2:39 PM PDT</span>&nbsp;We are investigating elevated error rates for some services in the UAE (ME-CENTRAL-1) Region including S3, Lambda, and CloudTrail.</div><div><span class=\"yellowfg\"> 3:24 PM PDT</span>&nbsp;Between 2:13 PM PDT and 2:57 PM PDT we experienced increased error rates for Amazon S3 requests in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail. The issue has been resolved and the service is operating normally.</div>",
+      "service": "multipleservices-me-central-1"
+    },
+    {
       "service_name": "Amazon Simple Storage Service (UAE)",
       "summary": "[RESOLVED] Elevated API Error rates",
       "date": "1665093648",
