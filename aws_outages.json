@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Chime",
-      "summary": "[RESOLVED] Increased contact search failures",
-      "date": "1632832788",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:39 AM PDT</span>&nbsp;We are investigating increased latency in being able to search for contacts and start chime messages. We will provide more information as it becomes available</div><div><span class=\"yellowfg\"> 6:31 AM PDT</span>&nbsp;Between 2:55 AM and 6:10 AM PDT, we experienced increased error rates when searching for contacts and starting Chime messages. The issue is resolved and the service is operating normally.  </div>",
-      "service": "chime"
-    },
-    {
       "service_name": "AWS Lambda (Ireland)",
       "summary": "[RESOLVED] Increased invoke timeouts",
       "date": "1633447955",
