@@ -739,5 +739,15 @@
       "service": "s3-me-central-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Route 53",
+      "summary": "[RESOLVED] Increased API error rates and latency ",
+      "date": "1665511560",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">11:06 AM PDT</span>&nbsp;We are investigating increased API error rates and latency in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">11:16 AM PDT</span>&nbsp;Between 10:33 AM and 11:08 AM PDT, customers may have experienced elevated latency and errors when accessing AWS APIs and consoles in the US-GOV-WEST-1 Region.  We have identified the root cause, which has been addressed, and all services are now operating normally.</div>",
+      "service": "route53"
+    }
+  ]
 }
