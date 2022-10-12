@@ -757,5 +757,15 @@
       "service": "route53-us-gov-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Elastic Beanstalk (N. Virginia)",
+      "summary": "Increased latency for UpdateEnvironment API calls",
+      "date": "1665603967",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:46 PM PDT</span>&nbsp;We are investigating increased latency for UpdateEnvironment API calls. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return 5XX errors. We are actively working on identifying the root cause and will provide additional information as soon as possible.</div>",
+      "service": "elasticbeanstalk-us-east-1"
+    }
+  ]
 }
