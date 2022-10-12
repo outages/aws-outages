@@ -737,14 +737,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:00 PM PDT</span>&nbsp;Beginning at 2:13 PM PDT, we began observing elevated error rates for Amazon S3 PUT and GET APIs in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail.</div><div><span class=\"yellowfg\"> 3:03 PM PDT</span>&nbsp;We are seeing recovery in the elevated error rates for S3 and other AWS services. We are continuing to monitor progress towards full recovery.</div><div><span class=\"yellowfg\"> 3:24 PM PDT</span>&nbsp;Between 2:13 PM PDT and 2:57 PM PDT we experienced increased error rates for Amazon S3 requests in the ME-CENTRAL-1 Region. These error rates also affected other AWS services including Lambda and CloudTrail. The issue has been resolved and the service is operating normally.</div>",
       "service": "s3-me-central-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Route 53",
       "summary": "[RESOLVED] Increased API error rates and latency ",
       "date": "1665511560",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:06 AM PDT</span>&nbsp;We are investigating increased API error rates and latency in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\">11:16 AM PDT</span>&nbsp;Between 10:33 AM and 11:08 AM PDT, customers may have experienced elevated latency and errors when accessing AWS APIs and consoles in the US-GOV-WEST-1 Region.  We have identified the root cause, which has been addressed, and all services are now operating normally.</div>",
       "service": "route53"
@@ -753,10 +751,11 @@
       "service_name": "Amazon Route 53 (US-West)",
       "summary": "[RESOLVED] Increased API error rates and latency ",
       "date": "1665513240",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:34 AM PDT</span>&nbsp;Between 10:33 AM and 11:08 AM PDT, customers may have experienced elevated latency and errors when accessing AWS APIs and consoles in the US-GOV-WEST-1 Region. We have identified the root cause, which has been addressed, and all services are now operating normally.  This issue also affected the following services: EC2, Redshift, CloudWatch and OpenSearch.</div>",
       "service": "route53-us-gov-west-1"
     }
-  ]
+  ],
+  "current": []
 }
