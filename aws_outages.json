@@ -764,7 +764,7 @@
       "date": "1665603967",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:46 PM PDT</span>&nbsp;We are investigating increased latency for UpdateEnvironment API calls. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return 5XX errors. We are actively working on identifying the root cause and will provide additional information as soon as possible.</div>",
+      "description": "<div><span class=\"yellowfg\">12:46 PM PDT</span>&nbsp;We are investigating increased latency for UpdateEnvironment API calls. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return 5XX errors. We are actively working on identifying the root cause and will provide additional information as soon as possible.</div><div><span class=\"yellowfg\"> 1:28 PM PDT</span>&nbsp;We have identified the root cause of increased latency for UpdateEnvironment API calls in the US-EAST-1 Region. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return a 5XX error. We are observing partial recovery and continue to work through full recovery of the issue. Another update will be sent by 2:00 PM PDT or as more information becomes available.</div>",
       "service": "elasticbeanstalk-us-east-1"
     }
   ]
