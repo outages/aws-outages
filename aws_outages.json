@@ -755,17 +755,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">11:34 AM PDT</span>&nbsp;Between 10:33 AM and 11:08 AM PDT, customers may have experienced elevated latency and errors when accessing AWS APIs and consoles in the US-GOV-WEST-1 Region. We have identified the root cause, which has been addressed, and all services are now operating normally.  This issue also affected the following services: EC2, Redshift, CloudWatch and OpenSearch.</div>",
       "service": "route53-us-gov-west-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Elastic Beanstalk (N. Virginia)",
       "summary": "[RESOLVED] Increased latency for UpdateEnvironment API calls",
       "date": "1665603967",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:46 PM PDT</span>&nbsp;We are investigating increased latency for UpdateEnvironment API calls. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return 5XX errors. We are actively working on identifying the root cause and will provide additional information as soon as possible.</div><div><span class=\"yellowfg\"> 1:28 PM PDT</span>&nbsp;We have identified the root cause of increased latency for UpdateEnvironment API calls in the US-EAST-1 Region. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return a 5XX error. We are observing partial recovery and continue to work through full recovery of the issue. Another update will be sent by 2:00 PM PDT or as more information becomes available.</div><div><span class=\"yellowfg\"> 1:49 PM PDT</span>&nbsp;Between 10:00 AM and 1:45 PM PDT, we experienced increased latency for UpdateEnvironment API calls in the US-EAST-1 Region.  Existing environments were not impacted.  Impact was limited to updating existing or creating new environments. The issue was related to a partially failed deployment that we were able to mitigate. The issue has been resolved and the service is operating normally.  </div>",
       "service": "elasticbeanstalk-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
