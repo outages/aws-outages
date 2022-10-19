@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (Seoul)",
-      "summary": "[RESOLVED] Increased API Error Rates",
-      "date": "1633637388",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:09 PM PDT</span>&nbsp;PDT 시간으로 12:24 PM과 12:34 PM 사이에, AP-NORTHEAST-2 리전에서 API 에러율 증가가 발생했습니다. 이 이슈는 해결되었고 서비스는 현재 정상 동작 중입니다. 이슈가 영향을 미치는 중에는 API 실패가 발생했을 수 있고, 고객들이 API 호출들을 재시도 할 것을 권고합니다. 고객들이 서비스의 가용성을 복구하기 위한 추가적인 조치를 취할 필요는 없습니다. 이 기간 동안 다른 AWS 서비스들에서도 API 실패가 발생할 수 있었습니다. 만일 궁금한 점이나 서비스와 관련된 운영상의 이슈를 겪으신다면, AWS Support Center를 통해 AWS 기술지원팀에 문의해주십시오. https://console.aws.amazon.com/support  |  Between 12:24 PM and 12:34 PM PDT we experienced increased API error rates in the AP-NORTHEAST-2 Region. The issue has been resolved and the service is operating normally.  During the period of impact, API's may have failed and we recommend that customers retry these API calls.  Customers do not need to take additional measures to restore the availability of this service.  Additional AWS services may have seen API failures during this period.  If you have any questions or are experiencing any operational issues with any of our services, please contact the AWS Support department via the AWS Support Center at https://console.aws.amazon.com/support .</div>",
-      "service": "ec2-ap-northeast-2"
-    },
-    {
       "service_name": "AWS Management Console",
       "summary": "[RESOLVED] Elevated Error Rates for AWS Management Console ",
       "date": "1634052623",
