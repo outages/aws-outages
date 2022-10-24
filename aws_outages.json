@@ -721,5 +721,15 @@
       "service": "elasticbeanstalk-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Cognito (Ohio)",
+      "summary": "[RESOLVED] Increased error rates for Cognito Hosted UI",
+      "date": "1666632939",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:35 AM PDT</span>&nbsp;Between 8:48 AM and 9:52 AM PDT, we experienced increased error rates for Cognito Hosted UI in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "cognito-us-east-2"
+    }
+  ]
 }
