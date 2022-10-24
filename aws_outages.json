@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Management Console",
-      "summary": "[RESOLVED] Elevated Error Rates for AWS Management Console ",
-      "date": "1634052623",
-      "status": "3",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:30 AM PDT</span>&nbsp;We are investigating increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:38 AM PDT</span>&nbsp;We can confirm increased error rates and latencies for the AWS Management Console.</div><div><span class=\"yellowfg\"> 8:47 AM PDT</span>&nbsp;Between 8:10 AM and 8:39 AM PDT we experienced increased error rates and latency for the AWS Management Console. The issue has been resolved and the console is operating normally.  This issue did not affect any AWS service APIs, they were operating correctly during this time.</div>",
-      "service": "management-console"
-    },
-    {
-      "service_name": "AWS Directory Service (Sydney)",
-      "summary": "[RESOLVED] Increased Authentication Error Rates ",
-      "date": "1634086680",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:58 PM PDT</span>&nbsp;We are investigating authentication errors on AD Connector directories that have MFA authentication enabled in the AP-SOUTHEAST-2 Region. Other AWS services, including Workspaces and Client VPN, are also affected by this event if they are configured to use AD Connector directories with MFA authentication enabled.</div><div><span class=\"yellowfg\"> 7:04 PM PDT</span>&nbsp;We have identified the root cause of the authentication errors on AD Connector directories that have MFA authentication enabled in the AP-SOUTHEAST-2 Region. We are currently working on a fix to mitigate the issue. Other AWS services, including Workspaces, Client VPN and SSO, are also affected by this event if they are configured to use AD Connector directories with MFA authentication enabled.</div><div><span class=\"yellowfg\"> 7:22 PM PDT</span>&nbsp;We have identified the root cause of the authentication errors on AD Connector Directories that have MFA authentication enabled in the AP-SOUTHEAST-2 Region. Our mitigation efforts are working as expected and customers should see resolution over the next 3 hours. We are currently working on steps to speed this up and will update resolution timings as we progress. Other AWS services, including Workspaces, Client VPN and SSO, are also affected by this event if they are configured to use AD Connector Directories with MFA authentication enabled.</div><div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;Our actions to expedite recovery have been successful and we now expect the fix to be completely deployed within the hour.</div><div><span class=\"yellowfg\"> 9:19 PM PDT</span>&nbsp;Between 1:00 PM and 9:15 PM PDT we experienced authentication errors on AD Connector directories that have MFA authentication enabled in the AP-SOUTHEAST-2 Region. Other AWS services, including Workspaces, Client VPN and SSO were also affected by this event if they were configured to use AD Connector directories with MFA authentication enabled. The issue has been resolved and the service is operating normally.</div>",
-      "service": "directoryservice-ap-southeast-2"
-    },
-    {
       "service_name": "AWS Internet Connectivity (US-West)",
       "summary": "[RESOLVED] Network Connectivity in US-GOV-WEST-1",
       "date": "1635874351",
