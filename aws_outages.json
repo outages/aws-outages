@@ -719,17 +719,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:46 PM PDT</span>&nbsp;We are investigating increased latency for UpdateEnvironment API calls. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return 5XX errors. We are actively working on identifying the root cause and will provide additional information as soon as possible.</div><div><span class=\"yellowfg\"> 1:28 PM PDT</span>&nbsp;We have identified the root cause of increased latency for UpdateEnvironment API calls in the US-EAST-1 Region. This issue impacts both the API, and requests made through the Management Console. Additionally, attempts to abort the update (via the AbortEnvironmentUpdate API) may return a 5XX error. We are observing partial recovery and continue to work through full recovery of the issue. Another update will be sent by 2:00 PM PDT or as more information becomes available.</div><div><span class=\"yellowfg\"> 1:49 PM PDT</span>&nbsp;Between 10:00 AM and 1:45 PM PDT, we experienced increased latency for UpdateEnvironment API calls in the US-EAST-1 Region.  Existing environments were not impacted.  Impact was limited to updating existing or creating new environments. The issue was related to a partially failed deployment that we were able to mitigate. The issue has been resolved and the service is operating normally.  </div>",
       "service": "elasticbeanstalk-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Cognito (Ohio)",
       "summary": "[RESOLVED] Increased error rates for Cognito Hosted UI",
       "date": "1666632939",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:35 AM PDT</span>&nbsp;Between 8:48 AM and 9:52 AM PDT, we experienced increased error rates for Cognito Hosted UI in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cognito-us-east-2"
     }
-  ]
+  ],
+  "current": []
 }
