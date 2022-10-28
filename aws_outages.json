@@ -728,17 +728,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:35 AM PDT</span>&nbsp;Between 8:48 AM and 9:52 AM PDT, we experienced increased error rates for Cognito Hosted UI in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "cognito-us-east-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Simple Notification Service (Milan)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1666912855",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:20 PM PDT</span>&nbsp;We are investigating increased error rates for the Amazon SNS Publish API in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 4:32 PM PDT</span>&nbsp;We are beginning to see recovery in SNS Publish API error rates in the EU-SOUTH-1 Region. </div><div><span class=\"yellowfg\"> 4:55 PM PDT</span>&nbsp;Between 2:57 PM and 4:15 PM PDT we experienced elevated Publish API error rates and delivery latency in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-eu-south-1"
     }
-  ]
+  ],
+  "current": []
 }
