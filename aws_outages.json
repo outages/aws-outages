@@ -737,17 +737,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:20 PM PDT</span>&nbsp;We are investigating increased error rates for the Amazon SNS Publish API in the EU-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 4:32 PM PDT</span>&nbsp;We are beginning to see recovery in SNS Publish API error rates in the EU-SOUTH-1 Region. </div><div><span class=\"yellowfg\"> 4:55 PM PDT</span>&nbsp;Between 2:57 PM and 4:15 PM PDT we experienced elevated Publish API error rates and delivery latency in the EU-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-eu-south-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (Ohio)",
       "summary": "[RESOLVED] Increased Launch Failures",
       "date": "1667246817",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:06 PM PDT</span>&nbsp;We are investigating increased failures for newly launched instances within the US-EAST-2 Region. Changes to instance networking state, such as mapping Elastic IP addresses, may also experience increased error rates. We have identified root cause and are working to resolve the issue. Existing instances are not affected by this issue.</div><div><span class=\"yellowfg\"> 1:27 PM PDT</span>&nbsp;Between 12:18 PM and 1:20 PM PDT, we experienced increased failures for newly launched instances within the US-EAST-2 Region. Some APIs, such as those used to attach Elastic IP addresses to instances, were also affected by this event. Some AWS services, such as Elastic Load Balancing and Elastic Map Reduce, experienced provisioning delays due to failures in launching new EC2 instances. Existing instances were not affected by this issue. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-2"
     }
-  ]
+  ],
+  "current": []
 }
