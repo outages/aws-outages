@@ -751,11 +751,11 @@
   "current": [
     {
       "service_name": "AWS Transfer for SFTP (N. Virginia)",
-      "summary": "Increased Authentication Errors",
-      "date": "1667939297",
-      "status": "1",
+      "summary": "[RESOLVED] Increased Authentication Errors",
+      "date": "1667939280",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:28 PM PST</span>&nbsp;We can confirm increased authentication errors when logging into SFTP and FTPS. We have identified the root cause and are in the process of mitigating the issue. Our current mitigation efforts are expected to take 90 minutes. We will provide you with another update by 2:00 PM PDT.</div>",
+      "description": "<div><span class=\"yellowfg\">12:28 PM PST</span>&nbsp;We can confirm increased authentication errors when logging into SFTP and FTPS. We have identified the root cause and are in the process of mitigating the issue. Our current mitigation efforts are expected to take 90 minutes. We will provide you with another update by 2:00 PM PST.</div><div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;Between 11:10 AM and 12:40 PM PST, we experienced increased authentication errors when logging into SFTP and FTPS. The issue has been resolved and the service is operating normally.</div>",
       "service": "transfer-us-east-1"
     }
   ]
