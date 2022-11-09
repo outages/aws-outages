@@ -746,17 +746,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:06 PM PDT</span>&nbsp;We are investigating increased failures for newly launched instances within the US-EAST-2 Region. Changes to instance networking state, such as mapping Elastic IP addresses, may also experience increased error rates. We have identified root cause and are working to resolve the issue. Existing instances are not affected by this issue.</div><div><span class=\"yellowfg\"> 1:27 PM PDT</span>&nbsp;Between 12:18 PM and 1:20 PM PDT, we experienced increased failures for newly launched instances within the US-EAST-2 Region. Some APIs, such as those used to attach Elastic IP addresses to instances, were also affected by this event. Some AWS services, such as Elastic Load Balancing and Elastic Map Reduce, experienced provisioning delays due to failures in launching new EC2 instances. Existing instances were not affected by this issue. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-2"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Transfer for SFTP (N. Virginia)",
       "summary": "[RESOLVED] Increased Authentication Errors",
       "date": "1667939280",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:28 PM PST</span>&nbsp;We can confirm increased authentication errors when logging into SFTP and FTPS. We have identified the root cause and are in the process of mitigating the issue. Our current mitigation efforts are expected to take 90 minutes. We will provide you with another update by 2:00 PM PST.</div><div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;Between 11:10 AM and 12:40 PM PST, we experienced increased authentication errors when logging into SFTP and FTPS. The issue has been resolved and the service is operating normally.</div>",
       "service": "transfer-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
