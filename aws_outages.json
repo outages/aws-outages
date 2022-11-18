@@ -721,7 +721,7 @@
       "service": "ec2-us-east-2"
     },
     {
-      "service_name": "AWS Transfer for SFTP (N. Virginia)",
+      "service_name": "AWS Transfer Family (N. Virginia)",
       "summary": "[RESOLVED] Increased Authentication Errors",
       "date": "1667939280",
       "status": "1",
