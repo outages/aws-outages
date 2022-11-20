@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Internet Connectivity (Sao Paulo)",
-      "summary": "[RESOLVED] Internet Connectivity",
-      "date": "1636421771",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:36 PM PST</span>&nbsp;We are investigating internet connectivity issues within the SA-EAST-1 Region. This is affecting connectivity into the SA-EAST-1 Region but also causing increased error rates and latencies for AWS service APIs within the region.</div><div><span class=\"yellowfg\"> 5:51 PM PST</span>&nbsp;Between 5:15 PM and 5:41 PM PST we experienced Internet connectivity issues for a single Availability Zone (sae1-az1) within the SA-EAST-1 Region. Some AWS services also experienced increased error rates and latencies during this time. The issue has been resolved and the service is operating normally.</div>",
-      "service": "internetconnectivity-sa-east-1"
-    },
-    {
       "service_name": "Amazon Simple Storage Service (N. Virginia)",
       "summary": "[RESOLVED] Elevated API Error Rates",
       "date": "1636495106",
