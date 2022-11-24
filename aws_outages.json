@@ -701,17 +701,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:28 PM PST</span>&nbsp;We can confirm increased authentication errors when logging into SFTP and FTPS. We have identified the root cause and are in the process of mitigating the issue. Our current mitigation efforts are expected to take 90 minutes. We will provide you with another update by 2:00 PM PST.</div><div><span class=\"yellowfg\"> 1:01 PM PST</span>&nbsp;Between 11:10 AM and 12:40 PM PST, we experienced increased authentication errors when logging into SFTP and FTPS. The issue has been resolved and the service is operating normally.</div>",
       "service": "transfer-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
       "summary": "[RESOLVED] Degraded EBS Volume Performance",
       "date": "1669228100",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:28 AM PST</span>&nbsp;Between 7:58 AM and 8:05 AM PST, some EBS volumes experienced degraded IO performance within the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
