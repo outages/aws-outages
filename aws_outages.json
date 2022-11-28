@@ -717,9 +717,9 @@
       "service_name": "AWS QuickSight (N. Virginia)",
       "summary": "Missing dashboard and other assets",
       "date": "1669654485",
-      "status": "2",
+      "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:54 AM PST</span>&nbsp;We are investigating an issue with missing dashboards and other assets in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:49 AM PST</span>&nbsp;We are observing increased latency and timeouts for loading QuickSight assets such as dashboards and analysis in the homepage. We are observing a scaling bottleneck with one of our dependencies for the search functionality and we are currently working on scaling up the search node. In parallel, we are looking into any recent deployments that could have caused this. If customers know the dashboard and analysis URL, customers can navigate directly from those links. Embedding dashboards will not be affected. We will update you with the current status in 30 minutes. </div>",
+      "description": "<div><span class=\"yellowfg\"> 8:54 AM PST</span>&nbsp;We are investigating an issue with missing dashboards and other assets in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:49 AM PST</span>&nbsp;We are observing increased latency and timeouts for loading QuickSight assets such as dashboards and analysis in the homepage. We are observing a scaling bottleneck with one of our dependencies for the search functionality and we are currently working on scaling up the search node. In parallel, we are looking into any recent deployments that could have caused this. If customers know the dashboard and analysis URL, customers can navigate directly from those links. Embedding dashboards will not be affected. We will update you with the current status in 30 minutes. </div><div><span class=\"yellowfg\">10:18 AM PST</span>&nbsp;We are starting to see recovery for listing of Quicksight Dashboards and Analysis from the homepage. Customers with direct links to Quicksight Dashboards and Analysis, or Embedded Dashboards were not affected throughout this event.</div>",
       "service": "quicksight-us-east-1"
     }
   ]
