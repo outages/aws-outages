@@ -712,5 +712,15 @@
       "service": "ec2-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS QuickSight (N. Virginia)",
+      "summary": "Missing dashboard and other assets",
+      "date": "1669654485",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:54 AM PST</span>&nbsp;We are investigating an issue with missing dashboards and other assets in the US-EAST-1 Region.</div>",
+      "service": "quicksight-us-east-1"
+    }
+  ]
 }
