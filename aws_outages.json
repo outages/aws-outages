@@ -1,33 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (Stockholm)",
-      "summary": "[RESOLVED] Increased EC2 Console Error Rates",
-      "date": "1637596278",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:51 AM PST</span>&nbsp;We are investigating increased error rates within the EC2 Management Console in the EU-NORTH-1 Region.</div><div><span class=\"yellowfg\"> 8:22 AM PST</span>&nbsp;We are starting to see recovery for the issue causing increased error rates in the EC2 Console in the EU-NORTH-1 Region. We expect to see full recovery shortly. In the meantime, the EC2 APIs and EC2 CLI remain unaffected by the issue.</div><div><span class=\"yellowfg\"> 8:38 AM PST</span>&nbsp;We have resolved the issue causing increased error rates for the EC2 Management Console in the EU-NORTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-eu-north-1"
-    },
-    {
-      "service_name": "Amazon EventBridge (Cape Town)",
-      "summary": "[RESOLVED] Event Delivery Delays",
-      "date": "1637641154",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating increased event delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:13 PM PST</span>&nbsp;We continue to investigate increased event delivery delays in AF-SOUTH-1 Region. We are actively working to resolve the issue.</div><div><span class=\"yellowfg\">10:26 PM PST</span>&nbsp;We can confirm elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken initial mitigation actions based on our investigations and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23, 12:04 AM PST</span>&nbsp;We continue working to identify the root cause of elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. We have taken further mitigation actions which have reduced the delivery latency and continue to work toward full resolution.</div><div><span class=\"yellowfg\">Nov 23,  1:59 AM PST</span>&nbsp;Between November 22 7:30 PM and November 23 1:32 AM PST, we experienced elevated event delivery latency for EventBridge events in the AF-SOUTH-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "events-af-south-1"
-    },
-    {
-      "service_name": "Amazon CloudWatch (Cape Town)",
-      "summary": "[RESOLVED] Metric Stream Delivery Delays ",
-      "date": "1637641175",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:19 PM PST</span>&nbsp;We are investigating CloudWatch Metric Streams delivery delays in the AF-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 9:09 PM PST</span>&nbsp;We can confirm elevated API error rates for CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. We are actively working to resolve the issue. Customers may experience issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams is not affected.</div><div><span class=\"yellowfg\"> 9:42 PM PST</span>&nbsp;Between 7:30 PM and 9:25 PM PST, we experienced elevated error rates when calling CloudWatch Metric Streams APIs in the AF-SOUTH-1 Region. Customers may have experienced issues creating or updating their metric streams. Delivery of metric updates for the existing metric streams was not affected. The issue has been resolved and the service is operating normally.</div>",
-      "service": "cloudwatch-af-south-1"
-    },
-    {
       "service_name": "AWS Lambda (Ohio)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1637779569",
