@@ -694,5 +694,15 @@
       "service": "quicksight-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Ohio)",
+      "summary": "Internet Connectivity",
+      "date": "1670271984",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:26 PM PST</span>&nbsp;We are investigating an issue, which may be impacting Internet connectivity between some customer networks and the US-EAST-2 Region.</div>",
+      "service": "internetconnectivity-us-east-2"
+    }
+  ]
 }
