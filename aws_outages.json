@@ -697,20 +697,20 @@
   "current": [
     {
       "service_name": "AWS Internet Connectivity (Ohio)",
-      "summary": "Internet Connectivity",
+      "summary": "[RESOLVED] Internet Connectivity",
       "date": "1670271960",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:26 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:51 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-EAST-2 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-EAST-2 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\">12:59 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\">12:26 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:51 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-EAST-2 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-EAST-2 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\">12:59 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:06 PM PST</span>&nbsp;Between 11:34 AM and 12:51 PM PST, customers experienced Internet connectivity issues for some networks to and from the US-EAST-2 Region. Connectivity between instances within the Region, in between Regions, and Direct Connect connectivity were not impacted by this issue. The issue has been resolved and connectivity has been fully restored.</div>",
       "service": "internetconnectivity-us-east-2"
     },
     {
       "service_name": "AWS Internet Connectivity (US-East)",
-      "summary": "Internet Connectivity",
+      "summary": "[RESOLVED] Internet Connectivity",
       "date": "1670273106",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:45 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-GOV-EAST-1 Region.</div><div><span class=\"yellowfg\">12:52 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-GOV-EAST-1 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-GOV-EAST-1 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\"> 1:00 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div>",
+      "description": "<div><span class=\"yellowfg\">12:45 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-GOV-EAST-1 Region.</div><div><span class=\"yellowfg\">12:52 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-GOV-EAST-1 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-GOV-EAST-1 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\"> 1:00 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:07 PM PST</span>&nbsp;Between 11:34 AM and 12:51 PM PST, customers experienced Internet connectivity issues for some networks to and from the US-GOV-EAST-1 Region. Connectivity between instances within the Region, in between Regions, and Direct Connect connectivity were not impacted by this issue. The issue has been resolved and connectivity has been fully restored.</div>",
       "service": "internetconnectivity-us-gov-east-1"
     }
   ]
