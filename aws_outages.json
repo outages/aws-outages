@@ -1,42 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Lambda (Ohio)",
-      "summary": "[RESOLVED] Increased Error Rates",
-      "date": "1637779569",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:46 AM PST</span>&nbsp;We are investigating increased invoke error rates in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:10 AM PST</span>&nbsp;We continue to investigate increased function invoke error rates within the US-EAST-2 Region. We are working to determine the root cause of the issue and will continue to provide updates as we make progress in resolving the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div><div><span class=\"yellowfg\">11:34 AM PST</span>&nbsp;We have identified the root cause within Lambda that is causing the increased error rates for function invocations within the US-EAST-2 Region. The subsystem responsible for executing functions is currently impaired and we are working to resolve it. We have seen some improvement in Lambda function invocation error rates and believe that this will continue as we take steps to resolve the issue. Other AWS services, including AWS Management Console, API Gateway, and Batch, are experiencing elevated error rates as a result of this issue.</div><div><span class=\"yellowfg\">12:12 PM PST</span>&nbsp;Between 10:27 AM and 12:03 PM PST we experienced increased Lambda invoke error rates in the US-EAST-2 Region. It may take some additional time to process backlogged async invoke traffic that accumulated during this period. The issue has been resolved and the service is operating normally.</div>",
-      "service": "lambda-us-east-2"
-    },
-    {
-      "service_name": "AWS Management Console",
-      "summary": "[RESOLVED] Increased Error Rates",
-      "date": "1637780142",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:55 AM PST</span>&nbsp;We are investigating increased error rates for the AWS Management Console is the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:46 AM PST</span>&nbsp;We are seeing some recovery in error rates and latencies for the AWS Management Console in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:13 PM PST</span>&nbsp;Between 10:26 AM and 12:05 PM PST we experienced increased error rates and latencies for the AWS Management Console in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "management-console"
-    },
-    {
-      "service_name": "Amazon API Gateway (Ohio)",
-      "summary": "[RESOLVED] Increased API Error Rates",
-      "date": "1637780385",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We are investigating increased API errors for API Gateway in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">11:24 AM PST</span>&nbsp;We have confirmed that the elevated API error rate is restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs).</div><div><span class=\"yellowfg\">12:20 PM PST</span>&nbsp;Between 10:27 AM and 12:06 PM PST, we experienced elevated API error rate in the US-EAST-2 Region, restricted to control plane operations for API Gateway Version 2 API (WebSocket and HTTP APIs). The issue has been resolved, and the service is operating normally. </div>",
-      "service": "apigateway-us-east-2"
-    },
-    {
-      "service_name": "AWS Batch (Ohio)",
-      "summary": "[RESOLVED] Increased API Error Rates and Scaling Delays",
-      "date": "1637781298",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">11:14 AM PST</span>&nbsp;We are investigating increased API error rates and delays in scaling of some AWS Batch Compute Environments in the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:12 PM PST</span>&nbsp;Between 10:25 AM and 12:00 PM PST we experienced increased error rates for all AWS Batch APIs, as well as some Compute Environment scaling delays, in the US-EAST-2 Region. Compute Resource connectivity and running jobs were not affected. The issue has been resolved and the service is operating normally.</div>",
-      "service": "batch-us-east-2"
-    },
-    {
       "service_name": "Amazon Simple Notification Service (Oregon)",
       "summary": "[RESOLVED] Increased Latency and Error Rates",
       "date": "1638021360",
@@ -692,14 +656,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:54 AM PST</span>&nbsp;We are investigating an issue with missing dashboards and other assets in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:49 AM PST</span>&nbsp;We are observing increased latency and timeouts for loading QuickSight assets such as dashboards and analysis in the homepage. We are observing a scaling bottleneck with one of our dependencies for the search functionality and we are currently working on scaling up the search node. In parallel, we are looking into any recent deployments that could have caused this. If customers know the dashboard and analysis URL, customers can navigate directly from those links. Embedding dashboards will not be affected. We will update you with the current status in 30 minutes. </div><div><span class=\"yellowfg\">10:18 AM PST</span>&nbsp;We are starting to see recovery for listing of Quicksight Dashboards and Analysis from the homepage. Customers with direct links to Quicksight Dashboards and Analysis, or Embedded Dashboards were not affected throughout this event.</div><div><span class=\"yellowfg\">11:02 AM PST</span>&nbsp;Between 7:37 AM and 10:28 AM PST, customers may have seen elevated latency and errors listing QuickSight Dashboards and Analyses from the homepage. The issue has been resolved and the service is operating normally. Customers with direct links to QuickSight Dashboards and Analyses, or Embedded Dashboards were not affected throughout this event.</div>",
       "service": "quicksight-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Internet Connectivity (Ohio)",
       "summary": "[RESOLVED] Internet Connectivity",
       "date": "1670271960",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:26 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-EAST-2 Region.</div><div><span class=\"yellowfg\">12:51 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-EAST-2 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-EAST-2 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\">12:59 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:06 PM PST</span>&nbsp;Between 11:34 AM and 12:51 PM PST, customers experienced Internet connectivity issues for some networks to and from the US-EAST-2 Region. Connectivity between instances within the Region, in between Regions, and Direct Connect connectivity were not impacted by this issue. The issue has been resolved and connectivity has been fully restored.</div>",
       "service": "internetconnectivity-us-east-2"
@@ -708,10 +670,11 @@
       "service_name": "AWS Internet Connectivity (US-East)",
       "summary": "[RESOLVED] Internet Connectivity",
       "date": "1670273106",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:45 PM PST</span>&nbsp;We are investigating an issue which may be impacting Internet connectivity between some customer networks and the US-GOV-EAST-1 Region.</div><div><span class=\"yellowfg\">12:52 PM PST</span>&nbsp;We can confirm an issue which is impacting Internet connectivity for the US-GOV-EAST-1 Region, and are attempting multiple parallel mitigation paths. Connectivity between instances within the US-GOV-EAST-1 Region, in-between AWS Regions, and Direct Connect traffic is not impacted by the event.  Some customers may be experiencing VPN connectivity due to this issue.</div><div><span class=\"yellowfg\"> 1:00 PM PST</span>&nbsp;We are beginning to see signs of recovery, and continue to work toward full resolution.</div><div><span class=\"yellowfg\"> 1:07 PM PST</span>&nbsp;Between 11:34 AM and 12:51 PM PST, customers experienced Internet connectivity issues for some networks to and from the US-GOV-EAST-1 Region. Connectivity between instances within the Region, in between Regions, and Direct Connect connectivity were not impacted by this issue. The issue has been resolved and connectivity has been fully restored.</div>",
       "service": "internetconnectivity-us-gov-east-1"
     }
-  ]
+  ],
+  "current": []
 }
