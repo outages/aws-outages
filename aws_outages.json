@@ -685,6 +685,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 3:48 AM PST</span>&nbsp;We are investigating errors affecting the payments tab on the Billing console. Impact is limited to viewing or updating payments information. Payments are unaffected. We are working to resolve the issue.</div><div><span class=\"yellowfg\"> 4:13 AM PST</span>&nbsp;Starting December 6, 2:42 AM PST customers began experiencing errors when trying to access the payments tab on the AWS Billing console. Impact is limited to viewing or updating payments information. Existing payments configured in the Payment Console are unaffected. We continue to work on resolving the issue.</div><div><span class=\"yellowfg\"> 4:43 AM PST</span>&nbsp;Between 2:42 AM and 4:30 AM PST customers experienced errors when trying to access the payments tab on the AWS Billing console. Impact was limited to viewing or updating payments information and existing payments configured in the Payments Console were unaffected. The issue has been resolved and the Payment Console is operating normally.</div>",
       "service": "billingconsole"
+    },
+    {
+      "service_name": "AWS Identity and Access Management",
+      "summary": "Increased API error rates",
+      "date": "1670335858",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:10 AM PST</span>&nbsp;We are investigating increased IAM API latency and errors. We are actively working towards resolution.</div>",
+      "service": "iam"
     }
   ]
 }
