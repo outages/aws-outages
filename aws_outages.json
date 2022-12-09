@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Simple Notification Service (Oregon)",
-      "summary": "[RESOLVED] Increased Latency and Error Rates",
-      "date": "1638021360",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 5:56 AM PST</span>&nbsp;We are investigating increased latency and error rates for API calls in the US-WEST-2 Region. We will provide more information as we continue to investigate.</div><div><span class=\"yellowfg\"> 6:12 AM PST</span>&nbsp;We are starting to see improved SNS API success rates and latency in the US-WEST-2 Region, and are working towards full recovery.</div><div><span class=\"yellowfg\"> 6:42 AM PST</span>&nbsp;Between 5:05 AM and 5:55 AM PST, we experienced increased SNS API latency and error rates in the US-WEST-2 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "sns-us-west-2"
-    },
-    {
-      "service_name": "Amazon CloudWatch (Ireland)",
-      "summary": "[RESOLVED] Delayed CloudWatch Metrics",
-      "date": "1638042899",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">11:55 AM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters.  We are are working towards resolution.</div><div><span class=\"yellowfg\">12:49 PM PST</span>&nbsp;We can confirm increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. CloudWatch alarms may transition into \"INSUFFICIENT_DATA\" state if set on metrics extracted using log filters. We have isolated the likely root cause to a subsystem that saw an unexpected jump in resource consumption.  We continue to work towards resolution.</div><div><span class=\"yellowfg\"> 1:52 PM PST</span>&nbsp;We have implemented a fix to address the CloudWatch log event processing delays in the EU-WEST-1 Region and are starting to see signs of recovery. We will provide an update once full recovery has been observed.</div><div><span class=\"yellowfg\"> 2:56 PM PST</span>&nbsp;Between 10:26 AM and 02:40 PM PST, we experienced increased delays for CloudWatch log event processing for metric filter extraction and log subscriptions in the EU-WEST-1 Region. This was due to a subsystem that saw an unexpected jump in resource consumption. The issue has been resolved and the service is operating normally. New events are processing as normal, while we work through the message backlog. We expect to completely drain the backlog over the next 1 hour.</div>",
-      "service": "cloudwatch-eu-west-1"
-    },
-    {
       "service_name": "AWS CloudShell (N. Virginia)",
       "summary": "[RESOLVED] Increased Latencies and Failure Rates",
       "date": "1638507226",
