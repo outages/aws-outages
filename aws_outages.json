@@ -689,10 +689,10 @@
     {
       "service_name": "Multiple services (Singapore)",
       "summary": "Network Connectivity",
-      "date": "1670968857",
+      "date": "1670968855",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:00 PM PST</span>&nbsp;We are investigating networking connectivity issues and API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. We are working to identify the root cause and will provide more updates as we have them.</div>",
+      "description": "<div><span class=\"yellowfg\"> 2:00 PM PST</span>&nbsp;We are investigating networking connectivity issues and API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. We are working to identify the root cause and will provide more updates as we have them.</div><div><span class=\"yellowfg\"> 2:21 PM PST</span>&nbsp;We are seeing early signs of recovery for the issue affecting networking connectivity and increased API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. The issue has not affected connectivity to the EC2 network. We are continuing to work towards full recovery.</div>",
       "service": "multipleservices-ap-southeast-1"
     }
   ]
