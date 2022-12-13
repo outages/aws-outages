@@ -676,5 +676,15 @@
       "service": "iam"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
+      "summary": "Increased API Error Rates and Latencies",
+      "date": "1670921550",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:52 AM PST</span>&nbsp;We are investigating increased API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. We have identified the root cause of the issue and are working towards resolution.</div>",
+      "service": "ec2-us-east-1"
+    }
+  ]
 }
