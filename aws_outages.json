@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS CloudShell (N. Virginia)",
-      "summary": "[RESOLVED] Increased Latencies and Failure Rates",
-      "date": "1638507226",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 8:53 PM PST</span>&nbsp;We are experiencing increased latencies and failures in launching CloudShell environments in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 9:26 PM PST</span>&nbsp;Between 7:05 PM and 9:15 PM PST we experienced increased latencies and failures launching CloudShell environments in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
-      "service": "cloudshell-us-east-1"
-    },
-    {
       "service_name": "AWS Management Console",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1638894176",
@@ -674,14 +665,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:10 AM PST</span>&nbsp;We are investigating increased IAM API latency and errors. We are actively working towards resolution.</div><div><span class=\"yellowfg\"> 6:41 AM PST</span>&nbsp;Between 4:45 AM and 6:19 AM PST, we experienced increased API error rates and latency for IAM APIs. The issue has been resolved and the service is operating normally.</div>",
       "service": "iam"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates and Latencies",
       "date": "1670921550",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:52 AM PST</span>&nbsp;We are investigating increased API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. We have identified the root cause of the issue and are working towards resolution.</div><div><span class=\"yellowfg\"> 1:37 AM PST</span>&nbsp;We continue to work on resolving the issue that is causing API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. This issue prevents the creation of new Amazon Machine Images (AMI) within the US-EAST-1 region but does not prevent the launching of instances using existing AMIs. We have resolved the root cause of the initial impact and are currently working on draining the increased backlog of CreateImage requests. We'll continue to provide status updates as we make progress in resolving the issue.</div><div><span class=\"yellowfg\"> 2:07 AM PST</span>&nbsp;We continue to make progress in resolving the issue that is causing API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. Since the last update, we have seen a steady decrease in the backlog of CreateImage requests. Until the backlog has been resolved, new CreateImage requests will fail with \"request limit exceeded\". Once we have cleared the backlog, we will allow new CreateImage requests to be accepted again. We'll continue to provide status updates as we make progress in resolving the issue.</div><div><span class=\"yellowfg\"> 2:50 AM PST</span>&nbsp;We continue to make progress in resolving the issue that is causing API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. Since the last update, we have cleared the backlog of CreateImage requests and are now working to ensure that new CreateImage requests will be processed successfully. Once that is done, we will be removing the throttling for the CreateImage API, which will address the \"request limit exceeded\" error that is currently being returned. Once completed, we expect CreateImage requests to begin operating normally. We'll continue to provide status updates as we make progress in resolving the issue.</div><div><span class=\"yellowfg\"> 3:52 AM PST</span>&nbsp;We continue to make progress in resolving the issue that is causing API error rates and latencies for CreateImage API calls in the US-EAST-1 Region. Since the last update, we have been working to ensure that new CreateImage requests will be processed successfully, and are nearly complete with that process. We expect to start removing the throttles for CreateImage in the next 45 minutes, which is when we expect CreateImage requests to begin operating normally. We'll continue to provide status updates as we make progress in resolving the issue.</div><div><span class=\"yellowfg\"> 4:54 AM PST</span>&nbsp;Between December 12 8:09 PM and December 13 4:32 AM PST, we experienced increased error rates and latencies for the CreateImage API in the US-EAST-1 Region. This issue affected the creation of new Amazon Machine Images (AMIs) but did not affect the launching (RunInstances) of existing AMIs. The issue has been resolved and the service is operating normally.</div>",
       "service": "ec2-us-east-1"
@@ -690,10 +679,11 @@
       "service_name": "Multiple services (Singapore)",
       "summary": "[RESOLVED] Network Connectivity",
       "date": "1670968855",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:00 PM PST</span>&nbsp;We are investigating networking connectivity issues and API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. We are working to identify the root cause and will provide more updates as we have them.</div><div><span class=\"yellowfg\"> 2:21 PM PST</span>&nbsp;We are seeing early signs of recovery for the issue affecting networking connectivity and increased API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. The issue has not affected connectivity to the EC2 network. We are continuing to work towards full recovery.</div><div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;We continue to see recovery for all affected services within the AP-SOUTHEAST-1 Region and continue to monitor. While EC2 APIs were affected during the issue, connectivity to existing EC2 instances was not affected. We do not expect any further impact and will provide an update once we have completed all final validations.</div><div><span class=\"yellowfg\"> 3:15 PM PST</span>&nbsp;Between 1:30 PM and 2:20 PM PST, we experienced network connectivity issues which resulted in increased API error rates and latencies in the AP-SOUTHEAST-1 Region. CloudWatch metrics for some services were delayed. The issue has been resolved and the service is operating normally.</div>",
       "service": "multipleservices-ap-southeast-1"
     }
-  ]
+  ],
+  "current": []
 }
