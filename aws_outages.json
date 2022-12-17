@@ -688,11 +688,11 @@
   "current": [
     {
       "service_name": "AWS Amplify (N. Virginia)",
-      "summary": "Increased API Error Rates",
-      "date": "1671287056",
-      "status": "2",
+      "summary": "[RESOLVED] Increased API Error Rates",
+      "date": "1671287057",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 6:24 AM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 6:24 AM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 6:43 AM PST</span>&nbsp;Between 5:14 AM and 6:27 AM PST, we experienced increased API error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "amplify-us-east-1"
     }
   ]
