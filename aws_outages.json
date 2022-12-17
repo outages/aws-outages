@@ -685,5 +685,15 @@
       "service": "multipleservices-ap-southeast-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Amplify (N. Virginia)",
+      "summary": "Increased API Error Rates",
+      "date": "1671287056",
+      "status": "2",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:24 AM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "service": "amplify-us-east-1"
+    }
+  ]
 }
