@@ -683,17 +683,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 2:00 PM PST</span>&nbsp;We are investigating networking connectivity issues and API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. We are working to identify the root cause and will provide more updates as we have them.</div><div><span class=\"yellowfg\"> 2:21 PM PST</span>&nbsp;We are seeing early signs of recovery for the issue affecting networking connectivity and increased API error rates and latencies for some services within the AP-SOUTHEAST-1 Region. The issue has not affected connectivity to the EC2 network. We are continuing to work towards full recovery.</div><div><span class=\"yellowfg\"> 2:50 PM PST</span>&nbsp;We continue to see recovery for all affected services within the AP-SOUTHEAST-1 Region and continue to monitor. While EC2 APIs were affected during the issue, connectivity to existing EC2 instances was not affected. We do not expect any further impact and will provide an update once we have completed all final validations.</div><div><span class=\"yellowfg\"> 3:15 PM PST</span>&nbsp;Between 1:30 PM and 2:20 PM PST, we experienced network connectivity issues which resulted in increased API error rates and latencies in the AP-SOUTHEAST-1 Region. CloudWatch metrics for some services were delayed. The issue has been resolved and the service is operating normally.</div>",
       "service": "multipleservices-ap-southeast-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Amplify (N. Virginia)",
       "summary": "[RESOLVED] Increased API Error Rates",
       "date": "1671287057",
-      "status": "0",
+      "status": "2",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 6:24 AM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 6:43 AM PST</span>&nbsp;Between 5:14 AM and 6:27 AM PST, we experienced increased API error rates in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "amplify-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
