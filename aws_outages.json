@@ -613,5 +613,15 @@
       "service": "amplify-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon CodeCatalyst (Oregon)",
+      "summary": "[RESOLVED] Errors Creating User Aliases ",
+      "date": "1671635037",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:03 AM PST</span>&nbsp;We are investigating errors while attempting to create a new alias in the US-WEST-2 Region. Existing customer are unaffected. We will provide another update at 7:45 AM PST.</div><div><span class=\"yellowfg\"> 7:43 AM PST</span>&nbsp;We continue to investigate errors while attempting to create new aliases for new customers on boarding in the US-WEST-2 Region. We have identified a potential root cause of this alias creation error and continue to work towards resolution. Existing customer remain unaffected. We will provide another update before 8:45 AM PST.</div><div><span class=\"yellowfg\"> 8:18 AM PST</span>&nbsp;Between 3:45 AM and 8:15 AM PST, customers experienced errors when attempting to create new aliases in the US-WEST-2 Region. Existing users were unaffected. The issue has been resolved and the service is operating normally.</div>",
+      "service": "codecatalyst-us-west-2"
+    }
+  ]
 }
