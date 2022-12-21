@@ -1,6 +1,24 @@
 {
   "archive": [
     {
+      "service_name": "Amazon Redshift (N. Virginia)",
+      "summary": "[RESOLVED] Redshift Management Console Errors",
+      "date": "1639055699",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 5:15 AM PST</span>&nbsp;We are investigating elevated error rates for the Redshift Management Console in the US-EAST-1 region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 5:34 AM PST</span>&nbsp;We continue to investigate elevated error rates for the Redshift Management Console in the US-EAST-1 region. We have identified the issue causing elevated error rates and are actively working to resolve the issue. Customer clusters remain available and are operating normally. Customers can use API and CLI to manage their clusters and can use SQL clients using ODBC/JDBC and DATA API to run queries. </div><div><span class=\"yellowfg\"> 6:30 AM PST</span>&nbsp;We have identified the root cause of the issue causing elevated error rates and are in the process of deploying a fix that will resolve the issue. We do not have a precise ETA for the deployment to complete that we can share at this time. Customer clusters remain available and are operating normally. Customers can use the API and CLI to manage their clusters and can use SQL clients using ODBC/JDBC and DATA API to run queries.</div><div><span class=\"yellowfg\"> 6:58 AM PST</span>&nbsp;Between 12:00 AM and 6:25 AM PST we saw elevated error rates for the Amazon Redshift Management Console in the US-EAST-1 region. This initial error rate increase was observed at 12:00 AM PST and at 4:05 AM PST this error rate increased further. Customer clusters were operating normally throughout and customers were able to manage their clusters using the API and the CLI, and execute SQL queries using JDBC/ODBC connections and the Data API. We have completed the deployment of a fix. The issue has been resolved and the Management Console and the Amazon Redshift service are operating normally.</div>",
+      "service": "redshift-us-east-1"
+    },
+    {
+      "service_name": "Amazon Redshift (N. Virginia)",
+      "summary": "[RESOLVED] Redshift Management Console Errors",
+      "date": "1639067113",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:25 AM PST</span>&nbsp;Earlier today we reported elevated error rates when accessing the Amazon Redshift Management Console in the US-EAST-1 Region. At 6:58 AM PST we reported the issue was resolved but we have since detected that some errors persist despite much lower rates. Redshift clusters remain available and customers can manage their clusters using the API and CLI. Customers can also execute queries from their applications or SQL clients using JDBC/ODBC connections and the Data API. We continue to work towards resolution.</div><div><span class=\"yellowfg\"> 9:05 AM PST</span>&nbsp;We continue to investigate intermittent elevated error rates when accessing the Amazon Redshift Management Console in the US-EAST-1 Region. Customers will be able to get the console to load if they refresh their browser tab several times. Once the console has loaded, the console will work as expected and customers will be able to execute queries normally. Redshift clusters remain available and customers can manage their clusters using the API and CLI and can execute queries from their applications or SQL clients using JDBC/ODBC connections and the Data API.</div><div><span class=\"yellowfg\">10:45 AM PST</span>&nbsp;Between 7:25 AM and 10:05 AM PST we experienced increased error rates for the Amazon Redshift Management Console in the US-EAST-1 Region. During this time, clusters were operating normally  and customers were able to manage their clusters using the API and the CLI, and execute SQL queries using JDBC/ODBC connections and the Data API. The issue is resolved and the service is operating normally.</div>",
+      "service": "redshift-us-east-1"
+    },
+    {
       "service_name": "AWS Internet Connectivity (Oregon)",
       "summary": "[RESOLVED] Internet Connectivity",
       "date": "1639582979",
