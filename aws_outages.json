@@ -604,5 +604,15 @@
       "service": "codecatalyst-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Elastic Compute Cloud (Ohio)",
+      "summary": "[RESOLVED] Impaired EC2 instances",
+      "date": "1671848700",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 6:25 PM PST</span>&nbsp;We are investigating impairments for some EC2 instances and degraded performance for some EBS volumes in a single Availability Zone(use2-az1) in the US-EAST-2 Region.</div><div><span class=\"yellowfg\"> 6:34 PM PST</span>&nbsp;Between 6:00 PM and 6:24 PM PST, we experienced impairments for some EC2 instances and degraded performance for some EBS volumes in a single Availability Zone (use2-az1) in the US-EAST-2 Region. The issue has been resolved and the service is operating normally.</div>",
+      "service": "ec2-us-east-2"
+    }
+  ]
 }
