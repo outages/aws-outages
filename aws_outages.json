@@ -1,33 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "AWS Internet Connectivity (Oregon)",
-      "summary": "[RESOLVED] Internet Connectivity",
-      "date": "1639582979",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:43 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-2 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-2 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:14 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-WEST-2 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.\n</div><div><span class=\"yellowfg\">12:14 PM PST</span>&nbsp;Between 7:14 AM PST and 7:59 AM PST, customers experienced elevated network packet loss that impacted connectivity to a subset of Internet destinations. Traffic within AWS Regions, between AWS Regions, and to other destinations on the Internet was not impacted. The issue was caused by network congestion between parts of the AWS Backbone and a subset of Internet Service Providers, which was triggered by AWS traffic engineering, executed in response to congestion outside of our network. This traffic engineering incorrectly moved more traffic than expected to parts of the AWS Backbone that affected connectivity to a subset of Internet destinations. The issue has been resolved, and we do not expect a recurrence.</div>",
-      "service": "internetconnectivity-us-west-2"
-    },
-    {
-      "service_name": "AWS Internet Connectivity (N. California)",
-      "summary": "[RESOLVED] Internet Connectivity",
-      "date": "1639583545",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:52 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:01 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:10 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-WEST-1 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.</div><div><span class=\"yellowfg\">12:14 PM PST</span>&nbsp;Between 7:14 AM PST and 7:59 AM PST, customers experienced elevated network packet loss that impacted connectivity to a subset of Internet destinations. Traffic within AWS Regions, between AWS Regions, and to other destinations on the Internet was not impacted. The issue was caused by network congestion between parts of the AWS Backbone and a subset of Internet Service Providers, which was triggered by AWS traffic engineering, executed in response to congestion outside of our network. This traffic engineering incorrectly moved more traffic than expected to parts of the AWS Backbone that affected connectivity to a subset of Internet destinations. The issue has been resolved, and we do not expect a recurrence.</div>",
-      "service": "internetconnectivity-us-west-1"
-    },
-    {
-      "service_name": "AWS Internet Connectivity (US-West)",
-      "summary": "[RESOLVED] Internet Connectivity",
-      "date": "1639583722",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:55 AM PST</span>&nbsp;We are investigating Internet connectivity issues to the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\"> 8:00 AM PST</span>&nbsp;We have identified the root cause of the Internet connectivity to the US-GOV-WEST-1 Region and have taken steps to restore connectivity. We have seen some improvement to Internet connectivity in the last few minutes but continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 8:10 AM PST</span>&nbsp;We have resolved the issue affecting Internet connectivity to the US-GOV-WEST-1 Region. Connectivity within the region was not affected by this event. The issue has been resolved and the service is operating normally.</div><div><span class=\"yellowfg\">12:16 PM PST</span>&nbsp;Between 7:14 AM PST and 7:59 AM PST, customers experienced elevated network packet loss that impacted connectivity to a subset of Internet destinations. Traffic within AWS Regions, between AWS Regions, and to other destinations on the Internet was not impacted. The issue was caused by network congestion between parts of the AWS Backbone and a subset of Internet Service Providers, which was triggered by AWS traffic engineering, executed in response to congestion outside of our network. This traffic engineering incorrectly moved more traffic than expected to parts of the AWS Backbone that affected connectivity to a subset of Internet destinations. The issue has been resolved, and we do not expect a recurrence.</div>",
-      "service": "internetconnectivity-us-gov-west-1"
-    },
-    {
       "service_name": "AWS Elastic Beanstalk (N. Virginia)",
       "summary": "[RESOLVED] Console Application Upload Errors",
       "date": "1640158400",
