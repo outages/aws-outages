@@ -526,11 +526,11 @@
   "current": [
     {
       "service_name": "Amazon Elastic MapReduce (N. Virginia)",
-      "summary": "Console Availability",
+      "summary": "[RESOLVED] Increased Error Rates and Latencies",
       "date": "1674769200",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:40 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:40 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div><div><span class=\"yellowfg\"> 2:09 PM PST</span>&nbsp;Between 1:00 PM and 1:35 PM PST, we experienced an increase in errors for EMR APIs in the US-EAST-1 Region. This issue impacted the EMR Management Console and API requests made to EMR. Our Engineering teams were immediately engaged, and by 1:04 PM PST we had identified the root cause as an issue with the subsystem responsible for processing these API requests. By 1:19 PM PST, we implemented our mitigation and immediately began to see recovery. The issue has been resolved and the service is operating normally.</div>",
       "service": "emr-us-east-1"
     }
   ]
