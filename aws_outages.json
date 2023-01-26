@@ -1,24 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Pinpoint (N. Virginia)",
-      "summary": "[RESOLVED] Pinpoint Sending/Receiving Delays",
-      "date": "1642185596",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:39 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of Pinpoint customers sending and receiving SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div><div><span class=\"yellowfg\">10:53 AM PST</span>&nbsp;We can confirm that long codes are not impacted, only US toll-free numbers are impacted.  We continue to work with our partners to fully resolve this issue.</div><div><span class=\"yellowfg\">11:12 AM PST</span>&nbsp;We are seeing early signs of recovery, and continue to work with our downstream partners to fully resolve the issue.</div><div><span class=\"yellowfg\">11:42 AM PST</span>&nbsp;We can confirm that the sending and receiving of SMS messages for US toll free numbers has recovered. However, we continue to see issues with delivery receipts being delayed and are working with our downstream partners to resolve the issue.</div><div><span class=\"yellowfg\"> 2:43 PM PST</span>&nbsp;Between 5:14 AM and 11:38 AM PST, we experienced increased delivery latency while sending and receiving SMS messages using US toll-free numbers. Starting at 5:14 AM SMS message delivery receipts were delayed. These delays will continue while we work with our downstream partners through the backlog of delayed delivery receipts.  The issues have been resolved and the service is operating normally.</div>",
-      "service": "pinpoint-us-east-1"
-    },
-    {
-      "service_name": "Amazon Simple Notification Service (N. Virginia)",
-      "summary": "[RESOLVED] SMS Delivery Delays",
-      "date": "1642186756",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\">10:59 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of SNS and Pinpoint customers delivering SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div><div><span class=\"yellowfg\">11:00 AM PST</span>&nbsp;We can confirm that long codes are not impacted, only US toll-free numbers are impacted.  We continue to work with our partners to fully resolve this issue.</div><div><span class=\"yellowfg\">11:12 AM PST</span>&nbsp;We are seeing early signs of recovery, and continue to work with our downstream partners to fully resolve the issue.</div><div><span class=\"yellowfg\">11:38 AM PST</span>&nbsp;We can confirm that the delivery of SMS messages for US toll free numbers has recovered. However, we continue to see issues with delivery receipts being delayed and are working with our downstream partners to resolve the issue.</div><div><span class=\"yellowfg\"> 2:44 PM PST</span>&nbsp;Between 5:14 AM and 11:38 AM PST, we experienced increased delivery latency while delivering SMS messages using US toll-free numbers. Also starting at 5:14 AM, SMS message delivery receipts were delayed, which created a backlog of undelivered delivery receipts. We are continuing to work with our downstream partners to clear this backlog. Receipts for new SMS deliveries will also be delayed until this backlog clears. The issues have been resolved and the service is operating normally.</div>",
-      "service": "sns-us-east-1"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (Seoul)",
       "summary": "[RESOLVED] Increased API Error Rates ",
       "date": "1642432540",
