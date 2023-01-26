@@ -530,7 +530,7 @@
       "date": "1674769200",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 1:40 PM PST</span>&nbsp;We are investigating increased error rates in the EMR console in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 1:40 PM PST</span>&nbsp;We are investigating increased API error rates in the US-EAST-1 Region.</div>",
       "service": "emr-us-east-1"
     }
   ]
