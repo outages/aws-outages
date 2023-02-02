@@ -526,11 +526,11 @@
   "current": [
     {
       "service_name": "Amazon CloudFront",
-      "summary": "Elevated CloudFront latencies and error rates for IPv6 traffic",
-      "date": "1675359886",
-      "status": "1",
+      "summary": "[RESOLVED] Elevated CloudFront latencies and error rates for IPv6 traffic",
+      "date": "1675359840",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 9:44 AM PST</span>&nbsp;Between 9:02 AM and 9:27 AM PDT, we experienced elevated errors and latencies for IPv6 traffic served by a subset of CloudFront edge locations. There was no impact to traffic served on IPv4 addresses. The issue has been resolved and the service is operating normally.</div>",
+      "description": "<div><span class=\"yellowfg\"> 9:44 AM PST</span>&nbsp;Between 9:02 AM and 9:27 AM PST, we experienced elevated errors and latencies for IPv6 traffic served by a subset of CloudFront edge locations. There was no impact to traffic served on IPv4 addresses. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudfront"
     }
   ]
