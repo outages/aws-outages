@@ -532,6 +532,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:44 AM PST</span>&nbsp;Between 9:02 AM and 9:27 AM PST, we experienced elevated errors and latencies for IPv6 traffic served by a subset of CloudFront edge locations. There was no impact to traffic served on IPv4 addresses. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudfront"
+    },
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "Increased error rates when accessing Cost Explorer, Budgets, and Cost and Usage Reports",
+      "date": "1675368060",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">12:01 PM PST</span>&nbsp;We are investigating increased error rates when accessing Cost Explorer, Budgets, Cost and Usage Reports and Cost Explorer APIs and SDK in the US-EAST-1 Region.</div>",
+      "service": "billingconsole"
     }
   ]
 }
