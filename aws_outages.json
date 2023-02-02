@@ -539,7 +539,7 @@
       "date": "1675368060",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:01 PM PST</span>&nbsp;We are investigating increased error rates when accessing Cost Explorer, Budgets, Cost and Usage Reports and Cost Explorer APIs and SDK in the US-EAST-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\">12:01 PM PST</span>&nbsp;We are investigating increased error rates when accessing Cost Explorer, Budgets, Cost and Usage Reports and Cost Explorer APIs and SDK in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:33 PM PST</span>&nbsp;We are experiencing error rates for Cost Explorer and Budgets impacting console, APIs and SDK. We do not currently see any impact to Cost and Usage Reports. We have identified the root cause and are working on mitigating the issue.  We will provide you with another update by 1:00 PM PST.</div>",
       "service": "billingconsole"
     }
   ]
