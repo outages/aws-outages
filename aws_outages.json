@@ -541,5 +541,15 @@
       "service": "billingconsole"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Simple Notification Service (N. Virginia)",
+      "summary": "Increased Publish API Latencies",
+      "date": "1675785900",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:05 AM PST</span>&nbsp;We are investigating increased Publish API latencies in the US-EAST-1 Region</div>",
+      "service": "sns-us-east-1"
+    }
+  ]
 }
