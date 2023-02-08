@@ -539,17 +539,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:01 PM PST</span>&nbsp;We are investigating increased error rates when accessing Cost Explorer, Budgets, Cost and Usage Reports and Cost Explorer APIs and SDK in the US-EAST-1 Region.</div><div><span class=\"yellowfg\">12:33 PM PST</span>&nbsp;We are experiencing error rates for Cost Explorer and Budgets impacting console, APIs and SDK. We do not currently see any impact to Cost and Usage Reports. We have identified the root cause and are working on mitigating the issue.  We will provide you with another update by 1:00 PM PST.</div><div><span class=\"yellowfg\"> 1:05 PM PST</span>&nbsp;We continue to experience increased Console, API and SDK error rates for Cost Explorer and Budgets. This is also impacting some portions of the Cost Management Console, Cost Categories Console, the Console home Cost and Usage widget and the Console Mobile Application. This is also causing delays for Cost Anomaly Detection (CAD) deliveries. CAD deliveries will resume upon mitigation. We have identified the root cause and are working on mitigating the issue. We will provide you with another update by 1:45 PM PST.</div><div><span class=\"yellowfg\"> 1:46 PM PST</span>&nbsp;We continue experiencing increased Console, API and SDK error rates for Cost Explorer and Budgets. This is also impacting some portions of the Cost Management Console, Cost Categories Console, the Console home Cost and Usage widget and the Console Mobile Application. This is also causing delays for Cost Anomaly Detection (CAD) deliveries. CAD deliveries will resume upon mitigation. Our mitigation efforts are underway and we will provide you with another update by 2:30 PM PST.</div><div><span class=\"yellowfg\"> 2:19 PM PST</span>&nbsp;We are currently seeing early signs of recovery and we continue to work towards full mitigation.  We will provide you another update by 3:15 PM PST.</div><div><span class=\"yellowfg\"> 2:47 PM PST</span>&nbsp;Between 11:28 AM and 2:05 PM PST, we experienced increased Console, API and SDK error rates for Cost Explorer and Budgets. This also impacted some portions of the Cost Management Console, Cost Categories Console, the Console home Cost and Usage widget and the Console Mobile Application. Queued Cost Anomaly Detection (CAD) deliveries are now being delivered, and are expected to complete within 30 minutes. The issue has been resolved and the services are operating normally.</div>",
       "service": "billingconsole"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Simple Notification Service (N. Virginia)",
       "summary": "[RESOLVED] Increased Publish API Latencies and Errors",
       "date": "1675785900",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:05 AM PST</span>&nbsp;We are investigating increased Publish API latencies in the US-EAST-1 Region</div><div><span class=\"yellowfg\"> 8:25 AM PST</span>&nbsp;We can confirm increased Publish API latencies in the US-EAST-1 Region and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We have identified the cause of the Publish API latencies and errors in the US-EAST-1 Region and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 8:56 AM PST</span>&nbsp;We are now seeing a decrease in Publish API error rates and latencies in the US-EAST-1 Region. We continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;Between 6:48 AM and 8:56 AM PST, we experienced elevated API error rates and latencies in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
