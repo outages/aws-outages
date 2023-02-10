@@ -557,7 +557,7 @@
       "date": "1676062380",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:53 PM PST</span>&nbsp;We are investigating connectivity issues affecting some instances in the US-EAST-1 Region.\n</div>",
+      "description": "<div><span class=\"yellowfg\">12:53 PM PST</span>&nbsp;We are investigating connectivity issues affecting some instances in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:07 PM PST</span>&nbsp;We can confirm Aurora Postgres customers are experiencing intermittent issues accessing their databases in the US-EAST-1 Region.  While we have identified the source of the issues, we do not have the root cause identified at this time.</div>",
       "service": "rds-us-east-1"
     }
   ]
