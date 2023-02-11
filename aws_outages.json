@@ -548,17 +548,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 8:05 AM PST</span>&nbsp;We are investigating increased Publish API latencies in the US-EAST-1 Region</div><div><span class=\"yellowfg\"> 8:25 AM PST</span>&nbsp;We can confirm increased Publish API latencies in the US-EAST-1 Region and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 8:37 AM PST</span>&nbsp;We have identified the cause of the Publish API latencies and errors in the US-EAST-1 Region and continue to work towards resolution.</div><div><span class=\"yellowfg\"> 8:56 AM PST</span>&nbsp;We are now seeing a decrease in Publish API error rates and latencies in the US-EAST-1 Region. We continue to work towards full recovery.</div><div><span class=\"yellowfg\"> 9:06 AM PST</span>&nbsp;Between 6:48 AM and 8:56 AM PST, we experienced elevated API error rates and latencies in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Relational Database Service (N. Virginia)",
       "summary": "[RESOLVED] Connectivity issues affecting some instances",
       "date": "1676062380",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:53 PM PST</span>&nbsp;We are investigating connectivity issues affecting some instances in the US-EAST-1 Region.\n</div><div><span class=\"yellowfg\"> 1:07 PM PST</span>&nbsp;We can confirm Aurora Postgres customers are experiencing intermittent issues accessing their databases in the US-EAST-1 Region.  While we have identified the source of the issues, we do not have the root cause identified at this time.</div><div><span class=\"yellowfg\"> 1:44 PM PST</span>&nbsp;We'd like to provide some additional information about this issue. The underlying issue that caused impact to some Amazon Aurora PostgreSQL databases has been mitigated, and all affected customer databases have either recovered, or are in the process of recovering. This issue was caused by an impairment to an Aurora sub-system, which is used by a subset of customer databases in the US-EAST-1 Region. The impact of this issue was limited to a subset of Amazon Aurora PostgreSQL databases in the US-EAST-1 Region. Non-Aurora databases and Amazon Aurora MySQL databases were not impacted.\n\nWe are actively monitoring this sub-system while we work in parallel to ensure all customer databases are fully recovered. We will provide another update within 30 minutes.</div><div><span class=\"yellowfg\"> 2:19 PM PST</span>&nbsp;We have an additional update about the issue impacting some Amazon Aurora PostgreSQL customers in the US-EAST-1 Region. The vast majority of impacted customer databases have recovered and we are in the process of mitigating the remaining impacted databases. We will provide another update by 2:45 PM PST. </div><div><span class=\"yellowfg\"> 2:46 PM PST</span>&nbsp;We have an update on the issue impacting some Amazon Aurora PostgreSQL customers in the US-EAST-1 Region. We are continuing to work towards mitigating the remaining customer databases. We will provide another update by 3:45 PM PST.</div><div><span class=\"yellowfg\"> 3:30 PM PST</span>&nbsp;We have recovered all remaining Amazon Aurora PostgreSQL customer databases impacted by the issue in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div><div><span class=\"yellowfg\"> 3:48 PM PST</span>&nbsp;Between 11:18 AM and 2:44 PM PST, some Amazon Aurora PostgreSQL customers experienced issues accessing their databases in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "rds-us-east-1"
     }
-  ]
+  ],
+  "current": []
 }
