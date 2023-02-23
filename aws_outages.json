@@ -550,5 +550,15 @@
       "service": "rds-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Jakarta)",
+      "summary": "[RESOLVED] Network Connectivity",
+      "date": "1677167872",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:57 AM PST</span>&nbsp;We are investigating connectivity issues affecting Internet connectivity between some external networks and the AP-SOUTHEAST-3 Region. Connectivity to instances and all other services within the Region is not impacted.</div><div><span class=\"yellowfg\"> 8:03 AM PST</span>&nbsp;Between 7:23 and 7:46 AM PST, we experienced connectivity issues affecting Internet connectivity between some external networks and the AP-SOUTHEAST-3 Region. Connectivity to instances and all other services within the Region was not impacted. The issue has been resolved and the service is operating normally.</div>",
+      "service": "internetconnectivity-ap-southeast-3"
+    }
+  ]
 }
