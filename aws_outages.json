@@ -566,16 +566,16 @@
       "date": "1677380629",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:03 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:49 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and are actively working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:03 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:49 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:01 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and continue working towards resolution.</div>",
       "service": "import-export"
     },
     {
       "service_name": "AWS Import/Export (US-East)",
       "summary": "Increased Error Rates for AWS Snowball",
-      "date": "1677380810",
+      "date": "1677380760",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:06 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and are actively working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:06 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders in the US-GOV-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:03 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region and continue working towards resolution.</div>",
       "service": "import-export-us-gov-east-1"
     },
     {
@@ -584,7 +584,7 @@
       "date": "1677380927",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:08 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and are actively working to resolve the issue.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:08 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:05 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region and continue working towards resolution.</div>",
       "service": "import-export-us-gov-west-1"
     }
   ]
