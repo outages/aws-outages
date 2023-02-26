@@ -577,6 +577,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:06 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div>",
       "service": "import-export-us-gov-east-1"
+    },
+    {
+      "service_name": "AWS Import/Export (US-West)",
+      "summary": "Increased Error Rates for AWS Snowball",
+      "date": "1677380927",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:08 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div>",
+      "service": "import-export-us-gov-west-1"
     }
   ]
 }
