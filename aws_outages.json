@@ -559,5 +559,24 @@
       "service": "internetconnectivity-ap-southeast-3"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Import/Export",
+      "summary": "Increased Error Rates for AWS Snowball",
+      "date": "1677380628",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:03 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div>",
+      "service": "import-export"
+    },
+    {
+      "service_name": "AWS Import/Export (US-East)",
+      "summary": "Increased Error Rates for AWS Snowball",
+      "date": "1677380810",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:06 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div>",
+      "service": "import-export-us-gov-east-1"
+    }
+  ]
 }
