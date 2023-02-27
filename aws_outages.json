@@ -557,14 +557,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:57 AM PST</span>&nbsp;We are investigating connectivity issues affecting Internet connectivity between some external networks and the AP-SOUTHEAST-3 Region. Connectivity to instances and all other services within the Region is not impacted.</div><div><span class=\"yellowfg\"> 8:03 AM PST</span>&nbsp;Between 7:23 AM and 7:46 AM PST, we experienced connectivity issues affecting Internet connectivity between some external networks and the AP-SOUTHEAST-3 Region. Connectivity to instances and all other services within the Region was not impacted. The issue has been resolved and the service is operating normally.</div>",
       "service": "internetconnectivity-ap-southeast-3"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Import/Export",
       "summary": "[RESOLVED] Increased Error Rates for AWS Snowball",
       "date": "1677380629",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:03 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders.</div><div><span class=\"yellowfg\"> 7:49 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:01 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 and continue working towards resolution.</div><div><span class=\"yellowfg\">10:13 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2, and while ETA for recovery is not yet clear, our deployments are expected to be completed in approximately 45 minutes and once completed, we should then be able to provide an ETA for recovery.</div><div><span class=\"yellowfg\">11:14 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2, and approximate ETA for recovery is 2:00 AM PST. We will continue to keep you updated if this ETA changes.</div><div><span class=\"yellowfg\">Feb 26, 12:40 AM PST</span>&nbsp;Between February 25 4:30 PM and February 26 12:15 AM PST, the ordering of AWS Snow devices with Amazon Linux 2 experienced increased elevated error rates. The errors have recovered and the process of ordering AWS Snow Devices is now operating normally.\n</div>",
       "service": "import-export"
@@ -573,7 +571,7 @@
       "service_name": "AWS Import/Export (US-East)",
       "summary": "[RESOLVED] Increased Error Rates for AWS Snowball",
       "date": "1677380760",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:06 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders in the US-GOV-EAST-1 Region.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:03 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region and continue working towards resolution.</div><div><span class=\"yellowfg\">10:15 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region, and while ETA for recovery is not yet clear, our deployments are expected to be completed in approximately 45 minutes and once completed, we should then be able to provide an ETA for recovery.</div><div><span class=\"yellowfg\">11:17 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region, and approximate ETA for recovery is 2:00 AM PST. We will continue to keep you updated if this ETA changes.</div><div><span class=\"yellowfg\">Feb 26,  2:04 AM PST</span>&nbsp;We continue to deploy fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-EAST-1 Region, and approximate ETA for recovery has now extended to 4:00 AM PST. We will continue to keep you updated if this ETA changes.</div><div><span class=\"yellowfg\">Feb 26,  2:46 AM PST</span>&nbsp;Between February 25 4:30 PM and February 26 2:44 AM PST, the ordering of AWS Snow devices with Amazon Linux 2 experienced increased elevated error rates in the US-GOV-EAST-1 Region. The errors have recovered and the process of ordering AWS Snow Devices is now operating normally.</div>",
       "service": "import-export-us-gov-east-1"
@@ -582,10 +580,11 @@
       "service_name": "AWS Import/Export (US-West)",
       "summary": "[RESOLVED] Increased Error Rates for AWS Snowball",
       "date": "1677380880",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:08 PM PST</span>&nbsp;We are investigating increased error rates that block the listing of exportable AMIs for the AWS Snowball Management Console blocking Edge Compute orders in the US-GOV-WEST-1 Region.</div><div><span class=\"yellowfg\"> 7:50 PM PST</span>&nbsp;We continue to investigate increased error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region and are actively working to resolve the issue.</div><div><span class=\"yellowfg\"> 9:05 PM PST</span>&nbsp;We have identified the cause of the increased elevated error rates that affect the ordering of AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region and continue working towards resolution.</div><div><span class=\"yellowfg\">10:17 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region, and while ETA for recovery is not yet clear, our deployments are expected to be completed in approximately 45 minutes and once completed, we should then be able to provide an ETA for recovery.</div><div><span class=\"yellowfg\">11:19 PM PST</span>&nbsp;We are deploying fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region, and approximate ETA for recovery is 2:00 AM PST. We will continue to keep you updated if this ETA changes.</div><div><span class=\"yellowfg\">Feb 26,  2:05 AM PST</span>&nbsp;We continue to deploy fixes to mitigate the current impact on ordering AWS Snow devices with Amazon Linux 2 in the US-GOV-WEST-1 Region, and approximate ETA for recovery has now extended to 4:00 AM PST. We will continue to keep you updated if this ETA changes.</div><div><span class=\"yellowfg\">Feb 26,  2:11 AM PST</span>&nbsp;Between February 25 4:30 PM and February 26 2:07 AM PST, the ordering of AWS Snow devices with Amazon Linux 2 experienced increased elevated error rates in the US-GOV-WEST-1 Region. The errors have recovered and the process of ordering AWS Snow Devices is now operating normally.</div>",
       "service": "import-export-us-gov-west-1"
     }
-  ]
+  ],
+  "current": []
 }
