@@ -589,11 +589,11 @@
   "current": [
     {
       "service_name": "AWS Identity and Access Management (US-West)",
-      "summary": "Increased STS API error rates",
+      "summary": "[RESOLVED] Increased STS API error rates",
       "date": "1677814497",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:34 PM PST</span>&nbsp;We are investigating increased STS API error rates in the US-GOV-WEST-1 Region. We are actively working toward resolution.</div><div><span class=\"yellowfg\"> 8:08 PM PST</span>&nbsp;We have identified the cause of the increased STS API error rates in the US-GOV-WEST-1 Region and continue working towards resolution. Other AWS services whose features require STS actions may also be impacted.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:34 PM PST</span>&nbsp;We are investigating increased STS API error rates in the US-GOV-WEST-1 Region. We are actively working toward resolution.</div><div><span class=\"yellowfg\"> 8:08 PM PST</span>&nbsp;We have identified the cause of the increased STS API error rates in the US-GOV-WEST-1 Region and continue working towards resolution. Other AWS services whose features require STS actions may also be impacted.</div><div><span class=\"yellowfg\"> 8:52 PM PST</span>&nbsp;Between 5:35 PM and 8:35 PM PST, we experienced increased STS API error rates in the US-GOV-WEST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "iam-us-gov-west-1"
     }
   ]
