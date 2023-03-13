@@ -595,5 +595,15 @@
       "service": "iam-us-gov-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Internet Connectivity (Oregon)",
+      "summary": "[RESOLVED] Internet Connectivity in the US-WEST-2 Region",
+      "date": "1678726651",
+      "status": "0",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:57 AM PDT</span>&nbsp;Between 8:25 AM and 9:16 AM PDT, we experienced elevated packet loss and latency to a small set of internet destinations in the US-WEST-2 Region. Connectivity within the US-WEST-2 Region was not impacted. The issue has been resolved and the services are operating normally.</div>",
+      "service": "internetconnectivity-us-west-2"
+    }
+  ]
 }
