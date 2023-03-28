@@ -568,5 +568,15 @@
       "service": "internetconnectivity-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudFormation (Oregon)",
+      "summary": "Increased Latencies",
+      "date": "1680040146",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 2:49 PM PDT</span>&nbsp;We are experiencing increased latencies when creating, updating, and deleting AWS CloudFormation stacks in the US-WEST-2 Region. Customers may notice their Cloudformation stacks appearing in 'UPDATE_ROLLBACK_IN_PROGRESS' state. We have identified the root cause and are actively working on mitigating the issue.</div>",
+      "service": "cloudformation-us-west-2"
+    }
+  ]
 }
