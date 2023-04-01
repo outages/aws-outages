@@ -584,7 +584,7 @@
       "date": "1680317015",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We continue to investigate delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div>",
       "service": "cloudtrail-ap-south-1"
     }
   ]
