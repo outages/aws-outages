@@ -580,11 +580,11 @@
   "current": [
     {
       "service_name": "AWS CloudTrail (Mumbai)",
-      "summary": "Delays in CloudTrail Event Delivery ",
+      "summary": "[RESOLVED] Delays in CloudTrail Event Delivery ",
       "date": "1680317015",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We continue to investigate delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We continue to investigate delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:49 PM PDT</span>&nbsp;Between 5:35 PM and 8:27 PM PDT, some customers experienced delays receiving CloudTrail events in the AP-SOUTH-1 Region to their S3 buckets. Delayed events are in the process of backfilling. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudtrail-ap-south-1"
     }
   ]
