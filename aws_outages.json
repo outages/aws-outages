@@ -577,5 +577,15 @@
       "service": "cloudformation-us-west-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS CloudTrail (Mumbai)",
+      "summary": "Delays in CloudTrail Event Delivery ",
+      "date": "1680317015",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div>",
+      "service": "cloudtrail-ap-south-1"
+    }
+  ]
 }
