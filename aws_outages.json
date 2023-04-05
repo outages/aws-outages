@@ -599,10 +599,10 @@
     {
       "service_name": "AWS Health",
       "summary": "Duplicate Health notifications",
-      "date": "1680723552",
+      "date": "1680723540",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We are investigating duplicate notifications being delivered from AWS Health.</div>",
+      "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We are investigating duplicate notifications being delivered from the AWS Health Service.</div><div><span class=\"yellowfg\"> 1:05 PM PDT</span>&nbsp;We continue to investigate duplicate notifications that are being delivered by the AWS Health Service. During this time, customers may be receiving notifications via email, or Cloudwatch Events for previously communicated issues. Customers will not see additional events listed in their AWS Health Dashboard. Additionally, we'd like to clarify that there is currently no active impact to any of the AWS Services; all services are operating normally. We are working to mitigate the issue and identify the root cause of the duplicate notifications. We will provide an update within the next 30 minutes.</div>",
       "service": "health"
     }
   ]
