@@ -590,10 +590,10 @@
     {
       "service_name": "AWS QuickSight (Mumbai)",
       "summary": "Increased Query Error Rates",
-      "date": "1680693390",
+      "date": "1680693389",
       "status": "1",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 4:16 AM PDT</span>&nbsp;We are investigating increased error rates in generating visuals in the AP-SOUTH-1 Region.</div>",
+      "description": "<div><span class=\"yellowfg\"> 4:16 AM PDT</span>&nbsp;We are investigating increased error rates in generating visuals in the AP-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 5:26 AM PDT</span>&nbsp;We can confirm increased error rates for QuickSight VPC connections to data sources in the AP-SOUTH-1 Region. Customers attempting to connect to their database will receive an SQL_CONNECTION_FAILURE. We have not yet identified the root cause, and are working through multiple paths to identify and resolve. At this time we are following our practice of removing recent software updates, and investigating the network paths followed by this traffic. We continue to work towards identifying the root cause and recovery. Connections to data sources from QuickSight over public connectivity are currently operating normally.</div>",
       "service": "quicksight-ap-south-1"
     }
   ]
