@@ -586,5 +586,15 @@
       "service": "cloudtrail-ap-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS QuickSight (Mumbai)",
+      "summary": "Increased Query Error Rates",
+      "date": "1680693390",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 4:16 AM PDT</span>&nbsp;We are investigating increased error rates in generating visuals in the AP-SOUTH-1 Region.</div>",
+      "service": "quicksight-ap-south-1"
+    }
+  ]
 }
