@@ -584,14 +584,12 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:43 PM PDT</span>&nbsp;We are investigating delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:10 PM PDT</span>&nbsp;We continue to investigate delays in delivering CloudTrail events in the AP-SOUTH-1 Region to some customers’ S3 buckets.</div><div><span class=\"yellowfg\"> 8:49 PM PDT</span>&nbsp;Between 5:35 PM and 8:27 PM PDT, some customers experienced delays receiving CloudTrail events in the AP-SOUTH-1 Region to their S3 buckets. Delayed events are in the process of backfilling. The issue has been resolved and the service is operating normally.</div>",
       "service": "cloudtrail-ap-south-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS QuickSight (Mumbai)",
       "summary": "[RESOLVED] Increased Query Error Rates",
       "date": "1680693389",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 4:16 AM PDT</span>&nbsp;We are investigating increased error rates in generating visuals in the AP-SOUTH-1 Region.</div><div><span class=\"yellowfg\"> 5:26 AM PDT</span>&nbsp;We can confirm increased error rates for QuickSight VPC connections to data sources in the AP-SOUTH-1 Region. Customers attempting to connect to their database will receive an SQL_CONNECTION_FAILURE. We have not yet identified the root cause, and are working through multiple paths to identify and resolve. At this time we are following our practice of removing recent software updates, and investigating the network paths followed by this traffic. We continue to work towards identifying the root cause and recovery. Connections to data sources from QuickSight over public connectivity are currently operating normally.</div><div><span class=\"yellowfg\"> 6:52 AM PDT</span>&nbsp;We have isolated the errors impacting connections from QuickSight to data sources within VPCs to a single Availability Zone (aps1-az1) in the AP-SOUTH-1 Region. Requests to data sources in other Availability Zones are operating normally.  Customers can recover by recreating their QuickSight VPC connection in Availability Zone aps1-az2 or aps1-az3, and updating their existing QuickSight data source with the new VPC connection. We continue to work towards recovery in the impacted Availability Zone.</div><div><span class=\"yellowfg\"> 7:39 AM PDT</span>&nbsp;We have identified an impaired network flow that only impacts QuickSight private traffic within a single Availability Zone (aps1-az1) in the AP-SOUTH-1 Region. We are taking steps to update the configuration of the network systems in this path to resolve the connectivity errors. Requests to data sources in other Availability Zones (aps1-az2, aps1-az3) are operating normally.</div><div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We have completed reconfiguration of the network path impacting traffic from QuickSight to datasources hosted in VPCs in a single Availability Zone (aps1-az1) in the AP-SOUTH-1 Region, and are starting to see recovery. We expect the reconfiguration to complete in the next 10 minutes, and full recovery to follow.</div><div><span class=\"yellowfg\"> 8:42 AM PDT</span>&nbsp;We have completed reconfiguration of the network path impacting traffic from QuickSight to datasources hosted in VPCs in a single Availability Zone (aps1-az1) in the AP-SOUTH-1 Region. The issue has been resolved and the QuickSight service is operating normally.</div>",
       "service": "quicksight-ap-south-1"
@@ -600,10 +598,11 @@
       "service_name": "AWS Health",
       "summary": "[RESOLVED] Duplicate Health notifications",
       "date": "1680723540",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We are investigating duplicate notifications being delivered from the AWS Health Service.</div><div><span class=\"yellowfg\"> 1:05 PM PDT</span>&nbsp;We continue to investigate duplicate notifications that are being delivered by the AWS Health Service. During this time, customers may be receiving notifications via email, or Cloudwatch Events for previously communicated issues. Customers will not see additional events listed in their AWS Health Dashboard. Additionally, we'd like to clarify that there is currently no active impact to any of the AWS Services; all services are operating normally. We are working to mitigate the issue and identify the root cause of the duplicate notifications. We will provide an update within the next 30 minutes.</div><div><span class=\"yellowfg\"> 1:46 PM PDT</span>&nbsp;We have identified the root cause as a recent change to how EventBridge processes Events. We are rolling back this recent change, which will mitigate the impact of receiving duplication notifications. We will continue to provide updates as our recovery progresses. Our current expectation is full recovery within an hour.</div><div><span class=\"yellowfg\"> 2:06 PM PDT</span>&nbsp;Beginning at 10:04 AM PDT, some customers began receiving notifications from the AWS Health Service and Amazon GuardDuty. These notifications may have been delivered via email or EventBridge Events. The root cause of this issue was a recent change to how EventBridge processes events. The team was able to confirm the root cause and began working on mitigating the issue by rolling back this recent change. At 1:53 PM PDT, we had fully mitigated the issue. During this time, all AWS Services were operating normally, though some customers may have been receiving notifications from previously communicated events. The issue has been resolved.</div>",
       "service": "health"
     }
-  ]
+  ],
+  "current": []
 }
