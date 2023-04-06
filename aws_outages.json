@@ -604,5 +604,15 @@
       "service": "health"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Simple Notification Service (Ireland)",
+      "summary": "Increased Error Rates",
+      "date": "1680798057",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 9:20 AM PDT</span>&nbsp;Starting at 6:14 AM PDT, we began to experience increased error rates for the Amazon SNS Publish, Subscribe, Unsubscribe, Create Topic, and Delete Topic APIs in the EU-WEST-1 Region. While previous mitigation steps have not had the desired affect, we do have a new path to mitigation which has been identified and we will provide an update on this in 30 minutes.</div>",
+      "service": "sns-eu-west-1"
+    }
+  ]
 }
