@@ -602,17 +602,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\">12:39 PM PDT</span>&nbsp;We are investigating duplicate notifications being delivered from the AWS Health Service.</div><div><span class=\"yellowfg\"> 1:05 PM PDT</span>&nbsp;We continue to investigate duplicate notifications that are being delivered by the AWS Health Service. During this time, customers may be receiving notifications via email, or Cloudwatch Events for previously communicated issues. Customers will not see additional events listed in their AWS Health Dashboard. Additionally, we'd like to clarify that there is currently no active impact to any of the AWS Services; all services are operating normally. We are working to mitigate the issue and identify the root cause of the duplicate notifications. We will provide an update within the next 30 minutes.</div><div><span class=\"yellowfg\"> 1:46 PM PDT</span>&nbsp;We have identified the root cause as a recent change to how EventBridge processes Events. We are rolling back this recent change, which will mitigate the impact of receiving duplication notifications. We will continue to provide updates as our recovery progresses. Our current expectation is full recovery within an hour.</div><div><span class=\"yellowfg\"> 2:06 PM PDT</span>&nbsp;Beginning at 10:04 AM PDT, some customers began receiving notifications from the AWS Health Service and Amazon GuardDuty. These notifications may have been delivered via email or EventBridge Events. The root cause of this issue was a recent change to how EventBridge processes events. The team was able to confirm the root cause and began working on mitigating the issue by rolling back this recent change. At 1:53 PM PDT, we had fully mitigated the issue. During this time, all AWS Services were operating normally, though some customers may have been receiving notifications from previously communicated events. The issue has been resolved.</div>",
       "service": "health"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Amazon Simple Notification Service (Ireland)",
       "summary": "[RESOLVED] Increased Error Rates",
       "date": "1680798000",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 9:20 AM PDT</span>&nbsp;Starting at 6:14 AM PDT, we began to experience increased error rates for the Amazon SNS Publish, Subscribe, Unsubscribe, Create Topic, and Delete Topic APIs in the EU-WEST-1 Region. While previous mitigation steps have not had the desired effect, we do have a new path to mitigation which has been identified and we will provide an update on this in 30 minutes.</div><div><span class=\"yellowfg\"> 9:41 AM PDT</span>&nbsp;Between 6:14 AM and 9:33 AM PDT, we experienced increased error rates for the Amazon SNS Publish, Subscribe, Unsubscribe, Create Topic, and Delete Topic APIs in the EU-WEST-1 Region. The issue has been resolved and the service is operating normally.</div>",
       "service": "sns-eu-west-1"
     }
-  ]
+  ],
+  "current": []
 }
