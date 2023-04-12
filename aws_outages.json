@@ -613,6 +613,15 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:22 AM PDT</span>&nbsp;We are investigating DMS Management Console connection errors in the US-GOV-EAST-1 Region. We have identified a workaround, customers affected can access the DMS console by updating the URL from https://console.amazonaws-us-gov.com/dms/home?region=us-gov-east-1 to https://console.amazonaws-us-gov.com/dms/v2/home?region=us-gov-east-1 .</div>",
       "service": "dms-us-gov-east-1"
+    },
+    {
+      "service_name": "AWS Database Migration Service (US-West)",
+      "summary": "Elevated error rates for DMS Console",
+      "date": "1681309557",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:25 AM PDT</span>&nbsp;We are investigating DMS Management Console connection errors in the US-GOV-WEST-1 Region. We have identified a workaround, customers affected can access the DMS console by updating the URL from https://console.amazonaws-us-gov.com/dms/home?region=us-gov-east-1 to https://console.amazonaws-us-gov.com/dms/v2/home?region=us-gov-east-1 .\n</div>",
+      "service": "dms-us-gov-west-1"
     }
   ]
 }
