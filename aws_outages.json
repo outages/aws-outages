@@ -625,11 +625,11 @@
   "current": [
     {
       "service_name": "AWS Billing Console",
-      "summary": "Global Account Signup Issue",
+      "summary": "[RESOLVED] Global Account Signup Issue",
       "date": "1681656108",
-      "status": "1",
+      "status": "0",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div><div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are continuing to investigate an issue where users are attempting to access AWS account signup.</div><div><span class=\"yellowfg\"> 9:22 AM PDT</span>&nbsp;The Signup page has recovered and customers are now able to access and complete account signup.  We are continuing to work towards resolving the root cause.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div><div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are continuing to investigate an issue where users are attempting to access AWS account signup.</div><div><span class=\"yellowfg\"> 9:22 AM PDT</span>&nbsp;The Signup page has recovered and customers are now able to access and complete account signup.  We are continuing to work towards resolving the root cause.</div><div><span class=\"yellowfg\">10:49 AM PDT</span>&nbsp;Between 6:00 AM and 8:23 AM PDT, customers began experiencing errors when attempting to access the AWS signup page and create new AWS accounts. This issue was resolved and AWS account signup is operating normally.</div>",
       "service": "billingconsole"
     }
   ]
