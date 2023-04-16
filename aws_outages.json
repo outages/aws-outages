@@ -626,10 +626,10 @@
     {
       "service_name": "AWS Billing Console",
       "summary": "Global Account Signup Issue",
-      "date": "1681656109",
-      "status": "1",
+      "date": "1681656108",
+      "status": "3",
       "details": "",
-      "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div>",
+      "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div><div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are continuing to investigate an issue where users are attempting to access AWS account signup.</div>",
       "service": "billingconsole"
     }
   ]
