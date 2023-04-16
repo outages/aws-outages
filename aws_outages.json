@@ -622,5 +622,15 @@
       "service": "dms-us-gov-west-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS Billing Console",
+      "summary": "Global Account Signup Issue",
+      "date": "1681656109",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div>",
+      "service": "billingconsole"
+    }
+  ]
 }
