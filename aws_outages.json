@@ -620,17 +620,16 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:25 AM PDT</span>&nbsp;We are investigating DMS Management Console connection errors in the US-GOV-WEST-1 Region. We have identified a workaround, customers affected can access the DMS console by updating the URL from https://console.amazonaws-us-gov.com/dms/home?region=us-gov-west-1 to https://console.amazonaws-us-gov.com/dms/v2/home?region=us-gov-west-1 .\n</div><div><span class=\"yellowfg\"> 7:52 AM PDT</span>&nbsp;We continue to investigate connection errors for the DMS Management Console in the US-GOV-WEST-1 Region. We have identified a workaround, customers affected can access the DMS console by updating the URL from https://console.amazonaws-us-gov.com/dms/home?region=us-gov-west-1 to https://console.amazonaws-us-gov.com/dms/v2/home?region=us-gov-west-1 The root cause of this has been identified and we are currently working on resolving the issue.</div><div><span class=\"yellowfg\"> 8:39 AM PDT</span>&nbsp;We can confirm connection errors for the DMS Management Console in the US-GOV-WEST-1 Region. We have also confirmed the service is healthy and operating normally, the issue is related only to the navigation to the console. We have identified a workaround, customers affected can access the DMS console by updating the URL from https://console.amazonaws-us-gov.com/dms/home?region=us-gov-west-1 to https://console.amazonaws-us-gov.com/dms/v2/home?region=us-gov-west-1</div><div><span class=\"yellowfg\"> 9:01 AM PDT</span>&nbsp;Between April 10 8:51 AM and April 12 8:54 AM PDT, customers faced connection errors when navigating to the DMS Management Console in the US-GOV-WEST-1 Region. The issue has been resolved and the service console is operating normally.</div>",
       "service": "dms-us-gov-west-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "AWS Billing Console",
       "summary": "[RESOLVED] Global Account Signup Issue",
       "date": "1681656108",
-      "status": "0",
+      "status": "3",
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 7:41 AM PDT</span>&nbsp;We are investigating an issue where users attempting to access AWS account signup are receiving error messages.</div><div><span class=\"yellowfg\"> 8:32 AM PDT</span>&nbsp;We are continuing to investigate an issue where users are attempting to access AWS account signup.</div><div><span class=\"yellowfg\"> 9:22 AM PDT</span>&nbsp;The Signup page has recovered and customers are now able to access and complete account signup.  We are continuing to work towards resolving the root cause.</div><div><span class=\"yellowfg\">10:49 AM PDT</span>&nbsp;Between 6:00 AM and 8:23 AM PDT, customers began experiencing errors when attempting to access the AWS signup page and create new AWS accounts. This issue was resolved and AWS account signup is operating normally.</div>",
       "service": "billingconsole"
     }
-  ]
+  ],
+  "current": []
 }
