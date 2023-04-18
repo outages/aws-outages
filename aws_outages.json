@@ -1,15 +1,6 @@
 {
   "archive": [
     {
-      "service_name": "Amazon Elastic Compute Cloud (Singapore)",
-      "summary": "[RESOLVED] Power event impacting some instances",
-      "date": "1649238391",
-      "status": "1",
-      "details": "",
-      "description": "<div><span class=\"yellowfg\"> 2:46 AM PDT</span>&nbsp;Starting at 1:23 AM PDT, some EC2 instances experienced a loss of power and some EBS volumes experienced degraded performance within a single Availability Zone (apse1-az1) in the AP-SOUTHEAST-1 Region. Power was quickly restored to the affected instances and EBS volumes and by 1:40 AM PDT, the majority of EC2 instances and EBS volumes had fully recovered. By 2:05 AM PDT, the vast majority of affected EC2 instances and EBS volumes had fully recovered. Some RDS databases were also affected by the event, and recovered after power was restored. Customers with affected EC2 instances and EBS volumes were notified via the Personal Health Dashboard. The issue has been resolved and the service is operating normally.</div>",
-      "service": "ec2-ap-southeast-1"
-    },
-    {
       "service_name": "Amazon Elastic Compute Cloud (N. Virginia)",
       "summary": "[RESOLVED] Increased Launch Failures",
       "date": "1650382771",
